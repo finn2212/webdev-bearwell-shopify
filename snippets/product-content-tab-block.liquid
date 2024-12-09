@@ -1,0 +1,299 @@
+{%- liquid
+  assign options = block.settings
+  assign block_style = options.style
+  assign title = options.title
+  assign heading_size = options.heading_size
+  assign body_size = options.body_size
+  assign text = options.text
+  assign page = options.page
+  assign image = options.image
+  assign video = options.video
+  assign custom_icon_image = options.custom_icon_image
+  assign icon = options.icon
+-%}
+
+{%- if block_style contains 'collapsible' -%}
+  <accordeon-component
+    class='accordeon-plus accordeon-plus--bottom-bordered accordeon-plus--top-bordered product-content-tab product-content-tab--collapsible-row block-{{ block.id }}'
+    data-aria-expanded='{% if block_style == 'collapsible_row_open' %}true{% else %}false{% endif %}'
+    {{ block.shopify_attributes }}
+  >
+    <accordeon-button class='product-content-tab__btn {{ heading_size }}' tabindex='0'>
+      {%- if custom_icon_image != blank -%}
+        <img
+          {% render 'image-attributes', image: custom_icon_image, size: 'small', class: 'accordeon-plus__btn-icon' %}
+        >
+      {%- elsif icon != 'none' -%}
+        {% render 'icon-pack', icon: icon, class: 'accordeon-plus__btn-icon' %}
+      {%- endif -%}
+      {{ title }}
+      {%- render 'icon', icon_name: 'plus', class: 'accordeon-plus__icon' -%}
+    </accordeon-button>
+    <div class='accordeon-plus__content-wrap body-font-weight-from-global-settings' data-accordeon-content-wrap>
+      <div class='accordeon-plus__content product-content-tab__content' data-accordeon-content>
+        {% if text != blank %}
+          <div class='rte product-content-tab__rte {{ body_size }} body-color'>{{ text }}</div>
+        {% endif %}
+
+        {% if page != blank %}
+          <div class='rte rte--page product-content-tab__rte {{ body_size }}'>
+            {{ page.content }}
+          </div>
+        {% endif %}
+
+        {% if block.settings.show_amino_table %}
+       <table><tbody>
+	   <tr><td>Amino Acid</td><td>Per 30g serve</td><td>Per 100g</td></tr>
+          <tr><td style="text-decoration: underline;">Essential</td>
+          <td>&nbsp;</td><td>&nbsp;</td>
+		</tr><td>Isoleucine</td>
+             {% if product.metafields.custom.amino_acid_isoleucine.value %}
+            {% for value in product.metafields.custom.amino_acid_isoleucine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr><tr><td>Leucine</td>
+          {% if product.metafields.custom.amino_acid_leucine.value %}
+            {% for value in product.metafields.custom.amino_acid_leucine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr><tr><td>Valine</td>
+          {% if product.metafields.custom.amino_acid_valine.value %}
+          {% for value in product.metafields.custom.amino_acid_valine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr><tr><td>Lysine</td>
+          {% if product.metafields.custom.amino_acid_lysine.value %}
+          {% for value in product.metafields.custom.amino_acid_lysine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr><tr><td>Histadine</td>
+          {% if product.metafields.custom.amnio_acid_histidine.value %}
+          {% for value in product.metafields.custom.amnio_acid_histidine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr><tr><tr><td>Methionine</td>
+          {% if product.metafields.custom.amino_acid_methionine.value %}
+          {% for value in product.metafields.custom.amino_acid_methionine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr><tr><td>Phenylalanine</td>
+          {% if product.metafields.custom.amino_acid_phenylalanine.value %}
+          {% for value in product.metafields.custom.amino_acid_phenylalanine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr><tr><td>Threonine</td>
+          {% if product.metafields.custom.amino_acid_threonine.value %}
+          {% for value in product.metafields.custom.amino_acid_threonine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr><tr><td>Tryptophan</td>
+          {% if product.metafields.custom.amino_acid_tryptophan.value %}
+          {% for value in product.metafields.custom.amino_acid_tryptophan.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr><tr><td style="text-decoration: underline;">Non-Essential</td>
+                  <td>&nbsp;</td>
+                 <td>&nbsp;</td>
+        		</tr><tr><td>Alanine</td>
+          {% if product.metafields.custom.amino_acid_alanine.value %}
+          {% for value in product.metafields.custom.amino_acid_alanine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr> 
+         <tr><td>Arginine</td>
+          {% if product.metafields.custom.amino_acid_arginine.value %}
+          {% for value in product.metafields.custom.amino_acid_arginine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr> 
+         <tr><td>Aspartic Acid</td>
+          {% if product.metafields.custom.amino_acid_aspartic_acid.value %}
+          {% for value in product.metafields.custom.amino_acid_aspartic_acid.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr> 
+          <tr><td>Cystine</td>
+          {% if product.metafields.custom.amino_acid_cystine.value %}
+          {% for value in product.metafields.custom.amino_acid_cystine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr> 
+         <tr><td>Glutamic Acid</td>
+          {% if product.metafields.custom.amino_acid_glutamic_acid.value %}
+          {% for value in product.metafields.custom.amino_acid_glutamic_acid.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr> 
+         <tr><td>Glycine</td>
+          {% if product.metafields.custom.amino_acid_glycine.value %}
+          {% for value in product.metafields.custom.amino_acid_glycine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr> 
+         <tr><td>Proline</td>
+          {% if product.metafields.custom.amino_acid_proline.value %}
+          {% for value in product.metafields.custom.amino_acid_proline.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr> 
+          <tr><td>Serine</td>
+          {% if product.metafields.custom.amino_acid_serine.value %}
+          {% for value in product.metafields.custom.amino_acid_serine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+          <tr><td>Tyrosine</td>
+          {% if product.metafields.custom.amino_acid_tyrosine.value %}
+          {% for value in product.metafields.custom.amino_acid_tyrosine.value limit: 2 %}
+      		<td>{{ value }}</td> 
+            {% endfor %}{% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr> 
+        </tbody>
+        </table>
+        {% elsif block.settings.show_nutritional_table %}
+       <table><tbody>
+	  <tr><td>Nutritional Information</td><td>Per 30g serve</td><td>Per 100g</td></tr>
+        <tr><td>Energy</td>
+          {% if product.metafields.custom.ni_energy.value %}
+          {% for value in product.metafields.custom.ni_energy.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+       <tr><td>Protein</td>
+          {% if product.metafields.custom.ni_protein.value %}
+          {% for value in product.metafields.custom.ni_protein.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+       <tr><td>- Gluten</td>
+          {% if product.metafields.custom.ni_gluten.value %}
+          {% for value in product.metafields.custom.ni_gluten.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+       <tr><td>Fat, total</td>
+          {% if product.metafields.custom.ni_fat_total.value %}
+          {% for value in product.metafields.custom.ni_fat_total.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+       <tr><td>- Saturated</td>
+          {% if product.metafields.custom.ni_saturated.value %}
+          {% for value in product.metafields.custom.ni_saturated.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+       <tr><td>Carbohydrates</td>
+          {% if product.metafields.custom.ni_carbohydrates.value %}
+          {% for value in product.metafields.custom.ni_carbohydrates.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+       <tr><td>- Sugars</td>
+          {% if product.metafields.custom.ni_sugars.value %}
+          {% for value in product.metafields.custom.ni_sugars.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+       <tr><td>- Lactose</td>
+          {% if product.metafields.custom.ni_lactose.value %}
+          {% for value in product.metafields.custom.ni_lactose.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+       <tr><td>Dietary fibre, total</td>
+          {% if product.metafields.custom.ni_dietary_fibre_total.value %}
+          {% for value in product.metafields.custom.ni_dietary_fibre_total.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+       <tr><td>Sodium</td>
+          {% if product.metafields.custom.ni_sodium.value %}
+          {% for value in product.metafields.custom.ni_sodium.value limit: 2 %}
+      		<td>{{ value }}</td> 
+          {% endfor %}
+          {% else %}<td>&nbsp;</td><td>&nbsp;</td>{% endif %}
+		</tr>
+        </tbody>
+        </table>
+        {% endif %}
+
+        {%- if video != blank -%}
+          {% render 'video-with-alt',
+            video: video,
+            class: 'product-content-tab__image',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            controls: false,
+            loading: 'eager'
+          %}
+        {%- elsif image != blank -%}
+          <img
+            {{ attrs }}
+            {% render 'image-attributes', image: image, size: 'medium', class: 'product-content-tab__image' %}
+          >
+        {%- endif -%}
+      </div>
+    </div>
+  </accordeon-component>
+{%- else -%}
+  <div class='product-content-tab block-{{ block.id }}' {{ block.shopify_attributes }}>
+    {% if title != blank %}
+      <div class='product-content-tab__title {{ heading_size }}'>
+        {%- if custom_icon_image != blank -%}
+          <img
+            {% render 'image-attributes',
+              image: custom_icon_image,
+              size: 'small',
+              class: 'product-content-tab__title-icon'
+            %}
+          >
+        {%- elsif icon != 'none' -%}
+          {% render 'icon-pack', icon: icon, class: 'product-content-tab__title-icon' %}
+        {%- endif -%}
+        {{ title }}
+      </div>
+    {% endif %}
+    {% if text != blank or image != blank or video != blank or page != blank %}
+      <div class='product-content-tab__content'>
+        {% if text != blank %}
+          <div class='rte product-content-tab__rte {{ body_size }} body-color'>{{ text }}</div>
+        {% endif %}
+
+        {% if page != blank %}
+          <div class='rte rte--page product-content-tab__rte {{ body_size }}'>
+            {{ page.content }}
+          </div>
+        {% endif %}
+
+        {%- if video != blank -%}
+          {% render 'video-with-alt',
+            video: video,
+            class: 'product-content-tab__image',
+            autoplay: true,
+            loop: true,
+            muted: true,
+            controls: false,
+            loading: 'lazy'
+          %}
+        {%- elsif image != blank -%}
+          <img
+            {{ attrs }}
+            {% render 'image-attributes', image: image, size: 'medium', class: 'product-content-tab__image' %}
+          >
+        {%- endif -%}
+      </div>
+    {% endif %}
+  </div>
+{%- endif -%}
