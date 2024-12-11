@@ -1,1 +1,558 @@
-{"sections":{"page":{"type":"page","disabled":true,"settings":{"color_scheme":"default","container_size":"large","show_heading":true,"add_side_paddings":true,"section_spacing_top":96,"section_spacing_bottom":96}},"image_banner_Vk6aUM":{"type":"image-banner","settings":{"color_scheme":"custom-1","enable_background_around_container":true,"container_size":"full-screen","desktop_ratio":0.4,"mobile_ratio":0.9,"desktop_img":"shopify:\/\/shop_images\/FAQ_e0a5860e-3f5a-4301-b07f-adbfe36702c7.jpg","mobile_img":"shopify:\/\/shop_images\/FAQ-Mobile-Optimised.jpg","desktop_overlay_opacity":20,"mobile_overlay_opacity":20,"show-mountain-overlay":true,"caption":"","title":"Frequently Asked Questions","heading_size":"h2","text":"","body_size":"body0","desktop_content_position":"align-items:center;justify-content:center;","desktop_content_align":"center","content_max_width":528,"content_spacing":116,"mobile_content_position":"align-items:center;justify-content:center;","mobile_content_align":"center","desktop_content_background":"none","mobile_content_background":"none","btn_text":"","btn_url":"","btn_style":"solid","extra_btn_text":"","extra_btn_url":"","extra_btn_style":"solid","add_side_paddings":false,"section_spacing_top":0,"section_spacing_bottom":0}},"questions":{"type":"faq","blocks":{"category_wXfdxV":{"type":"category","settings":{"title":"Product and Ingredients","handle":"","category_heading_size":"h3","icon":"none","icon_size":24}},"question1":{"type":"question","settings":{"title":"What makes BearWell™ protein different from other brands?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>BearWell™ protein is different because we focus on every detail, from sourcing to flavour. Our grass-fed protein comes from New Zealand’s lush pastures, but we don’t stop there. We use real ingredients like freeze-dried strawberry pieces in our Mixed Berry flavor, adding a unique and delicious crunch, and real vanilla beans in Smooth Vanilla for an authentic, rich taste. These little extras make a big difference - who else offers such care and quality in their protein?<\/p>","page":"","body_size":"body3","image_width":100}},"question_UpTUTe":{"type":"question","settings":{"title":"Why New Zealand grass-fed protein, what's so special about it?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>New Zealand grass-fed protein is renowned for its purity and quality. Thanks to the country’s lush, green pastures, clean air, and natural environment, cows graze freely year-round, producing nutrient-rich dairy. Grass-fed protein from New Zealand is higher in essential nutrients like omega-3s and antioxidants, while also being more sustainable and eco-friendly. It’s protein you can trust, from a country that prioritises the wellbeing of both its animals and environment.<\/p>","page":"","body_size":"body3","image_width":100}},"question_QWA3Kh":{"type":"question","settings":{"title":"Are your products gluten-free and free of artificial additives?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Yes, all BearWell™ products are completely gluten-free and contain no artificial additives. We believe in providing clean, natural nutrition without unnecessary fillers or thickeners. With BearWell™, you’re getting pure, high-quality protein that supports your health without compromising on taste or integrity.<\/p>","page":"","body_size":"body3","image_width":100}},"question8":{"type":"question","settings":{"title":"Is BearWell™ protein suitable for vegetarians?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Yes, BearWell™ protein is suitable for vegetarians. Our protein is derived from grass-fed cows, making it a great option for those who include dairy in their vegetarian diet. <\/p>","page":"","body_size":"body3","image_width":100}},"question9":{"type":"question","settings":{"title":"What are the risks of taking products with artificial flavours and additives?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Artificial flavours are lab-created chemicals designed to mimic natural tastes. While they might improve flavour, they often come with potential downsides like causing digestive discomfort, allergic reactions, or long-term health concerns. These additives can also mask the quality of ingredients in a product, which is why at BearWell™, we choose real, natural ingredients. By avoiding artificial flavours, we prioritise your health and ensure that what you’re consuming is pure and clean - without hidden additives that don’t serve your body.<\/p>","page":"","body_size":"body3","image_width":100}},"question_VEph3G":{"type":"question","settings":{"title":"Are gums and thickeners bad for you? Isn't vegetable gum good?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Vegetable gums, like guar gum or xanthan gum, are often used to thicken and stabilise products, but they don’t add nutritional value. For some people, these gums can cause digestive issues like bloating or discomfort, especially in larger amounts. At BearWell™, we avoid using gums and thickeners because we believe in keeping our products simple and easy to digest. Our focus is on delivering pure, clean protein without unnecessary ingredients that can stress the digestive system.<\/p>","page":"","body_size":"body3","image_width":100}},"category_yKX6Eb":{"type":"category","settings":{"title":"Nutrition and Usage","handle":"","category_heading_size":"h3","icon":"none","icon_size":24}},"question_UcTahg":{"type":"question","settings":{"title":"Do I need to take protein even if I don't go to the gym?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Protein isn’t just for gym-goers; it plays a vital role in overall health for everyone. Even if you don’t work out, protein helps your body maintain muscle mass, supports energy levels, and aids in recovery from daily physical and mental tasks. It also supports immune function, skin health, and the production of essential hormones and enzymes. Taking protein powder can help ensure you’re meeting your daily protein needs, especially if your diet lacks sufficient protein sources.<\/p>","page":"","body_size":"body3","image_width":100}},"question_GAt6iY":{"type":"question","settings":{"title":"I don't want to be bulky, should I still take protein?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>No, taking protein won’t make you bulky unless you’re actively trying to build significant muscle mass through heavy training. Protein is essential for maintaining overall health, supporting muscle recovery, and keeping energy levels stable. It also helps maintain lean muscle, which is important for metabolism, daily strength, and overall wellbeing. Including protein in your diet helps ensure your body functions optimally, regardless of your fitness goals.<\/p>","page":"","body_size":"body3","image_width":100}},"question_GPbpaT":{"type":"question","settings":{"title":"What is the difference between Whey Protein Concentrate (WPC) and Whey Protein Isolate (WPI)?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p><strong>WPC<\/strong>: Contains more fats and carbohydrates, offering a creamier texture and a more balanced profile of nutrients. It’s a great option for those who want a more natural and filling protein source.<\/p><p><strong>WPI<\/strong>: Undergoes additional filtration, resulting in a higher protein content with lower fats, carbs, and lactose. It’s ideal for those seeking a leaner option or if you're sensitive to lactose.<\/p>","page":"","body_size":"body3","image_width":100}},"question_w8zgk9":{"type":"question","settings":{"title":"When is the best time to take BearWell™ protein?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Protein can be taken at various times throughout the day depending on your goals. In the morning, it can help kickstart your day, while after physical activity, it supports recovery. You can also enjoy it as a healthy snack to maintain energy or before bed to support overnight recovery.<\/p>","page":"","body_size":"body3","image_width":100}},"question_AhXQHR":{"type":"question","settings":{"title":"If I’m taking collagen, do I still need protein powder?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>While collagen is high in protein, it primarily supports skin, joints, and connective tissues. Whey protein, on the other hand, provides a complete amino acid profile, essential for muscle repair, recovery, and overall health. If your goal is to support muscle maintenance or boost daily protein intake, whey protein is a great complement to collagen for a well-rounded approach to your wellness routine.<\/p>","page":"","body_size":"body3","image_width":100}},"question_g9qbyV":{"type":"question","settings":{"title":"How should I store my protein?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>For best results, store your protein in a cool, dry place, away from direct sunlight and moisture. Keep it tightly sealed to maintain freshness.<\/p>","page":"","body_size":"body3","image_width":100}},"question_WrJChi":{"type":"question","settings":{"title":"Can I use BearWell™ protein in cooking or baking?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Absolutely! BearWell™ protein is versatile and can be added to smoothies, breakfast bowls, and even used in baking to create high-protein snacks.<\/p>","page":"","body_size":"body3","image_width":100}},"question_DQpHcg":{"type":"question","settings":{"title":"How many servings of protein should I take daily?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>The amount of protein you need depends on your individual goals and activity levels. For general guidance, athletes often aim for 1.8 to 2.2 grams of protein per kilogram of body weight, while older adults looking to maintain muscle mass should aim for 1 to 1.5 grams per kilogram of body weight.<\/p>","page":"","body_size":"body3","image_width":100}},"category_DAfmUG":{"type":"category","settings":{"title":"Shipping and Delivery","handle":"shipping-and-delivery","category_heading_size":"h3","icon":"none","icon_size":24}},"question_wJhJfh":{"type":"question","settings":{"title":"Do you ship to PO boxes?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Yes, we ship to PO box addresses.<\/p>","page":"","body_size":"body3","image_width":100}},"question_jpfpTY":{"type":"question","settings":{"title":"When will my order be shipped?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>We dispatch all orders placed by <strong>1pm (NZST) and<\/strong> <strong>2pm (AEDT) <\/strong>the same day. Orders after this time will be shipped the next business day.<\/p>","page":"","body_size":"body3","image_width":100}},"question_ChCEVw":{"type":"question","settings":{"title":"How long will it take to receive my order?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>We ship all our <strong>Australian<\/strong> orders from Melbourne. Standard delivery within VIC typically takes <strong>2-4 business days<\/strong>, while interstate may take <strong>3-5 business days<\/strong>. Express delivery within VIC typically takes <strong>1-2 business days<\/strong>, while interstate may take <strong>2-3 business days<\/strong><\/p><p>We ship all our <strong>New Zealand<\/strong> orders from Christchurch. Standard delivery within the South Island usually arrives <strong>the next day. <\/strong>Orders to the North Island may take <strong>3-5 business days, <\/strong>plus 1-3 days if rural. Express delivery usually takes <strong>1-2 business days<\/strong>.<\/p>","page":"","body_size":"body3","image_width":100}},"question_bQQr8c":{"type":"question","settings":{"title":"What time will my order be delivered?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Deliveries typically occur between <strong>7am – 5pm, Monday to Friday<\/strong>.<\/p>","page":"","body_size":"body3","image_width":100}},"question_Lmfqrz":{"type":"question","settings":{"title":"What happens if I’m not home for the delivery?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>If you’re not home, the courier will leave your package in a safe place. If no safe spot is available, it will be taken to the nearest post office for collection within 10 business days. After that, it will be returned to us.<\/p>","page":"","body_size":"body3","image_width":100}},"category_zkRdjm":{"type":"category","settings":{"title":"Returns and Refunds","handle":"returns-and-refunds","category_heading_size":"h3","icon":"none","icon_size":24}},"question_T3WxX6":{"type":"question","settings":{"title":"What is your return policy?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>We offer a 30-day return policy for unopened, unused products. If you are not satisfied with your purchase, please contact us at <strong>hello@bearwell.com.au<\/strong> to initiate the return process. Full details are available <a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">here.<\/a><\/p>","page":"","body_size":"body3","image_width":100}},"question_RE6aXT":{"type":"question","settings":{"title":"Can I return a product that I’ve opened?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>Opened products are reviewed on a case-by-case basis. If you're not happy with your purchase, get in touch with us at <strong>hello@bearwell.com.au<\/strong> and we’ll work together to find a solution.<\/p>","page":"","body_size":"body3","image_width":100}},"question_NrwnyR":{"type":"question","settings":{"title":"What if I receive a damaged or incorrect product?","heading_size":"h6","icon":"none","icon_size":24,"text":"<p>If your order arrives damaged or you receive the wrong product, please contact us at <strong>hello@bearwell.com.au<\/strong> within 72 hours of delivery. We’ll make it right by offering a replacement or refund, depending on the issue.<\/p>","page":"","body_size":"body3","image_width":100}}},"block_order":["category_wXfdxV","question1","question_UpTUTe","question_QWA3Kh","question8","question9","question_VEph3G","category_yKX6Eb","question_UcTahg","question_GAt6iY","question_GPbpaT","question_w8zgk9","question_AhXQHR","question_g9qbyV","question_WrJChi","question_DQpHcg","category_DAfmUG","question_wJhJfh","question_jpfpTY","question_ChCEVw","question_bQQr8c","question_Lmfqrz","category_zkRdjm","question_T3WxX6","question_RE6aXT","question_NrwnyR"],"settings":{"color_scheme":"default","enable_background_around_container":false,"color_tabs":"content_tabs_separately","container_size":"xsmall","section_layout":"bottom-tabs","expand_first_tab":false,"title":"","heading_size":"display3","text":"","body_size":"body3","content_alignment":"center","btn_text":"","btn_url":"","btn_style":"solid","add_side_paddings":true,"section_spacing_top":50,"section_spacing_bottom":0}},"images_with_text_ji3P7C":{"type":"images-with-text","blocks":{"image_NL4FWL":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/BearWell_drinking_2.jpg"}}},"block_order":["image_NL4FWL"],"disabled":true,"custom_css":[".section-spacing {margin-bottom: 50px;}"],"settings":{"color_scheme":"custom-2","container_size":"page-width","content_layout":"left","image_layout":"grid","img_ratio":1,"rotate_images":false,"icon":"none","heading":"Still got a question?","heading_size":"h2","body":"<p>We appreciate curious souls and encourage to get in touch if the above didn't answer your question, we will be happy to chat!<\/p>","body_size":"body0","content_alignment":"left","desktop_content_width":360,"first_button_text":"Contact Us","first_button_link":"shopify:\/\/pages\/contact","first_button_style":"solid","second_button_text":"","second_button_link":"","second_button_style":"solid","add_side_paddings":true,"section_spacing_top":50,"section_spacing_bottom":50}},"rich_text_C8hLY9":{"type":"rich-text","blocks":{"heading_qGYK3W":{"type":"heading","settings":{"title":"Still got a question?","heading_size":"h3"}},"text_87xbUQ":{"type":"text","settings":{"text":"<p>We appreciate curious souls and encourage to get in touch if the above didn't answer your question, we will be happy to chat!<\/p>","text_2":"","text_3":"","body_size":"body3"}},"buttons_hYKq48":{"type":"buttons","settings":{"btn_text":"Contact Us","btn_url":"shopify:\/\/pages\/contact","btn_style":"solid","extra_btn_text":"","extra_btn_url":"","extra_btn_style":"solid"}}},"block_order":["heading_qGYK3W","text_87xbUQ","buttons_hYKq48"],"custom_css":[],"settings":{"color_scheme":"default","enable_background_around_container":false,"enable_mountains":false,"container_size":"xsmall","content_align":"center","max_content_width":800,"add_side_paddings":true,"section_spacing_top":0,"section_spacing_bottom":0}},"contact_form_N7B4Lz":{"type":"contact-form","disabled":true,"settings":{"color_scheme":"default","container_size":"xsmall","title":"Still got a question?","heading_size":"h5","text":"We appreciate curious souls and encourage to get in touch if the above didnt answer your question, we will be happy to chat!","body_size":"body3","text_align":"left","input_style":"solid","show_phone":false,"show_captcha":true,"add_side_paddings":true,"section_spacing_top":0,"section_spacing_bottom":96}}},"order":["page","image_banner_Vk6aUM","questions","images_with_text_ji3P7C","rich_text_C8hLY9","contact_form_N7B4Lz"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "show_heading": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    },
+    "image_banner_Vk6aUM": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-1",
+        "enable_background_around_container": true,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 0.9,
+        "desktop_img": "shopify://shop_images/FAQ_e0a5860e-3f5a-4301-b07f-adbfe36702c7.jpg",
+        "mobile_img": "shopify://shop_images/FAQ-Mobile-Optimised.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "show-mountain-overlay": true,
+        "caption": "",
+        "title": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body0",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": false,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "questions": {
+      "type": "faq",
+      "blocks": {
+        "category_wXfdxV": {
+          "type": "category",
+          "settings": {
+            "title": "Product and Ingredients",
+            "handle": "",
+            "category_heading_size": "h3",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "question1": {
+          "type": "question",
+          "settings": {
+            "title": "What makes BearWell™ protein different from other brands?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>BearWell™ protein is different because we focus on every detail, from sourcing to flavour. Our grass-fed protein comes from New Zealand’s lush pastures, but we don’t stop there. We use real ingredients like freeze-dried strawberry pieces in our Mixed Berry flavor, adding a unique and delicious crunch, and real vanilla beans in Smooth Vanilla for an authentic, rich taste. These little extras make a big difference - who else offers such care and quality in their protein?</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_UpTUTe": {
+          "type": "question",
+          "settings": {
+            "title": "Why New Zealand grass-fed protein, what's so special about it?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>New Zealand grass-fed protein is renowned for its purity and quality. Thanks to the country’s lush, green pastures, clean air, and natural environment, cows graze freely year-round, producing nutrient-rich dairy. Grass-fed protein from New Zealand is higher in essential nutrients like omega-3s and antioxidants, while also being more sustainable and eco-friendly. It’s protein you can trust, from a country that prioritises the wellbeing of both its animals and environment.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_QWA3Kh": {
+          "type": "question",
+          "settings": {
+            "title": "Are your products gluten-free and free of artificial additives?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Yes, all BearWell™ products are completely gluten-free and contain no artificial additives. We believe in providing clean, natural nutrition without unnecessary fillers or thickeners. With BearWell™, you’re getting pure, high-quality protein that supports your health without compromising on taste or integrity.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question8": {
+          "type": "question",
+          "settings": {
+            "title": "Is BearWell™ protein suitable for vegetarians?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Yes, BearWell™ protein is suitable for vegetarians. Our protein is derived from grass-fed cows, making it a great option for those who include dairy in their vegetarian diet. </p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question9": {
+          "type": "question",
+          "settings": {
+            "title": "What are the risks of taking products with artificial flavours and additives?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Artificial flavours are lab-created chemicals designed to mimic natural tastes. While they might improve flavour, they often come with potential downsides like causing digestive discomfort, allergic reactions, or long-term health concerns. These additives can also mask the quality of ingredients in a product, which is why at BearWell™, we choose real, natural ingredients. By avoiding artificial flavours, we prioritise your health and ensure that what you’re consuming is pure and clean - without hidden additives that don’t serve your body.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_VEph3G": {
+          "type": "question",
+          "settings": {
+            "title": "Are gums and thickeners bad for you? Isn't vegetable gum good?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Vegetable gums, like guar gum or xanthan gum, are often used to thicken and stabilise products, but they don’t add nutritional value. For some people, these gums can cause digestive issues like bloating or discomfort, especially in larger amounts. At BearWell™, we avoid using gums and thickeners because we believe in keeping our products simple and easy to digest. Our focus is on delivering pure, clean protein without unnecessary ingredients that can stress the digestive system.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "category_yKX6Eb": {
+          "type": "category",
+          "settings": {
+            "title": "Nutrition and Usage",
+            "handle": "",
+            "category_heading_size": "h3",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "question_UcTahg": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to take protein even if I don't go to the gym?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Protein isn’t just for gym-goers; it plays a vital role in overall health for everyone. Even if you don’t work out, protein helps your body maintain muscle mass, supports energy levels, and aids in recovery from daily physical and mental tasks. It also supports immune function, skin health, and the production of essential hormones and enzymes. Taking protein powder can help ensure you’re meeting your daily protein needs, especially if your diet lacks sufficient protein sources.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_GAt6iY": {
+          "type": "question",
+          "settings": {
+            "title": "I don't want to be bulky, should I still take protein?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>No, taking protein won’t make you bulky unless you’re actively trying to build significant muscle mass through heavy training. Protein is essential for maintaining overall health, supporting muscle recovery, and keeping energy levels stable. It also helps maintain lean muscle, which is important for metabolism, daily strength, and overall wellbeing. Including protein in your diet helps ensure your body functions optimally, regardless of your fitness goals.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_GPbpaT": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between Whey Protein Concentrate (WPC) and Whey Protein Isolate (WPI)?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p><strong>WPC</strong>: Contains more fats and carbohydrates, offering a creamier texture and a more balanced profile of nutrients. It’s a great option for those who want a more natural and filling protein source.</p><p><strong>WPI</strong>: Undergoes additional filtration, resulting in a higher protein content with lower fats, carbs, and lactose. It’s ideal for those seeking a leaner option or if you're sensitive to lactose.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_w8zgk9": {
+          "type": "question",
+          "settings": {
+            "title": "When is the best time to take BearWell™ protein?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Protein can be taken at various times throughout the day depending on your goals. In the morning, it can help kickstart your day, while after physical activity, it supports recovery. You can also enjoy it as a healthy snack to maintain energy or before bed to support overnight recovery.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_AhXQHR": {
+          "type": "question",
+          "settings": {
+            "title": "If I’m taking collagen, do I still need protein powder?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>While collagen is high in protein, it primarily supports skin, joints, and connective tissues. Whey protein, on the other hand, provides a complete amino acid profile, essential for muscle repair, recovery, and overall health. If your goal is to support muscle maintenance or boost daily protein intake, whey protein is a great complement to collagen for a well-rounded approach to your wellness routine.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_g9qbyV": {
+          "type": "question",
+          "settings": {
+            "title": "How should I store my protein?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>For best results, store your protein in a cool, dry place, away from direct sunlight and moisture. Keep it tightly sealed to maintain freshness.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_WrJChi": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use BearWell™ protein in cooking or baking?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Absolutely! BearWell™ protein is versatile and can be added to smoothies, breakfast bowls, and even used in baking to create high-protein snacks.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_DQpHcg": {
+          "type": "question",
+          "settings": {
+            "title": "How many servings of protein should I take daily?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>The amount of protein you need depends on your individual goals and activity levels. For general guidance, athletes often aim for 1.8 to 2.2 grams of protein per kilogram of body weight, while older adults looking to maintain muscle mass should aim for 1 to 1.5 grams per kilogram of body weight.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "category_DAfmUG": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping and Delivery",
+            "handle": "shipping-and-delivery",
+            "category_heading_size": "h3",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "question_wJhJfh": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship to PO boxes?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Yes, we ship to PO box addresses.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_jpfpTY": {
+          "type": "question",
+          "settings": {
+            "title": "When will my order be shipped?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>We dispatch all orders placed by <strong>1pm (NZST) and</strong> <strong>2pm (AEDT) </strong>the same day. Orders after this time will be shipped the next business day.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_ChCEVw": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to receive my order?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>We ship all our <strong>Australian</strong> orders from Melbourne. Standard delivery within VIC typically takes <strong>2-4 business days</strong>, while interstate may take <strong>3-5 business days</strong>. Express delivery within VIC typically takes <strong>1-2 business days</strong>, while interstate may take <strong>2-3 business days</strong></p><p>We ship all our <strong>New Zealand</strong> orders from Christchurch. Standard delivery within the South Island usually arrives <strong>the next day. </strong>Orders to the North Island may take <strong>3-5 business days, </strong>plus 1-3 days if rural. Express delivery usually takes <strong>1-2 business days</strong>.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_bQQr8c": {
+          "type": "question",
+          "settings": {
+            "title": "What time will my order be delivered?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Deliveries typically occur between <strong>7am – 5pm, Monday to Friday</strong>.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_Lmfqrz": {
+          "type": "question",
+          "settings": {
+            "title": "What happens if I’m not home for the delivery?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>If you’re not home, the courier will leave your package in a safe place. If no safe spot is available, it will be taken to the nearest post office for collection within 10 business days. After that, it will be returned to us.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "category_zkRdjm": {
+          "type": "category",
+          "settings": {
+            "title": "Returns and Refunds",
+            "handle": "returns-and-refunds",
+            "category_heading_size": "h3",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "question_T3WxX6": {
+          "type": "question",
+          "settings": {
+            "title": "What is your return policy?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>We offer a 30-day return policy for unopened, unused products. If you are not satisfied with your purchase, please contact us at <strong>hello@bearwell.com.au</strong> to initiate the return process. Full details are available <a href=\"/policies/refund-policy\" title=\"Refund Policy\">here.</a></p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_RE6aXT": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return a product that I’ve opened?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>Opened products are reviewed on a case-by-case basis. If you're not happy with your purchase, get in touch with us at <strong>hello@bearwell.com.au</strong> and we’ll work together to find a solution.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        },
+        "question_NrwnyR": {
+          "type": "question",
+          "settings": {
+            "title": "What if I receive a damaged or incorrect product?",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 24,
+            "text": "<p>If your order arrives damaged or you receive the wrong product, please contact us at <strong>hello@bearwell.com.au</strong> within 72 hours of delivery. We’ll make it right by offering a replacement or refund, depending on the issue.</p>",
+            "page": "",
+            "body_size": "body3",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "category_wXfdxV",
+        "question1",
+        "question_UpTUTe",
+        "question_QWA3Kh",
+        "question8",
+        "question9",
+        "question_VEph3G",
+        "category_yKX6Eb",
+        "question_UcTahg",
+        "question_GAt6iY",
+        "question_GPbpaT",
+        "question_w8zgk9",
+        "question_AhXQHR",
+        "question_g9qbyV",
+        "question_WrJChi",
+        "question_DQpHcg",
+        "category_DAfmUG",
+        "question_wJhJfh",
+        "question_jpfpTY",
+        "question_ChCEVw",
+        "question_bQQr8c",
+        "question_Lmfqrz",
+        "category_zkRdjm",
+        "question_T3WxX6",
+        "question_RE6aXT",
+        "question_NrwnyR"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "color_tabs": "content_tabs_separately",
+        "container_size": "xsmall",
+        "section_layout": "bottom-tabs",
+        "expand_first_tab": false,
+        "title": "",
+        "heading_size": "display3",
+        "text": "",
+        "body_size": "body3",
+        "content_alignment": "center",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 50,
+        "section_spacing_bottom": 0
+      }
+    },
+    "images_with_text_ji3P7C": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_NL4FWL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BearWell_drinking_2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_NL4FWL"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".section-spacing {margin-bottom: 50px;}"
+      ],
+      "settings": {
+        "color_scheme": "custom-2",
+        "container_size": "page-width",
+        "content_layout": "left",
+        "image_layout": "grid",
+        "img_ratio": 1,
+        "rotate_images": false,
+        "icon": "none",
+        "heading": "Still got a question?",
+        "heading_size": "h2",
+        "body": "<p>We appreciate curious souls and encourage to get in touch if the above didn't answer your question, we will be happy to chat!</p>",
+        "body_size": "body0",
+        "content_alignment": "left",
+        "desktop_content_width": 360,
+        "first_button_text": "Contact Us",
+        "first_button_link": "shopify://pages/contact",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 50,
+        "section_spacing_bottom": 50
+      }
+    },
+    "rich_text_C8hLY9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qGYK3W": {
+          "type": "heading",
+          "settings": {
+            "title": "Still got a question?",
+            "heading_size": "h3"
+          }
+        },
+        "text_87xbUQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We appreciate curious souls and encourage you to get in touch if the above didn't answer your question. We'll be happy to chat!</p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        },
+        "buttons_hYKq48": {
+          "type": "buttons",
+          "settings": {
+            "btn_text": "Contact Us",
+            "btn_url": "shopify://pages/contact",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qGYK3W",
+        "text_87xbUQ",
+        "buttons_hYKq48"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "enable_mountains": false,
+        "container_size": "xsmall",
+        "content_align": "center",
+        "max_content_width": 800,
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "contact_form_N7B4Lz": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "title": "Still got a question?",
+        "heading_size": "h5",
+        "text": "We appreciate curious souls and encourage to get in touch if the above didnt answer your question, we will be happy to chat!",
+        "body_size": "body3",
+        "text_align": "left",
+        "input_style": "solid",
+        "show_phone": false,
+        "show_captcha": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "page",
+    "image_banner_Vk6aUM",
+    "questions",
+    "images_with_text_ji3P7C",
+    "rich_text_C8hLY9",
+    "contact_form_N7B4Lz"
+  ]
+}
