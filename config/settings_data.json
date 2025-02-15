@@ -228,17 +228,15 @@
         "disabled": false,
         "settings": {}
       },
-      "16477348613150133823": {
-        "type": "shopify://apps/unlimited-bundles/blocks/script-app-block/d33d0f48-dee0-42a0-b156-2a5dce91814a",
+      "13027630495364635475": {
+        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
         "disabled": false,
-        "settings": {
-          "reload_on_line_item_properties": false,
-          "disable_reload_on_cart_update": false,
-          "disable_cart_attribute_tracker": false,
-          "disable_facebook_events": false,
-          "enable_reload_on_bundle_auto_match": false,
-          "use_h2_header": false
-        }
+        "settings": {}
+      },
+      "10727672529976264282": {
+        "type": "shopify://apps/discount-ninja/blocks/la-dn-app-embed-core-v5-assetless-1124/b9a933ba-e276-459f-a4bf-3571d5a1e81c",
+        "disabled": true,
+        "settings": {}
       }
     }
   },
