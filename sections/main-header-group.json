@@ -19,7 +19,7 @@
           "settings": {
             "text": "<h6><strong>Buy one pack, get one 20% off! Plus, a FREE shaker! Limited time only.</strong></h6>",
             "link": "shopify://collections/all",
-            "icon": "coupon"
+            "icon": "discount-outline"
           }
         },
         "announcement_PH89tX": {
