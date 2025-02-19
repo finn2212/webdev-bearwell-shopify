@@ -1,1 +1,168 @@
-{"type":"header","name":"Header Group","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement_afepca":{"type":"announcement","settings":{"text":"<h6><strong>20% Off Site-wide + Free Shipping! Limited time only.<\/strong><\/h6>","link":"","icon":"none"}}},"block_order":["announcement_afepca"],"disabled":true,"settings":{"show_only_on_homepage":false,"color_scheme":"custom-1","container_size":"full-screen","show_navigation_arrows":false,"autoplay_mode":"one_at_time","autoplay_interval":6,"show_language_selector":false,"show_currency_selector":false,"show_social_list":false,"add_side_paddings":true,"desktop_spacing_top":20,"desktop_spacing_bottom":0,"mobile_spacing_top":0,"mobile_spacing_bottom":0}},"header":{"type":"header","blocks":{"menu_1_YkDx7x":{"type":"menu-1","settings":{"mega_nav_item_name":"Shop","block_visibility":"desktop_and_mobile","color_scheme":"custom-1","desktop_img_ratio":0.7,"columns":1,"desktop_space_between_cards":12,"header_block_paddings_desktop":14,"mobile_img_ratio":1.4,"mobile_space_between_cards":12,"header_block_paddings_mobile":20,"heading_size":"h6","body_size":"body6","content_position":"bottom-left","mobile_position":"bottom-left","enable_vertical_text":false,"overlay_opacity":0,"hover_effect":"zoom","show_item_1":true,"item_1_img":"shopify:\/\/shop_images\/create_your_own_sample_pack_d06197cd-4261-4e6f-bb3b-0cc462476896.jpg","item_1_title":"","item_1_text":"","item_1_btn_text":"Create your own sample pack","item_1_link":"shopify:\/\/products\/create-your-own-sample-pack-30g-sachets","item_1_btn_style":"link","show_item_2":false,"item_2_title":"","item_2_text":"","item_2_btn_text":"","item_2_link":"","item_2_btn_style":"outline","show_item_3":false,"item_3_title":"Image with text","item_3_text":"","item_3_btn_text":"Button label","item_3_link":"","item_3_btn_style":"outline","show_item_4":false,"item_4_title":"Image with text","item_4_text":"","item_4_btn_text":"Button label","item_4_link":"","item_4_btn_style":"solid","show_item_5":false,"item_5_title":"Image with text","item_5_text":"","item_5_btn_text":"Button label","item_5_link":"","item_5_btn_style":"solid","show_item_6":false,"item_6_title":"Image with text","item_6_text":"","item_6_btn_text":"Button label","item_6_link":"","item_6_btn_style":"solid","show_item_7":false,"item_7_title":"Image with text","item_7_text":"","item_7_btn_text":"Button label","item_7_link":"","item_7_btn_style":"solid","show_item_8":false,"item_8_title":"Image with text","item_8_text":"","item_8_btn_text":"Button label","item_8_link":"","item_8_btn_style":"solid","show_item_9":false,"item_9_title":"Image with text","item_9_text":"","item_9_btn_text":"Button label","item_9_link":"","item_9_btn_style":"solid"}}},"block_order":["menu_1_YkDx7x"],"settings":{"color_scheme":"custom-5","container_size":"full-screen","enable_sticky":"static","enable_shadow":false,"enable_border":false,"enable_transparent":false,"menu":"main-menu","menu_type":"dropdown","grid":"3","menu_trigger":"click","color_menu_items":"Item 1:#E32417, Item 2:#F1C232","desktop_logo_img":"shopify:\/\/shop_images\/BearWellLogoHeader_f521c935-e566-4003-a43d-c14e64d0248a.png","desktop_transparent_logo_img":"shopify:\/\/shop_images\/BearWellLogoHeader_f521c935-e566-4003-a43d-c14e64d0248a.png","desktop_logo_width":64,"mobile_logo_width":50,"is_transparent_only_on_homepage":false,"transparent_opacity":0,"transparent_blurring":0,"transparent_background_color":"#ffffff","transparent_items_color":"#450e2b","icon_style":"outline","cart_icon":"cart","login_mobile_position":"in_menu","show_language_selector":false,"show_currency_selector":true,"add_side_paddings":true,"desktop_spacing_top":15,"desktop_spacing_bottom":15,"mobile_spacing_top":0,"mobile_spacing_bottom":0}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_afepca": {
+          "type": "announcement",
+          "settings": {
+            "text": "<h6><strong>Buy one pack, get one 20% off! Plus, a FREE shaker! Limited time only.</strong></h6>",
+            "link": "shopify://collections/all",
+            "icon": "coupon"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_afepca"
+      ],
+      "settings": {
+        "show_only_on_homepage": false,
+        "color_scheme": "custom-1",
+        "container_size": "full-screen",
+        "show_navigation_arrows": false,
+        "autoplay_mode": "one_at_time",
+        "autoplay_interval": 6,
+        "show_language_selector": false,
+        "show_currency_selector": false,
+        "show_social_list": false,
+        "add_side_paddings": true,
+        "desktop_spacing_top": 20,
+        "desktop_spacing_bottom": 0,
+        "mobile_spacing_top": 0,
+        "mobile_spacing_bottom": 0
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "menu_1_YkDx7x": {
+          "type": "menu-1",
+          "settings": {
+            "mega_nav_item_name": "Shop",
+            "block_visibility": "desktop_and_mobile",
+            "color_scheme": "custom-1",
+            "desktop_img_ratio": 0.7,
+            "columns": 1,
+            "desktop_space_between_cards": 12,
+            "header_block_paddings_desktop": 14,
+            "mobile_img_ratio": 1.4,
+            "mobile_space_between_cards": 12,
+            "header_block_paddings_mobile": 20,
+            "heading_size": "h6",
+            "body_size": "body6",
+            "content_position": "bottom-left",
+            "mobile_position": "bottom-left",
+            "enable_vertical_text": false,
+            "overlay_opacity": 0,
+            "hover_effect": "zoom",
+            "show_item_1": true,
+            "item_1_img": "shopify://shop_images/create_your_own_sample_pack_d06197cd-4261-4e6f-bb3b-0cc462476896.jpg",
+            "item_1_title": "",
+            "item_1_text": "",
+            "item_1_btn_text": "Create your own sample pack",
+            "item_1_link": "shopify://products/create-your-own-sample-pack-30g-sachets",
+            "item_1_btn_style": "link",
+            "show_item_2": false,
+            "item_2_title": "",
+            "item_2_text": "",
+            "item_2_btn_text": "",
+            "item_2_link": "",
+            "item_2_btn_style": "outline",
+            "show_item_3": false,
+            "item_3_title": "Image with text",
+            "item_3_text": "",
+            "item_3_btn_text": "Button label",
+            "item_3_link": "",
+            "item_3_btn_style": "outline",
+            "show_item_4": false,
+            "item_4_title": "Image with text",
+            "item_4_text": "",
+            "item_4_btn_text": "Button label",
+            "item_4_link": "",
+            "item_4_btn_style": "solid",
+            "show_item_5": false,
+            "item_5_title": "Image with text",
+            "item_5_text": "",
+            "item_5_btn_text": "Button label",
+            "item_5_link": "",
+            "item_5_btn_style": "solid",
+            "show_item_6": false,
+            "item_6_title": "Image with text",
+            "item_6_text": "",
+            "item_6_btn_text": "Button label",
+            "item_6_link": "",
+            "item_6_btn_style": "solid",
+            "show_item_7": false,
+            "item_7_title": "Image with text",
+            "item_7_text": "",
+            "item_7_btn_text": "Button label",
+            "item_7_link": "",
+            "item_7_btn_style": "solid",
+            "show_item_8": false,
+            "item_8_title": "Image with text",
+            "item_8_text": "",
+            "item_8_btn_text": "Button label",
+            "item_8_link": "",
+            "item_8_btn_style": "solid",
+            "show_item_9": false,
+            "item_9_title": "Image with text",
+            "item_9_text": "",
+            "item_9_btn_text": "Button label",
+            "item_9_link": "",
+            "item_9_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "menu_1_YkDx7x"
+      ],
+      "settings": {
+        "color_scheme": "custom-5",
+        "container_size": "full-screen",
+        "enable_sticky": "static",
+        "enable_shadow": false,
+        "enable_border": false,
+        "enable_transparent": false,
+        "menu": "main-menu",
+        "menu_type": "dropdown",
+        "grid": "3",
+        "menu_trigger": "click",
+        "color_menu_items": "Item 1:#E32417, Item 2:#F1C232",
+        "desktop_logo_img": "shopify://shop_images/BearWellLogoHeader_f521c935-e566-4003-a43d-c14e64d0248a.png",
+        "desktop_transparent_logo_img": "shopify://shop_images/BearWellLogoHeader_f521c935-e566-4003-a43d-c14e64d0248a.png",
+        "desktop_logo_width": 64,
+        "mobile_logo_width": 50,
+        "is_transparent_only_on_homepage": false,
+        "transparent_opacity": 0,
+        "transparent_blurring": 0,
+        "transparent_background_color": "#ffffff",
+        "transparent_items_color": "#450e2b",
+        "icon_style": "outline",
+        "cart_icon": "cart",
+        "login_mobile_position": "in_menu",
+        "show_language_selector": false,
+        "show_currency_selector": true,
+        "add_side_paddings": true,
+        "desktop_spacing_top": 15,
+        "desktop_spacing_bottom": 15,
+        "mobile_spacing_top": 0,
+        "mobile_spacing_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
