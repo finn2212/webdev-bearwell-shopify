@@ -21,10 +21,19 @@
             "link": "shopify://collections/all",
             "icon": "coupon"
           }
+        },
+        "announcement_PH89tX": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>Make an announcement</p>",
+            "link": "",
+            "icon": "none"
+          }
         }
       },
       "block_order": [
-        "announcement_afepca"
+        "announcement_afepca",
+        "announcement_PH89tX"
       ],
       "settings": {
         "show_only_on_homepage": false,

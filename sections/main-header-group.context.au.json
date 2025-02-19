@@ -1,1 +1,36 @@
-{"parent":"main-header-group.json","context":{"market":"au"},"sections":{"announcement-bar":{"disabled":true,"settings":{},"blocks":{"announcement_cAJcg":{"type":"announcement","disabled":false,"settings":{"text":"<h6><strong>20% Off Site-wide + Free Shipping! Limited time only.<\/strong><\/h6>","link":"","icon":"none","custom_icon_image":null}}},"block_order":["announcement_cAJcg"]}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "main-header-group.json",
+  "context": {
+    "market": "au"
+  },
+  "sections": {
+    "announcement-bar": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {
+        "announcement_cAJcg": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "<h6><strong>Buy one pack, get one 20% off! Plus, a FREE shaker! Limited time only.</strong></h6>",
+            "link": "shopify://collections/all",
+            "icon": "coupon",
+            "custom_icon_image": null
+          }
+        }
+      },
+      "block_order": [
+        "announcement_cAJcg"
+      ]
+    }
+  }
+}
