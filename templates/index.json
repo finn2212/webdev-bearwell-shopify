@@ -262,7 +262,7 @@
         "alignment": "left",
         "collection": "best-sellers",
         "featured_products": [],
-        "img_ratio": "portrait",
+        "img_ratio": "fit-portrait",
         "product_card_align": "left",
         "cards_to_show": 16,
         "desktop_columns": 3,
