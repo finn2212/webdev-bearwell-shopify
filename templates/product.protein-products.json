@@ -301,7 +301,7 @@
         "color_scheme": "default",
         "container_size": "large",
         "media_to_content_ratio": "50-50",
-        "img_ratio": "fit-square",
+        "img_ratio": "portrait",
         "layout": "thumbnails-bottom",
         "desktop_space_between_media": 20,
         "thumbnails_size": 88,
