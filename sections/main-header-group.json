@@ -17,7 +17,7 @@
         "announcement_afepca": {
           "type": "announcement",
           "settings": {
-            "text": "<h6><strong>Buy one pack, get one 20% off! Plus, a FREE shaker! Limited time only.</strong></h6>",
+            "text": "<h6><strong>Celebrate the strong women in your life with 15% OFF!</strong></h6>",
             "link": "shopify://collections/all",
             "icon": "discount-outline"
           }
