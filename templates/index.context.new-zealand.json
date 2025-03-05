@@ -1,1 +1,34 @@
-{"parent":"index.json","context":{"market":"new-zealand"},"sections":{"slideshow_f6XzEj":{"disabled":false,"settings":{},"blocks":{}},"slideshow_7f3xDn":{"disabled":true,"settings":{},"blocks":{}}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "new-zealand"
+  },
+  "sections": {
+    "slideshow_f6XzEj": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "image_banner_jg6iwJ": {
+          "settings": {
+            "video": "shopify://files/videos/Web Banner.mp4",
+            "btn_text": "Shop 15% Off Now"
+          }
+        }
+      }
+    },
+    "slideshow_7f3xDn": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
+}
