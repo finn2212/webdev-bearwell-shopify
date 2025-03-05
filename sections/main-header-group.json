@@ -40,7 +40,7 @@
         "color_scheme": "custom-1",
         "container_size": "full-screen",
         "show_navigation_arrows": false,
-        "autoplay_mode": "one_at_time",
+        "autoplay_mode": "disabled",
         "autoplay_interval": 6,
         "show_language_selector": false,
         "show_currency_selector": false,
