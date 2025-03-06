@@ -19,9 +19,9 @@
       "blocks": {
         "image_banner_jg6iwJ": {
           "settings": {
+            "mobile_img": null,
             "video": "shopify://files/videos/BearWellProteinPowderOptimised_Video.mp4",
-            "btn_text": "Shop 15% Off Now",
-            "mobile_img": "shopify://shop_images/BearWellWPIMixedBerrypowder.jpgcopy_9183c5ba-a558-425c-b7fe-b378e5392543.webp"
+            "btn_text": "Shop 15% Off Now"
           }
         }
       }
