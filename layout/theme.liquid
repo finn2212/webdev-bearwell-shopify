@@ -7,6 +7,14 @@
        
         <!-- Meta Domain Verification for bearwell.com.au -->
         <meta name="facebook-domain-verification" content="zuuhz78fy9gzne010sdrkjbyb4ylln" />
+
+        <!-- Google Tag Manager AU -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MVG4F4F8');</script>
+        <!-- End Google Tag Manager -->
   
       {% elsif request.host contains 'bearwell.co.nz' %} 
         <!-- Google Console Verification -->
@@ -15,6 +23,14 @@
         <!-- Meta Domain Verification for bearwell.co.nz -->
           <meta name="facebook-domain-verification" content="jhq7vwapflbp5wmqqxuusz64ojdelv" />
 
+        <!-- Google Tag Manager NZ -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5GQVZHFJ');</script>
+        <!-- End Google Tag Manager -->
+        
       {%  endif %}
           
       <meta charset='utf-8'>
@@ -49,6 +65,21 @@
       {{ content_for_header }}
     </head>
     <body class='template-{{ template.name | handleize }} color-{{ settings.default_color_scheme }} round-level-{{ settings.round_level }} {% if settings.round_level != "0" %} round-style {% endif %}'>    
+
+      {%  if request.host contains 'bearwell.com.au' %}
+        <!-- Google Tag Manager AU (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVG4F4F8"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+      {% elsif request.host contains 'bearwell.co.nz' %} 
+        <!-- Google Tag Manager NZ (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GQVZHFJ"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        
+      {%  endif %}
+
       
       <a id='SkipContent' class='visually-hidden skip-to-content-link btn btn--lg btn--solid' href='#MainContent'>
         {{ 'accessibility.skip_to_text' | t }}
