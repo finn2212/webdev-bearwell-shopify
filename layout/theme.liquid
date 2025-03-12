@@ -1,20 +1,49 @@
 <!doctype html>
   <html lang='{{ request.locale.iso_code }}'>
     <head>
+       <!-- Define dataLayer and the gtag function -->
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+      
+          // Check the current hostname
+          const hostname = window.location.hostname;
+      
+          // Set the GTM ID based on the hostname
+          let gtmID = '';
+          if (hostname.includes('bearwell.com.au')) {
+              gtmID = 'GTM-MVG4F4F8'; // GTM ID for AU
+          } else if (hostname.includes('bearwell.co.nz')) {
+              gtmID = 'GTM-5GQVZHFJ'; // GTM ID for NZ
+          }
+      
+          // Google Consent Mode v2
+          gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted',
+            'ad_user_data': 'granted',
+            'ad_personalization': 'granted',
+          });
+      
+          // Initialize GTM tag
+          if (gtmID) {
+              (function(w,d,s,l,i){
+                  w[l]=w[l]||[];
+                  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+                  var f=d.getElementsByTagName(s)[0],
+                      j=d.createElement(s), dl=l!='dataLayer' ? '&l='+l : '';
+                  j.async=true;
+                  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+                  f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer', gtmID);
+          }
+        </script>
       {%  if request.host contains 'bearwell.com.au' %}
         <!-- Google Console Verification -->
         <meta name="google-site-verification" content="-iBdFtQCpWsyWdsN5Wk2NuRiB24EjA8itaDTrde9Qr4" />
        
         <!-- Meta Domain Verification for bearwell.com.au -->
         <meta name="facebook-domain-verification" content="zuuhz78fy9gzne010sdrkjbyb4ylln" />
-
-        <!-- Google Tag Manager AU -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-MVG4F4F8');</script>
-        <!-- End Google Tag Manager -->
   
       {% elsif request.host contains 'bearwell.co.nz' %} 
         <!-- Google Console Verification -->
@@ -23,13 +52,6 @@
         <!-- Meta Domain Verification for bearwell.co.nz -->
           <meta name="facebook-domain-verification" content="jhq7vwapflbp5wmqqxuusz64ojdelv" />
 
-        <!-- Google Tag Manager NZ -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5GQVZHFJ');</script>
-        <!-- End Google Tag Manager -->
         
       {%  endif %}
           
