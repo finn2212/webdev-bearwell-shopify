@@ -105,7 +105,12 @@
         "heading_dk7hdJ",
         "text_z9YQUc"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".rich-text p:nth-of-type(2) {color: #965f36 !important; /* Earth-Brown */ font-weight: bold !important;}",
+        ".rich-text p:nth-of-type(4) {color: #007473 !important; /* Grass-Green */ font-weight: bold !important;}",
+        ".rich-text p:nth-of-type(6) {color: #8d1b60 !important; /* Vibrant Purple */ font-weight: bold !important;}",
+        ".rich-text p:nth-of-type(8) {color: #416ca9 !important; /* Sky-Blue */ font-weight: bold !important;}"
+      ],
       "settings": {
         "color_scheme": "default",
         "enable_background_around_container": false,
