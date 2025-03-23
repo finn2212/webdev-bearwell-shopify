@@ -37,9 +37,9 @@
         "color_scheme": "default",
         "enable_background_around_container": false,
         "enable_mountains": false,
-        "container_size": "small",
+        "container_size": "medium",
         "content_align": "left",
-        "max_content_width": 1300,
+        "max_content_width": 1500,
         "add_side_paddings": true,
         "section_spacing_top": 64,
         "section_spacing_bottom": 25
