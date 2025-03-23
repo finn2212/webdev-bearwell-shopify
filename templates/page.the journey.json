@@ -120,7 +120,7 @@
         "max_content_width": 1100,
         "add_side_paddings": true,
         "section_spacing_top": 24,
-        "section_spacing_bottom": 64
+        "section_spacing_bottom": 0
       }
     }
   },
