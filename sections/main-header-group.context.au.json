@@ -14,7 +14,7 @@
   },
   "sections": {
     "announcement-bar": {
-      "disabled": false,
+      "disabled": true,
       "settings": {},
       "blocks": {
         "announcement_cAJcg": {
