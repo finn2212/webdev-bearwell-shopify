@@ -46,7 +46,7 @@
       {{ 'custom.js' | asset_url | preload_tag: as: 'script' }}
       {{ 'custom.css' | asset_url | stylesheet_tag: preload: true }}
       {% render 'fonts' %}
-  {{ 'custom-styles.css' | asset_url | stylesheet_tag }}
+{{ 'custom-styles.css' | asset_url | stylesheet_tag }}
       {{ content_for_header }}
     </head>
     <body class='template-{{ template.name | handleize }} color-{{ settings.default_color_scheme }} round-level-{{ settings.round_level }} {% if settings.round_level != "0" %} round-style {% endif %}'>    
