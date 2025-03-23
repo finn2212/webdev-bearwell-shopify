@@ -106,7 +106,7 @@
         "text_z9YQUc"
       ],
       "custom_css": [
-        ".rich-text:nth-of-type(1) {color: #C09473; font-weight: bold;}"
+        ".rich-text:nth-of-type(1) {color: #8D1B60; font-weight: bold;}"
       ],
       "settings": {
         "color_scheme": "default",
