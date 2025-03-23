@@ -52,7 +52,7 @@
         "enable_background_around_container": false,
         "container_size": "small",
         "desktop_ratio": 0.5,
-        "mobile_ratio": 1.6,
+        "mobile_ratio": 0.7,
         "desktop_img": "shopify://shop_images/The_Journey_fed03d2b-b983-4baa-a1f7-add11d612911.webp",
         "desktop_overlay_opacity": 0,
         "mobile_overlay_opacity": 0,
