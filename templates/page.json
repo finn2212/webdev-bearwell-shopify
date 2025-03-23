@@ -17,12 +17,12 @@
         "container_size": "full-screen",
         "desktop_ratio": 0.3,
         "mobile_ratio": 1,
-        "desktop_img": "shopify://shop_images/1_e5c977c7-7303-4b3e-90a2-362399ed38a9.jpg",
+        "desktop_img": "shopify://shop_images/1_f275257e-cd16-4dde-9e36-fb9ee9c25127.jpg",
         "desktop_overlay_opacity": 0,
         "mobile_overlay_opacity": 0,
-        "show-mountain-overlay": true,
+        "show-mountain-overlay": false,
         "caption": "",
-        "title": "{{ page.title }}",
+        "title": "",
         "heading_size": "h2",
         "text": "",
         "body_size": "body0",
@@ -97,7 +97,7 @@
         "content_align": "left",
         "max_content_width": 1000,
         "add_side_paddings": true,
-        "section_spacing_top": 64,
+        "section_spacing_top": 39,
         "section_spacing_bottom": 0
       }
     }
