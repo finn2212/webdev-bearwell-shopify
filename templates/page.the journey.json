@@ -105,7 +105,9 @@
         "heading_dk7hdJ",
         "text_z9YQUc"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".rich-text:nth-of-type(1) {color: #C09473; font-weight: bold;}"
+      ],
       "settings": {
         "color_scheme": "default",
         "enable_background_around_container": false,
