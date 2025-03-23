@@ -106,7 +106,7 @@
         "text_z9YQUc"
       ],
       "custom_css": [
-        ".rich-text:has(p:contains(\"Earth-Brown\")) {color: #C09473;}"
+        ".rich-text:nth-of-type(1) {color: #C09473 !important; font-weight: bold;}"
       ],
       "settings": {
         "color_scheme": "default",
