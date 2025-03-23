@@ -35,6 +35,7 @@
         "announcement_afepca",
         "announcement_PH89tX"
       ],
+      "disabled": true,
       "settings": {
         "show_only_on_homepage": false,
         "color_scheme": "custom-1",
