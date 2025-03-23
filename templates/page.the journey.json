@@ -37,7 +37,7 @@
         "color_scheme": "default",
         "enable_background_around_container": false,
         "enable_mountains": false,
-        "container_size": "large",
+        "container_size": "medium",
         "content_align": "left",
         "max_content_width": 1200,
         "add_side_paddings": true,
