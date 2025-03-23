@@ -105,9 +105,7 @@
         "heading_dk7hdJ",
         "text_z9YQUc"
       ],
-      "custom_css": [
-        "body {background-color: pink;}"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "default",
         "enable_background_around_container": false,
