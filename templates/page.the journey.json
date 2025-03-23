@@ -11,20 +11,115 @@
   "sections": {
     "heading-block": {
       "type": "rich-text",
-      "settings": {}
-    },
-    "text-block": {
-      "type": "rich-text",
-      "settings": {}
+      "blocks": {
+        "heading_Fe9iBD": {
+          "type": "heading",
+          "settings": {
+            "title": "Mountains: The Heart of the Journey",
+            "heading_size": "h1"
+          }
+        },
+        "text_MD8WVp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mountains are one of the most powerful symbols of the human journey—physically, mentally, and emotionally. They represent strength, perseverance, and the pursuit of greater heights. For BearWell, they embody the endless journey of mind, body and spirit and the challenges we face along the way.</p><p></p><p>The mountains on our packaging symbolize the journey of life - marked by peaks of achievement and valleys of growth. The peaks are moments of celebration, where we honor the progress we’ve made and the challenges we’ve overcome. They’re not just destinations but stepping stones for what lies ahead - a chance to reflect, regroup, and prepare for the next climb. Every peak is followed by a valley, an essential stage of transformation. They challenge us to leave behind the comfort of the known, embrace the uncertainty ahead, and build the resilience needed to rise to even greater heights. Together, the peaks and valleys remind us that the journey is endless, with every phase shaping who we become.</p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fe9iBD",
+        "text_MD8WVp"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "enable_mountains": false,
+        "container_size": "page-width",
+        "content_align": "left",
+        "max_content_width": 800,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 64
+      }
     },
     "image-banner": {
       "type": "image-banner",
-      "settings": {}
+      "settings": {
+        "color_scheme": "white",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "show-mountain-overlay": false,
+        "caption": "IMAGE BANNER",
+        "title": "Image with text",
+        "heading_size": "h2",
+        "text": "<p>Fill in the text to tell customers by what your products are inspired.</p>",
+        "body_size": "body0",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "Button label",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "Button label",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "text-block": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dk7hdJ": {
+          "type": "heading",
+          "settings": {
+            "title": "The Meaning of Colors in Our Journey",
+            "heading_size": "h2"
+          }
+        },
+        "text_z9YQUc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Each color in BearWell’s packaging represents a unique stage of the journey, tied to personal growth and transformation.</em></p><p><em>These colors are not chosen at random - they reflect the essence of the flavor while symbolizing the deeper meaning behind</em></p><p><em>the wellness journey. Together, they tell a story of grounding, growth, celebration, and inspiration.</em></p><p><em>1. Earth-Brown: Chocolate Mousse Flavor • Grounding and Humility (At the Base of the Mountain)</em></p><p><em>Chocolate represents the start of the journey, where we plant our feet firmly on the ground. It’s the stage of grounding and</em></p><p><em>humility, where we prepare ourselves for the climb ahead. This is the soil where growth begins, nurturing the foundation for</em></p><p><em>every step forward.</em></p><p><em>2. Grass-Green: Unflavored Flavor • Growth and Curiosity (The Ascent Begins)</em></p><p><em>Green reflects the early stages of growth as we begin our climb. It symbolizes the effort, strength, and curiosity required to</em></p><p><em>ascend. This is the time to experiment, explore with an open mind, and discover what works and what doesn’t. Growth is not</em></p><p><em>just about moving upward—it’s about learning through action and adapting to challenges. Just as the mountain’s slopes</em></p><p><em>demand focus and persistence, this stage is about nurturing progress and building momentum through intentional actions</em></p><p><em>and the courage to try new approaches.</em></p><p><em>3. Vibrant Purple: Mixed Berry Flavor • Celebration and Accomplishment (Reaching the Peak)</em></p><p><em>Purple represents the peak—the moment we celebrate our achievements and savor the berries of our hard work. From this</em></p><p><em>vantage point, we feel the vibrancy and energy of our accomplishments. It’s a time to let it sink in, to honor how far we’ve</em></p><p><em>come, and to enjoy the view before preparing for what’s next.</em></p><p><em>4. Sky-Blue: Smooth Vanilla Flavor • Reflection and Inspiration (Dreaming of New Peaks)</em></p><p><em>Blue symbolizes reflection and inspiration as we gaze toward the horizon and imagine new possibilities. From the summit, we</em></p><p><em>see not only the heights we’ve conquered but also the peaks yet to be climbed. This stage invites us to dream, recharge, and</em></p><p><em>plan for the next chapter of the journey.</em></p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dk7hdJ",
+        "text_z9YQUc"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "enable_mountains": false,
+        "container_size": "page-width",
+        "content_align": "left",
+        "max_content_width": 800,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 64
+      }
     }
   },
   "order": [
     "heading-block",
-    "text-block",
-    "image-banner"
+    "image-banner",
+    "text-block"
   ]
 }
