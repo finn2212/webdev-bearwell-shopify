@@ -41,7 +41,7 @@
         "content_align": "left",
         "max_content_width": 1100,
         "add_side_paddings": true,
-        "section_spacing_top": 64,
+        "section_spacing_top": 15,
         "section_spacing_bottom": 25
       }
     },
