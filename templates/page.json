@@ -16,7 +16,7 @@
         "enable_background_around_container": true,
         "container_size": "full-screen",
         "desktop_ratio": 0.3,
-        "mobile_ratio": 1,
+        "mobile_ratio": 0.7,
         "desktop_img": "shopify://shop_images/BearWell_Logo.webp",
         "desktop_overlay_opacity": 0,
         "mobile_overlay_opacity": 0,
