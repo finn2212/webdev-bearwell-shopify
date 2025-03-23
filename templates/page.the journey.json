@@ -106,7 +106,7 @@
         "text_z9YQUc"
       ],
       "custom_css": [
-        "p:contains(\"Grass-Green\") {color: #007473 !important; font-weight: bold;}"
+        ".rich-text:nth-of-type(1) p:first-of-type {color: #C09473 !important; font-weight: bold !important;}"
       ],
       "settings": {
         "color_scheme": "default",
