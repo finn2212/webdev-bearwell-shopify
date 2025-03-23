@@ -17,7 +17,7 @@
         "container_size": "full-screen",
         "desktop_ratio": 0.3,
         "mobile_ratio": 1,
-        "desktop_img": "shopify://shop_images/2_611ae339-bb86-4388-89ed-0e32b86484e6.jpg",
+        "desktop_img": "shopify://shop_images/BearWell_Logo.webp",
         "desktop_overlay_opacity": 0,
         "mobile_overlay_opacity": 0,
         "show-mountain-overlay": false,
@@ -97,7 +97,7 @@
         "content_align": "left",
         "max_content_width": 1000,
         "add_side_paddings": true,
-        "section_spacing_top": 6,
+        "section_spacing_top": 19,
         "section_spacing_bottom": 0
       }
     }
