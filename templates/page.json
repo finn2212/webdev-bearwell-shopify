@@ -55,74 +55,10 @@
         "section_spacing_top": 96,
         "section_spacing_bottom": 96
       }
-    },
-    "rich_text_VMFUTw": {
-      "type": "rich-text",
-      "blocks": {
-        "icon_B8rVpz": {
-          "type": "icon",
-          "settings": {
-            "icon": "none",
-            "icon_size": 48
-          }
-        },
-        "caption_7FYmmG": {
-          "type": "caption",
-          "settings": {
-            "caption": "RICH TEXT"
-          }
-        },
-        "heading_EztXeH": {
-          "type": "heading",
-          "settings": {
-            "title": "Tell about your brand",
-            "heading_size": "display3"
-          }
-        },
-        "text_WYniyk": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements or welcome customers to your store.</p>",
-            "text_2": "",
-            "text_3": "",
-            "body_size": "body4"
-          }
-        },
-        "buttons_VRfTae": {
-          "type": "buttons",
-          "settings": {
-            "btn_text": "Button label",
-            "btn_url": "",
-            "btn_style": "link",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "solid"
-          }
-        }
-      },
-      "block_order": [
-        "icon_B8rVpz",
-        "caption_7FYmmG",
-        "heading_EztXeH",
-        "text_WYniyk",
-        "buttons_VRfTae"
-      ],
-      "settings": {
-        "color_scheme": "default",
-        "enable_background_around_container": false,
-        "enable_mountains": false,
-        "container_size": "page-width",
-        "content_align": "center",
-        "max_content_width": 800,
-        "add_side_paddings": true,
-        "section_spacing_top": 64,
-        "section_spacing_bottom": 64
-      }
     }
   },
   "order": [
     "image_banner_zFTQKG",
-    "page",
-    "rich_text_VMFUTw"
+    "page"
   ]
 }
