@@ -42,7 +42,7 @@
         "max_content_width": 800,
         "add_side_paddings": true,
         "section_spacing_top": 64,
-        "section_spacing_bottom": 64
+        "section_spacing_bottom": 25
       }
     },
     "image-banner": {
