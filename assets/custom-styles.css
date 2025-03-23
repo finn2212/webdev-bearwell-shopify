@@ -1,19 +1,4 @@
-.coloured-stages .earth-brown {
-  color: #965F36;
-  font-weight: bold;
-}
-
-.coloured-stages .grass-green {
-  color: #007473;
-  font-weight: bold;
-}
-
-.coloured-stages .vibrant-purple {
-  color: #8D1B60;
-  font-weight: bold;
-}
-
-.coloured-stages .sky-blue {
-  color: #416CA9;
-  font-weight: bold;
-}
+.coloured-stages .earth-brown { color: #C09473; font-weight: bold; }
+.coloured-stages .grass-green { color: #007473; font-weight: bold; }
+.coloured-stages .vibrant-purple { color: #C084A3; font-weight: bold; }
+.coloured-stages .sky-blue { color: #88BDE7; font-weight: bold; }
