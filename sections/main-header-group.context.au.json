@@ -14,15 +14,15 @@
   },
   "sections": {
     "announcement-bar": {
-      "disabled": true,
+      "disabled": false,
       "settings": {},
       "blocks": {
         "announcement_cAJcg": {
           "type": "announcement",
           "disabled": false,
           "settings": {
-            "text": "<h6><strong>Celebrate the strong women in your life with 15% OFF!</strong></h6>",
-            "link": "shopify://collections/all",
+            "text": "<h6><strong>Mighty THREE deal. Buy 2, Get 1 Free!</strong></h6>",
+            "link": "shopify://collections/whey-protein-concentrate",
             "icon": "discount-outline",
             "custom_icon_image": null
           }
