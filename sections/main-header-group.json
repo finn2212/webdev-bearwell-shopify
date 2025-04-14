@@ -17,25 +17,15 @@
         "announcement_afepca": {
           "type": "announcement",
           "settings": {
-            "text": "<h6><strong>Celebrate the strong women in your life with 15% OFF!</strong></h6>",
-            "link": "shopify://collections/all",
+            "text": "<h6><strong>Mighty THREE deal. Buy 2, Get 1 Free!</strong></h6>",
+            "link": "shopify://collections/whey-protein-concentrate",
             "icon": "discount-outline"
-          }
-        },
-        "announcement_PH89tX": {
-          "type": "announcement",
-          "settings": {
-            "text": "<p>Make an announcement</p>",
-            "link": "",
-            "icon": "none"
           }
         }
       },
       "block_order": [
-        "announcement_afepca",
-        "announcement_PH89tX"
+        "announcement_afepca"
       ],
-      "disabled": true,
       "settings": {
         "show_only_on_homepage": false,
         "color_scheme": "custom-1",
