@@ -152,6 +152,46 @@
         "section_spacing_bottom": 48
       }
     },
+    "scrolling_text_U8WdUD": {
+      "type": "scrolling-text",
+      "blocks": {
+        "announcement_DjRGzr": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Deal applies to all products except for WPI Mixed Berry 1kg"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_DjRGzr"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "section_layout": "parallel",
+        "inclination_degree": 0,
+        "crossing_point_position": 0,
+        "overlay_opacity": 0,
+        "add_side_paddings": false,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "font_family": "heading",
+        "font_style": "solid",
+        "font_size": 24,
+        "letter_spacing": 0,
+        "spacing_between_messages": 40,
+        "top_and_bottom_spacing": 20,
+        "link": "",
+        "icon": "none",
+        "icon_size": 40,
+        "scrolling_direction": "right_to_left",
+        "scrolling_speed": 30,
+        "background_color": "#ffffff",
+        "background_color_gradient": "",
+        "text_color": "#000000",
+        "text_color_gradient": ""
+      }
+    },
     "multicolumn_Gp4jLN": {
       "type": "multicolumn",
       "blocks": {
@@ -558,6 +598,7 @@
   "order": [
     "slideshow_f6XzEj",
     "slideshow_7f3xDn",
+    "scrolling_text_U8WdUD",
     "multicolumn_Gp4jLN",
     "rich_text_BaEPBH",
     "featured_collection_LdHrMJ",
