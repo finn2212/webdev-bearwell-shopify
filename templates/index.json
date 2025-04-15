@@ -110,7 +110,7 @@
             "heading_size": "h2",
             "text": "",
             "body_size": "body0",
-            "desktop_content_position": "align-items:center;justify-content:flex-start;",
+            "desktop_content_position": "align-items:flex-end;justify-content:center;",
             "desktop_content_align": "left",
             "content_max_width": 600,
             "content_spacing": 28,
