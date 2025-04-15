@@ -155,12 +155,6 @@
     "scrolling_text_U8WdUD": {
       "type": "scrolling-text",
       "blocks": {
-        "announcement_DqFekU": {
-          "type": "announcement",
-          "settings": {
-            "announcement_text": "Make an announcement"
-          }
-        },
         "announcement_DjRGzr": {
           "type": "announcement",
           "settings": {
@@ -169,7 +163,6 @@
         }
       },
       "block_order": [
-        "announcement_DqFekU",
         "announcement_DjRGzr"
       ],
       "settings": {
