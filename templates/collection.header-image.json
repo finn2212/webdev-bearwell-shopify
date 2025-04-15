@@ -93,7 +93,7 @@
         "img_ratio": "portrait",
         "product_card_align": "left",
         "product_per_page": 12,
-        "desktop_columns": "3",
+        "desktop_columns": "4",
         "desktop_space_between_cards": 25,
         "mobile_columns": "1",
         "mobile_space_between_cards": 16,
