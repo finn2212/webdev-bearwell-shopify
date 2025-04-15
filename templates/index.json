@@ -185,7 +185,7 @@
         "icon": "none",
         "icon_size": 40,
         "scrolling_direction": "right_to_left",
-        "scrolling_speed": 100,
+        "scrolling_speed": 8,
         "background_color": "#faf7f3",
         "background_color_gradient": "",
         "text_color": "#450e2b",
