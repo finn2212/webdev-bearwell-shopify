@@ -120,7 +120,7 @@
             "mobile_content_background": "none",
             "btn_text": "Shop Now",
             "btn_url": "shopify://collections/all",
-            "btn_style": "outline",
+            "btn_style": "solid",
             "extra_btn_text": "",
             "extra_btn_url": "",
             "extra_btn_style": "outline"
