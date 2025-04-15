@@ -71,6 +71,7 @@
       "blocks": {
         "image_banner_TExGGj": {
           "type": "image-banner",
+          "disabled": true,
           "settings": {
             "color_scheme": "custom-1",
             "video": "shopify://files/videos/Mighty THREE.mp4",
@@ -96,10 +97,39 @@
             "extra_btn_url": "",
             "extra_btn_style": "outline"
           }
+        },
+        "image_banner_EzFCUq": {
+          "type": "image-banner",
+          "settings": {
+            "color_scheme": "custom-1",
+            "video": "shopify://files/videos/Mighty THREE.mp4",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "caption": "",
+            "title": "",
+            "heading_size": "h2",
+            "text": "",
+            "body_size": "body0",
+            "desktop_content_position": "align-items:center;justify-content:flex-start;",
+            "desktop_content_align": "left",
+            "content_max_width": 600,
+            "content_spacing": 28,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "btn_text": "Shop Now",
+            "btn_url": "shopify://collections/all",
+            "btn_style": "outline",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
         }
       },
       "block_order": [
-        "image_banner_TExGGj"
+        "image_banner_TExGGj",
+        "image_banner_EzFCUq"
       ],
       "settings": {
         "color_scheme": "white",
