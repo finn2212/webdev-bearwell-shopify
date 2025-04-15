@@ -95,7 +95,7 @@
         "product_per_page": 12,
         "desktop_columns": "4",
         "desktop_space_between_cards": 25,
-        "mobile_columns": "1",
+        "mobile_columns": "2",
         "mobile_space_between_cards": 16,
         "pagination_type": "infinite-scroll",
         "add_side_paddings": true,
