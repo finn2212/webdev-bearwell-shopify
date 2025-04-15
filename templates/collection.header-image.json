@@ -98,7 +98,7 @@
         "mobile_columns": "2",
         "mobile_space_between_cards": 16,
         "pagination_type": "infinite-scroll",
-        "add_side_paddings": true,
+        "add_side_paddings": false,
         "section_spacing_top": 48,
         "section_spacing_bottom": 48
       }
