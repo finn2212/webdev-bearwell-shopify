@@ -295,7 +295,7 @@
         "img_ratio": "portrait",
         "product_card_align": "left",
         "cards_to_show": 16,
-        "desktop_columns": 3,
+        "desktop_columns": 5,
         "desktop_space_between_cards": 24,
         "mobile_space_between_cards": 16,
         "show_navigation_on_hover": true,
