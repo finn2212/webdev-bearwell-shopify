@@ -44,7 +44,6 @@
       "block_order": [
         "image_banner_jg6iwJ"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "white",
         "show-mountain-overlay": true,
@@ -131,6 +130,7 @@
         "image_banner_TExGGj",
         "image_banner_EzFCUq"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "white",
         "show-mountain-overlay": true,
