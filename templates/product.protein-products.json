@@ -99,7 +99,6 @@
         },
         "siblings_QAMKJL": {
           "type": "siblings",
-          "disabled": true,
           "settings": {
             "label": "{{ product.metafields.custom.products_siblings_label.value }}",
             "product_list": "{{ product.metafields.custom.product_siblings_list.value.product_list.value }}",
