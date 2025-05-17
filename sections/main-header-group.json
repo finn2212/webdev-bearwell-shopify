@@ -13,19 +13,6 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "blocks": {
-        "announcement_JwY4w9": {
-          "type": "announcement",
-          "settings": {
-            "text": "<h6><strong>FREE samples💥 Buy 1, Get 1 Free</strong></h6>",
-            "link": "",
-            "icon": "discount-outline"
-          }
-        }
-      },
-      "block_order": [
-        "announcement_JwY4w9"
-      ],
       "settings": {
         "show_only_on_homepage": false,
         "color_scheme": "custom-1",
