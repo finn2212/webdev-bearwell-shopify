@@ -14,17 +14,17 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_afepca": {
+        "announcement_JwY4w9": {
           "type": "announcement",
           "settings": {
             "text": "<h6><strong>FREE samples💥 Buy 1, Get 1 Free</strong></h6>",
-            "link": "shopify://collections/whey-protein-concentrate",
+            "link": "",
             "icon": "discount-outline"
           }
         }
       },
       "block_order": [
-        "announcement_afepca"
+        "announcement_JwY4w9"
       ],
       "settings": {
         "show_only_on_homepage": false,
