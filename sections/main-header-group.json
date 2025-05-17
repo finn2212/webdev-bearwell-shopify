@@ -17,7 +17,7 @@
         "announcement_afepca": {
           "type": "announcement",
           "settings": {
-            "text": "<h6><strong>Mighty THREE deal. Buy 2, Get 1 Free!</strong></h6>",
+            "text": "<h6><strong>Get your FREE samples TODAY!</strong></h6>",
             "link": "shopify://collections/whey-protein-concentrate",
             "icon": "discount-outline"
           }
