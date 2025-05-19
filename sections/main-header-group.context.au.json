@@ -19,7 +19,7 @@
       "blocks": {
         "announcement_cAJcg": {
           "type": "announcement",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "text": "<h6><strong>Mighty THREE deal. Buy 2, Get 1 Free!</strong></h6>",
             "link": "shopify://collections/whey-protein-concentrate",
