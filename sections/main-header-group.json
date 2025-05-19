@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_XrnmdH": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<h6><strong>FREE samples💥 Buy 1, Get 1 Free</strong></h6>",
             "link": "",
