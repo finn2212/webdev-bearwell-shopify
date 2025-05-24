@@ -12,5 +12,17 @@
   "context": {
     "market": "new-zealand"
   },
-  "sections": {}
+  "sections": {
+    "announcement-bar": {
+      "settings": {},
+      "blocks": {
+        "announcement_h9EFXX": {
+          "settings": {
+            "text": "<h6><strong>Buy 1kg – Get a Sachet Pack FREE.</strong></h6>",
+            "icon": "gift"
+          }
+        }
+      }
+    }
+  }
 }
