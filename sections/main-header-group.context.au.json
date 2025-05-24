@@ -17,6 +17,16 @@
       "disabled": false,
       "settings": {},
       "blocks": {
+        "announcement_h9EFXX": {
+          "settings": {
+            "icon": "gift",
+            "text": "<h6><strong>Buy 1kg – Get a Sachet Pack FREE.</strong></h6>"
+          }
+        },
+        "announcement_XrnmdH": {
+          "disabled": false,
+          "settings": {}
+        },
         "announcement_cAJcg": {
           "type": "announcement",
           "disabled": true,
@@ -25,15 +35,6 @@
             "link": "shopify://collections/whey-protein-concentrate",
             "icon": "discount-outline",
             "custom_icon_image": null
-          }
-        },
-        "announcement_XrnmdH": {
-          "disabled": false,
-          "settings": {}
-        },
-        "announcement_h9EFXX": {
-          "settings": {
-            "icon": "gift"
           }
         }
       },
