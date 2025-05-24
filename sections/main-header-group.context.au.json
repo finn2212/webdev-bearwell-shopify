@@ -26,12 +26,21 @@
             "icon": "discount-outline",
             "custom_icon_image": null
           }
+        },
+        "announcement_XrnmdH": {
+          "disabled": false,
+          "settings": {}
+        },
+        "announcement_h9EFXX": {
+          "settings": {
+            "icon": "gift"
+          }
         }
       },
       "block_order": [
+        "announcement_h9EFXX",
         "announcement_XrnmdH",
-        "announcement_cAJcg",
-        "announcement_h9EFXX"
+        "announcement_cAJcg"
       ]
     }
   }
