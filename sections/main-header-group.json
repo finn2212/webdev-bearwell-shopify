@@ -14,6 +14,14 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_h9EFXX": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p><strong>Buy 1kg – Get a Sachet Pack FREE.</strong></p>",
+            "link": "",
+            "icon": "none"
+          }
+        },
         "announcement_XrnmdH": {
           "type": "announcement",
           "disabled": true,
@@ -25,6 +33,7 @@
         }
       },
       "block_order": [
+        "announcement_h9EFXX",
         "announcement_XrnmdH"
       ],
       "settings": {
