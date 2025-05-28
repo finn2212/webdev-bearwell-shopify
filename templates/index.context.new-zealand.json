@@ -12,5 +12,16 @@
   "context": {
     "market": "new-zealand"
   },
-  "sections": {}
+  "sections": {
+    "slideshow_7f3xDn": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    },
+    "slideshow_f6XzEj": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }
