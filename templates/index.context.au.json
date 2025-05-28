@@ -12,5 +12,12 @@
   "context": {
     "market": "au"
   },
-  "sections": {}
+  "sections": {
+    "slideshow_7f3xDn": {
+      "settings": {
+        "desktop_ratio": 0.8
+      },
+      "blocks": {}
+    }
+  }
 }
