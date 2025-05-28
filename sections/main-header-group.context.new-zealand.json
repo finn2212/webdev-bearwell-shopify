@@ -17,10 +17,17 @@
       "settings": {},
       "blocks": {
         "announcement_h9EFXX": {
+          "disabled": true,
           "settings": {
             "text": "<h6><strong>Buy 1kg – Get a Sachet Pack FREE.</strong></h6>",
-            "icon": "gift",
-            "link": "shopify://products/whey-protein-concentrate-mixed-berry"
+            "link": "shopify://products/whey-protein-concentrate-mixed-berry",
+            "icon": "gift"
+          }
+        },
+        "announcement_bh4JMM": {
+          "settings": {
+            "text": "<h6><strong>Buy One Sample - Get One Free</strong></h6>",
+            "icon": "gift"
           }
         }
       }
