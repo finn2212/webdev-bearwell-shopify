@@ -13,15 +13,25 @@
     "market": "new-zealand"
   },
   "sections": {
+    "slideshow_f6XzEj": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {}
+    },
     "slideshow_7f3xDn": {
       "disabled": true,
       "settings": {},
       "blocks": {}
     },
-    "slideshow_f6XzEj": {
-      "disabled": false,
+    "scrolling_text_U8WdUD": {
       "settings": {},
-      "blocks": {}
+      "blocks": {
+        "announcement_hRKW3R": {
+          "settings": {
+            "announcement_text": ""
+          }
+        }
+      }
     }
   }
 }
