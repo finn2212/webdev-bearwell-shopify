@@ -184,6 +184,17 @@
     },
     "scrolling_text_U8WdUD": {
       "type": "scrolling-text",
+      "blocks": {
+        "announcement_hRKW3R": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "You MUST add a sachet pack in your order to activate the offer"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_hRKW3R"
+      ],
       "settings": {
         "color_scheme": "default",
         "container_size": "full-screen",
