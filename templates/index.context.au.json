@@ -18,6 +18,16 @@
         "desktop_ratio": 0.8
       },
       "blocks": {}
+    },
+    "slideshow_f6XzEj": {
+      "disabled": false,
+      "settings": {},
+      "blocks": {
+        "image_banner_jg6iwJ": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
     }
   }
 }

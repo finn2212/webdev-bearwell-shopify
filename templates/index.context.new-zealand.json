@@ -16,7 +16,12 @@
     "slideshow_f6XzEj": {
       "disabled": false,
       "settings": {},
-      "blocks": {}
+      "blocks": {
+        "image_banner_jg6iwJ": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
     },
     "slideshow_7f3xDn": {
       "disabled": true,

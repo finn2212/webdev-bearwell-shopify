@@ -12,6 +12,34 @@
     "slideshow_f6XzEj": {
       "type": "slideshow",
       "blocks": {
+        "image_banner_73d443": {
+          "type": "image-banner",
+          "settings": {
+            "color_scheme": "white",
+            "video": "shopify://files/videos/One For home promo.mp4",
+            "desktop_overlay_opacity": 7,
+            "mobile_overlay_opacity": 7,
+            "caption": "",
+            "title": "",
+            "heading_size": "h2",
+            "text": "",
+            "body_size": "body0",
+            "desktop_content_position": "align-items:flex-end;justify-content:flex-start;",
+            "desktop_content_align": "center",
+            "content_max_width": 528,
+            "content_spacing": 0,
+            "mobile_content_position": "align-items:center;justify-content:center;",
+            "mobile_content_align": "center",
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "btn_text": "Shop Now",
+            "btn_url": "shopify://collections/best-sellers",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        },
         "image_banner_jg6iwJ": {
           "type": "image-banner",
           "settings": {
@@ -42,6 +70,7 @@
         }
       },
       "block_order": [
+        "image_banner_73d443",
         "image_banner_jg6iwJ"
       ],
       "disabled": true,
@@ -69,34 +98,6 @@
     "slideshow_7f3xDn": {
       "type": "slideshow",
       "blocks": {
-        "image_banner_8GMwCL": {
-          "type": "image-banner",
-          "settings": {
-            "color_scheme": "white",
-            "video": "shopify://files/videos/One For home promo.mp4",
-            "desktop_overlay_opacity": 7,
-            "mobile_overlay_opacity": 7,
-            "caption": "",
-            "title": "",
-            "heading_size": "h2",
-            "text": "",
-            "body_size": "body0",
-            "desktop_content_position": "align-items:flex-end;justify-content:flex-start;",
-            "desktop_content_align": "center",
-            "content_max_width": 528,
-            "content_spacing": 0,
-            "mobile_content_position": "align-items:center;justify-content:center;",
-            "mobile_content_align": "center",
-            "desktop_content_background": "none",
-            "mobile_content_background": "none",
-            "btn_text": "Shop Now",
-            "btn_url": "shopify://collections/best-sellers",
-            "btn_style": "solid",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "outline"
-          }
-        },
         "image_banner_TExGGj": {
           "type": "image-banner",
           "disabled": true,
@@ -157,7 +158,6 @@
         }
       },
       "block_order": [
-        "image_banner_8GMwCL",
         "image_banner_TExGGj",
         "image_banner_EzFCUq"
       ],
