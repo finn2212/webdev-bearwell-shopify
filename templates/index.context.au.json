@@ -13,21 +13,23 @@
     "market": "au"
   },
   "sections": {
-    "slideshow_7f3xDn": {
-      "settings": {
-        "desktop_ratio": 0.8
-      },
-      "blocks": {}
-    },
     "slideshow_f6XzEj": {
       "disabled": false,
-      "settings": {},
+      "settings": {
+        "show-mountain-overlay": true
+      },
       "blocks": {
         "image_banner_jg6iwJ": {
           "disabled": true,
           "settings": {}
         }
       }
+    },
+    "slideshow_7f3xDn": {
+      "settings": {
+        "desktop_ratio": 0.8
+      },
+      "blocks": {}
     }
   }
 }
