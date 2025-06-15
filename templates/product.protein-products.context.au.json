@@ -1,1 +1,28 @@
-{"parent":"product.protein-products.json","context":{"market":"au"},"sections":{"main":{"settings":{},"blocks":{"information_tag_XECYJJ":{"settings":{"heading":"Black Friday Deal: 20% off everything + free shipping! Limited time only."}}}}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "product.protein-products.json",
+  "context": {
+    "market": "au"
+  },
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "information_tag_XECYJJ": {
+          "disabled": false,
+          "settings": {
+            "heading": "Buy any <strong>1kg bag</strong> of BearWell protein and receive a <strong>FREE sachet pack. </strong>Just add your favourite 1kg bag with any sachet pack to activate the offer"
+          }
+        }
+      }
+    }
+  }
+}
