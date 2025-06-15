@@ -98,7 +98,7 @@
     "custom_5_button_background_color": "#450e2b",
     "custom_5_button_text_color": "#efe4eb",
     "custom_5_outline_button_background_color": "#450e2b",
-    "custom_5_outline_button_text_color": "#411f16",
+    "custom_5_outline_button_text_color": "#450e2b",
     "custom_5_image_overlay": "#000000",
     "default_img_ratio": "square",
     "show_vendor": false,
