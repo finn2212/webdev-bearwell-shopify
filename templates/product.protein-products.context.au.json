@@ -17,7 +17,7 @@
       "settings": {},
       "blocks": {
         "information_tag_XECYJJ": {
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "heading": "Buy any <strong>1kg bag</strong> of BearWell protein and receive a <strong>FREE sachet pack. </strong>Just add your favourite 1kg bag with any sachet pack to activate the offer"
           }
@@ -55,6 +55,13 @@
         "collapsible_row_9Twqqx",
         "custom_liquid_xazznw"
       ]
+    },
+    "product-recommendations": {
+      "settings": {
+        "img_ratio": "portrait",
+        "mobile_space_between_cards": 14
+      },
+      "blocks": {}
     }
   }
 }
