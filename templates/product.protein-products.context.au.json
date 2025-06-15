@@ -17,12 +17,44 @@
       "settings": {},
       "blocks": {
         "information_tag_XECYJJ": {
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "heading": "Buy any <strong>1kg bag</strong> of BearWell protein and receive a <strong>FREE sachet pack. </strong>Just add your favourite 1kg bag with any sachet pack to activate the offer"
           }
+        },
+        "badges_B6JHwk": {
+          "settings": {
+            "show_sale_badge": true
+          }
+        },
+        "judge_me_reviews_preview_badge_F9K4Gn": {
+          "disabled": false,
+          "settings": {}
         }
-      }
+      },
+      "block_order": [
+        "information_tag_XECYJJ",
+        "badges_B6JHwk",
+        "judge_me_reviews_preview_badge_F9K4Gn",
+        "custom_liquid_KdCj4X",
+        "custom_liquid_hMGThR",
+        "price",
+        "custom_liquid_NCybze",
+        "siblings_QAMKJL",
+        "siblings_QAGjP7",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "quantity_selector",
+        "appstle_subscription_appstle_subscription_product_page_widget_RXMcgR",
+        "buy_buttons",
+        "custom_liquid_9LeV7y",
+        "custom_liquid_bG7ctW",
+        "28586830-d855-4547-8946-94914bac9e85",
+        "collapsible_row_iD8YaL",
+        "collapsible_row_tWN9jT",
+        "collapsible_row_EG64DM",
+        "collapsible_row_9Twqqx",
+        "custom_liquid_xazznw"
+      ]
     }
   }
 }
