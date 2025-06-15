@@ -114,7 +114,7 @@
           "settings": {
             "label": "{{ product.metafields.custom.size_links_label.value }}",
             "product_list": "{{ product.metafields.custom.size_links_list.value.product_list.value }}",
-            "metafield_sibling_value": "",
+            "metafield_sibling_value": "{{ product.metafields.custom.products_siblings_label.value }}",
             "swatch_type": "variant-images-as-links",
             "swatch_shape": "square",
             "swatch_size": 1,
