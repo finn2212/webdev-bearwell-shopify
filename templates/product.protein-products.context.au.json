@@ -31,6 +31,12 @@
           "disabled": false,
           "settings": {}
         },
+        "custom_liquid_KdCj4X": {
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<div style=\"margin-bottom: 1rem;\">\n  <div style=\"\n    display: inline-block;\n    border: 1.5px solid #450E2B;\n    border-radius: 20px;\n    padding: 5px 12px;\n    font-size: 14px;\n    font-weight: 500;\n    white-space: nowrap;\">\n    33 serves. Only {{ product.price | divided_by: 33 | money_without_trailing_zeros }} per scoop.\n  </div>\n</div>\n<p style=\"margin-bottom: 1.5rem;\">"
+          }
+        },
         "custom_liquid_JdwPkY": {
           "type": "custom_liquid",
           "disabled": false,
@@ -42,11 +48,6 @@
             "icon": "none",
             "custom_icon_image": null,
             "icon_size": 24
-          }
-        },
-        "custom_liquid_KdCj4X": {
-          "settings": {
-            "custom_liquid": "<div style=\"margin-bottom: 1rem;\">\n  <div style=\"\n    display: inline-block;\n    border: 1.5px solid #450E2B;\n    border-radius: 20px;\n    padding: 5px 12px;\n    font-size: 14px;\n    font-weight: 500;\n    white-space: nowrap;\">\n    33 serves. Only {{ product.price | divided_by: 33 | money_without_trailing_zeros }} per scoop.\n  </div>\n</div>\n<p style=\"margin-bottom: 1.5rem;\">"
           }
         }
       },
