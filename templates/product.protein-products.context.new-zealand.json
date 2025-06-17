@@ -12,5 +12,33 @@
   "context": {
     "market": "new-zealand"
   },
-  "sections": {}
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "information_tag_XECYJJ",
+        "badges_B6JHwk",
+        "custom_liquid_KdCj4X",
+        "judge_me_reviews_preview_badge_F9K4Gn",
+        "custom_liquid_hMGThR",
+        "price",
+        "custom_liquid_NCybze",
+        "siblings_QAMKJL",
+        "siblings_QAGjP7",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "quantity_selector",
+        "appstle_subscription_appstle_subscription_product_page_widget_RXMcgR",
+        "buy_buttons",
+        "custom_liquid_9LeV7y",
+        "custom_liquid_bG7ctW",
+        "28586830-d855-4547-8946-94914bac9e85",
+        "collapsible_row_iD8YaL",
+        "collapsible_row_tWN9jT",
+        "collapsible_row_EG64DM",
+        "collapsible_row_9Twqqx",
+        "custom_liquid_xazznw"
+      ]
+    }
+  }
 }
