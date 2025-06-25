@@ -17,16 +17,16 @@
       "disabled": false,
       "settings": {},
       "blocks": {
-        "image_banner_jg6iwJ": {
-          "disabled": true,
-          "settings": {}
-        },
         "image_banner_73d443": {
           "settings": {
             "desktop_img": "shopify://shop_images/The_Journey_844fdce1-14d6-4351-8615-89031d33999a.webp",
-            "video": null,
-            "mobile_img": "shopify://shop_images/The_Journey_fed03d2b-b983-4baa-a1f7-add11d612911.webp"
+            "mobile_img": "shopify://shop_images/The_Journey_fed03d2b-b983-4baa-a1f7-add11d612911.webp",
+            "video": null
           }
+        },
+        "image_banner_jg6iwJ": {
+          "disabled": true,
+          "settings": {}
         }
       }
     },
@@ -40,7 +40,7 @@
       "blocks": {
         "announcement_hRKW3R": {
           "settings": {
-            "announcement_text": ""
+            "announcement_text": "*Applies to Sachet Boxes of Protein Concentrate only."
           }
         }
       }
