@@ -16,7 +16,8 @@
           "type": "image-banner",
           "settings": {
             "color_scheme": "white",
-            "video": "shopify://files/videos/One For home promo.mp4",
+            "desktop_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
+            "mobile_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
             "desktop_overlay_opacity": 7,
             "mobile_overlay_opacity": 7,
             "caption": "",
