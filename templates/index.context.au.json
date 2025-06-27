@@ -22,6 +22,12 @@
         "image_banner_jg6iwJ": {
           "disabled": true,
           "settings": {}
+        },
+        "image_banner_73d443": {
+          "settings": {
+            "desktop_img": "shopify://shop_images/Asset_4x5_1674e308-1115-4238-bafd-c99cd240899b.gif",
+            "mobile_img": "shopify://shop_images/Asset_4x5_1674e308-1115-4238-bafd-c99cd240899b.gif"
+          }
         }
       }
     },
