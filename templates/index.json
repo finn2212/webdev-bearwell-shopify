@@ -16,8 +16,8 @@
           "type": "image-banner",
           "settings": {
             "color_scheme": "white",
-            "desktop_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
-            "mobile_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
+            "desktop_img": "shopify://shop_images/The_Journey_844fdce1-14d6-4351-8615-89031d33999a.webp",
+            "mobile_img": "shopify://shop_images/The_Journey.webp",
             "desktop_overlay_opacity": 7,
             "mobile_overlay_opacity": 7,
             "caption": "",
