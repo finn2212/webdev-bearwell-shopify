@@ -20,13 +20,14 @@
       },
       "blocks": {
         "image_banner_73d443": {
+          "disabled": true,
           "settings": {
             "desktop_img": "shopify://shop_images/Asset_4_16x9_f7b783e6-c7f1-41ba-9723-a6ab0da70254.gif",
             "mobile_img": "shopify://shop_images/Asset_4x5_af749138-78b3-4d2c-a59c-dcc9aee313dd.gif"
           }
         },
         "image_banner_jg6iwJ": {
-          "disabled": true,
+          "disabled": false,
           "settings": {}
         }
       }
@@ -36,6 +37,16 @@
         "desktop_ratio": 0.8
       },
       "blocks": {}
+    },
+    "scrolling_text_U8WdUD": {
+      "settings": {},
+      "blocks": {
+        "announcement_hRKW3R": {
+          "settings": {
+            "announcement_text": "SOLD OUT, new batch is coming mid august. Subscribe for updates"
+          }
+        }
+      }
     }
   }
 }
