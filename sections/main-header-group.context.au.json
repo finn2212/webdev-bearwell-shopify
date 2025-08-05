@@ -18,6 +18,7 @@
       "settings": {},
       "blocks": {
         "announcement_h9EFXX": {
+          "disabled": true,
           "settings": {
             "text": "<h6><strong>Buy 1kg – Get a Sachet Pack FREE.</strong></h6>",
             "link": "shopify://products/whey-protein-concentrate-smooth-vanilla",
@@ -25,18 +26,28 @@
           }
         },
         "announcement_XrnmdH": {
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "link": "shopify://products/whey-protein-concentrate-30g-sachet-smooth-vanilla"
           }
         },
         "announcement_cAJcg": {
           "type": "announcement",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "text": "<h6><strong>Mighty THREE deal. Buy 2, Get 1 Free!</strong></h6>",
             "link": "shopify://collections/whey-protein-concentrate",
             "icon": "discount-outline",
+            "custom_icon_image": null
+          }
+        },
+        "announcement_yPwtT": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "<p>SOLD OUT, NEW BATHC IS AVAILABLE MID AUGUST</p>",
+            "link": "",
+            "icon": "none",
             "custom_icon_image": null
           }
         }
@@ -44,7 +55,8 @@
       "block_order": [
         "announcement_h9EFXX",
         "announcement_XrnmdH",
-        "announcement_cAJcg"
+        "announcement_cAJcg",
+        "announcement_yPwtT"
       ]
     }
   }
