@@ -25,7 +25,7 @@
           }
         },
         "announcement_XrnmdH": {
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "text": "<h6><strong>Buy 2 Sachet Boxes*, Get 1 FREE!</strong></h6>"
           }
@@ -36,8 +36,24 @@
             "text": "<h6><strong>Buy One Sample - Get One Free</strong></h6>",
             "icon": "gift"
           }
+        },
+        "announcement_Wd9B3": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "<p>SOLD OUT, NEW STOCK IS DUE MID AUGUST</p>",
+            "link": "",
+            "icon": "none",
+            "custom_icon_image": null
+          }
         }
-      }
+      },
+      "block_order": [
+        "announcement_h9EFXX",
+        "announcement_XrnmdH",
+        "announcement_bh4JMM",
+        "announcement_Wd9B3"
+      ]
     }
   }
 }
