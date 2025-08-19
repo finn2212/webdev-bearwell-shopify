@@ -1,0 +1,64 @@
+{%- comment -%}
+Global BreadcrumbList JSON-LD (no UI). Covers:
+- product → Home › (Collection if present) › Product
+- collection/blog/article/page/search
+Skips home, cart/checkout/account/404. Safe for AU/NZ domains via {{ shop.url }}.
+{%- endcomment -%}
+{%- assign skip_types = 'index,cart,checkout,customers,404' | split: ',' -%}
+{%- if skip_types contains request.page_type -%}{% break %}{%- endif -%}
+
+{%- assign pos = 1 -%}
+{%- capture items -%}
+{ "@type":"ListItem","position":{{ pos }},"name":"Home","item":{{ shop.url | json }} }
+{%- assign pos = pos | plus: 1 -%}
+
+{%- case request.page_type -%}
+
+  {%- when 'product' -%}
+    {%- assign coll = collection -%}
+    {%- if coll == nil and product and product.collections and product.collections.size > 0 -%}
+      {%- assign coll = product.collections.first -%}
+    {%- endif -%}
+    {%- if coll -%}
+    ,{ "@type":"ListItem","position":{{ pos }},"name":{{ coll.title | strip | json }},"item":{{ (shop.url | append: coll.url) | json }} }
+    {%- assign pos = pos | plus: 1 -%}
+    {%- endif -%}
+    ,{ "@type":"ListItem","position":{{ pos }},"name":{{ product.title | strip | json }},"item":{{ (shop.url | append: product.url) | json }} }
+
+  {%- when 'collection' -%}
+    {%- if collection -%}
+    ,{ "@type":"ListItem","position":{{ pos }},"name":{{ collection.title | strip | json }},"item":{{ (shop.url | append: collection.url) | json }} }
+    {%- endif -%}
+
+  {%- when 'blog' -%}
+    {%- if blog -%}
+    ,{ "@type":"ListItem","position":{{ pos }},"name":{{ blog.title | strip | json }},"item":{{ (shop.url | append: blog.url) | json }} }
+    {%- endif -%}
+
+  {%- when 'article' -%}
+    {%- if article -%}
+    ,{ "@type":"ListItem","position":{{ pos }},"name":{{ article.blog.title | strip | json }},"item":{{ (shop.url | append: article.blog.url) | json }} }
+    {%- assign pos = pos | plus: 1 -%}
+    ,{ "@type":"ListItem","position":{{ pos }},"name":{{ article.title | strip | json }},"item":{{ (shop.url | append: article.url) | json }} }
+    {%- endif -%}
+
+  {%- when 'page' -%}
+    {%- if page -%}
+    ,{ "@type":"ListItem","position":{{ pos }},"name":{{ page.title | strip | json }},"item":{{ (shop.url | append: page.url) | json }} }
+    {%- endif -%}
+
+  {%- when 'search' -%}
+    ,{ "@type":"ListItem","position":{{ pos }},"name":"Search","item":{{ (shop.url | append: '/search?q=' | append: search.terms | url_encode) | json }} }
+
+{%- endcase -%}
+{%- endcapture -%}
+
+{%- if items and items != blank -%}
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[{{ items | strip }}]
+}
+</script>
+{%- endif -%}
