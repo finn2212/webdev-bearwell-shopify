@@ -2,10 +2,12 @@
 Global BreadcrumbList JSON-LD (no UI). Covers:
 - product → Home › (Collection if present) › Product
 - collection/blog/article/page/search
-Skips home, cart/checkout/account/404. Safe for AU/NZ domains via {{ shop.url }}.
+Skips home, cart/checkout/account/404.
 {%- endcomment -%}
+
 {%- assign skip_types = 'index,cart,checkout,customers,404' | split: ',' -%}
-{%- if skip_types contains request.page_type -%}{% break %}{%- endif -%}
+{%- if skip_types contains request.page_type -%}{% endif -%}
+{%- unless skip_types contains request.page_type -%}
 
 {%- assign pos = 1 -%}
 {%- capture items -%}
@@ -15,10 +17,33 @@ Skips home, cart/checkout/account/404. Safe for AU/NZ domains via {{ shop.url }}
 {%- case request.page_type -%}
 
   {%- when 'product' -%}
+    {%- comment -%} pick best collection {%- endcomment -%}
     {%- assign coll = collection -%}
-    {%- if coll == nil and product and product.collections and product.collections.size > 0 -%}
-      {%- assign coll = product.collections.first -%}
+
+    {%- if coll == nil -%}
+      {%- if product.metafields.custom.primary_collection and product.metafields.custom.primary_collection.value -%}
+        {%- assign coll = product.metafields.custom.primary_collection.value -%}
+      {%- endif -%}
     {%- endif -%}
+
+    {%- if coll == nil -%}
+      {%- assign preferred_handles = 'protein-powder|whey-concentrate|whey-isolate|accessories|samples' | split: '|' -%}
+      {%- for c in product.collections -%}
+        {%- if preferred_handles contains c.handle -%}
+          {%- assign coll = c -%}{%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if coll == nil -%}
+      {%- assign generic = 'best-sellers,frontpage,all,new,sale' | split: ',' -%}
+      {%- for c in product.collections -%}
+        {%- unless generic contains c.handle -%}
+          {%- assign coll = c -%}{%- break -%}
+        {%- endunless -%}
+      {%- endfor -%}
+    {%- endif -%}
+
     {%- if coll -%}
     ,{ "@type":"ListItem","position":{{ pos }},"name":{{ coll.title | strip | json }},"item":{{ (shop.url | append: coll.url) | json }} }
     {%- assign pos = pos | plus: 1 -%}
@@ -62,3 +87,5 @@ Skips home, cart/checkout/account/404. Safe for AU/NZ domains via {{ shop.url }}
 }
 </script>
 {%- endif -%}
+
+{%- endunless -%}
