@@ -281,6 +281,9 @@
         "column_with_icon_mGByB7",
         "column_with_icon_qeGCA3"
       ],
+      "custom_css": [
+        ".multicolumn__column-title {font-size: 2rem;}"
+      ],
       "settings": {
         "color_scheme": "default",
         "container_size": "medium",
