@@ -316,6 +316,95 @@
         "mobile_spacing_bottom": 50
       }
     },
+    "multicolumn_gagTLK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_JCUKhc": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/New_Zealand_e84a3f41-fb59-4f73-88ac-907338206ed9.png",
+            "icon_size": 64,
+            "title": "Made in New Zealand",
+            "text": "<p>A home of natural beauty, abundant with clean water, fresh air and fertile soil that raises the happiest cows. </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_XCD7xF": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/All_natural_2790986b-c632-4f18-8f8f-09c3bc24f635.png",
+            "icon_size": 64,
+            "title": "All Natural",
+            "text": "<p>No artificial additives—just pure, simple ingredients that give you a nutritious and delicious experience.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_TcwP43": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/Grass-fed.png",
+            "icon_size": 64,
+            "title": "Grass-Fed",
+            "text": "<p>The highest quality protein derived from New Zealand grass-fed cows that roam freely all year round.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_bGfc3U": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/No_Gums_or_Thickeners.png",
+            "icon_size": 64,
+            "title": "No Gums or Thickeners",
+            "text": "<p>No fillers or additives that impacts your digestive system. Just quality, purity and an amazing taste.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_JCUKhc",
+        "column_with_icon_XCD7xF",
+        "column_with_icon_TcwP43",
+        "column_with_icon_bGfc3U"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "enable_mountains": false,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "",
+        "heading_size": "h3",
+        "text": "",
+        "body_size": "body4",
+        "content_alignment": "center",
+        "column_heading_size": "h6",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 25,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 0,
+        "show_column_background": false,
+        "show_navigation_on_hover": false,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 70
+      }
+    },
     "multicolumn_MwcD9E": {
       "type": "multicolumn",
       "blocks": {
@@ -516,7 +605,10 @@
       "blocks": {
         "judge_me_reviews_review_widget_reQjRf": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
@@ -563,6 +655,7 @@
   "order": [
     "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
     "main",
+    "multicolumn_gagTLK",
     "multicolumn_MwcD9E",
     "scrolling_text_ghXTre",
     "images_with_text_NjXMAj",
