@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_h9EFXX": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Buy 1kg – Get a Sachet Pack FREE.</strong></p>",
             "link": "",
@@ -33,6 +34,7 @@
         },
         "announcement_bh4JMM": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Buy One Sample - Get One Free</strong></p>",
             "link": "shopify://products/whey-protein-concentrate-30g-sachet-smooth-vanilla",
