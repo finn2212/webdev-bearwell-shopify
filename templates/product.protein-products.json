@@ -255,7 +255,7 @@
         "collapsible_row_rNjLRp": {
           "type": "collapsible_row",
           "settings": {
-            "style": "collapsible_row_open",
+            "style": "collapsible_row_closed",
             "title": "Shipping & Delivery Information",
             "heading_size": "h6",
             "icon": "none",
