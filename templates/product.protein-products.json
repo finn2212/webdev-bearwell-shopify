@@ -230,7 +230,7 @@
             "icon_size": 20,
             "show_nutritional_table": true,
             "show_amino_table": false,
-            "text": "<p>{{ product.metafields.custom.nutritional_information | metafield_tag }}</p>",
+            "text": "{{ product.metafields.custom.nutritional_information | metafield_tag }}",
             "page": "",
             "body_size": "body6",
             "image_width": 60
