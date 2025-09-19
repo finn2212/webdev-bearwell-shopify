@@ -1,5 +1,11 @@
-<product-info class='product__info-wrapper' id='ProductInfoWrapper-{{ product.id }}-{{ sectionId }}' {%- if block_layout contains 'column' -%}data-with-scrolltrack{%- endif -%}>
-  <div class='product__info'>
+<product-info
+  class="product__info-wrapper"
+  id="ProductInfoWrapper-{{ product.id }}-{{ sectionId }}"
+  {%- if block_layout contains 'column' -%}
+    data-with-scrolltrack
+  {%- endif -%}
+>
+  <div class="product__info">
     {%- liquid
       for block in section.blocks
         case block.type
@@ -54,5 +60,53 @@
         endcase
       endfor
     -%}
+
+    {% comment %} Shipping & Delivery FP Workaround {% endcomment %}
+
+    <accordeon-component
+      class="accordeon-plus accordeon-plus--bottom-bordered accordeon-plus--top-bordered product-content-tab product-content-tab--collapsible-row block-collapsible_row_tWN9jT"
+      data-aria-expanded="false"
+    >
+      <accordeon-button class="product-content-tab__btn h6" tabindex="0"
+        >Shipping & Delivery
+        <svg
+          class="accordeon-plus__icon"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-labelledby="title"
+          role="img"
+        >
+          <path d="M7 12H17" stroke="currentColor" stroke-width="2"></path>        <path d="M12 7L12 17" stroke="currentColor" stroke-width="2"></path>        <title id="title">Plus</title>
+        </svg>
+      </accordeon-button>
+      <div
+        class="accordeon-plus__content-wrap body-font-weight-from-global-settings"
+        data-accordeon-content-wrap=""
+        style="max-height: 0px;"
+      >
+        <div class="accordeon-plus__content product-content-tab__content" data-accordeon-content="">
+          <div class="rte product-content-tab__rte body6 body-color">
+            <div class="metafield-rich_text_field">
+              <h4><strong>New Zealand</strong></h4>
+              <p>
+                <strong>Cut-Off Time for Same Day Dispatch:</strong> 1:00 pm NZST<br>
+                <strong>Standard Delivery:</strong> Next day (South Island), 3-4 days (North Island) plus 1-3 days if
+                rural<br>
+                <strong>Express Delivery:</strong> 1-2 business days (major cities)
+              </p>
+              <h4><strong>Australia</strong></h4>
+              <p>
+                <strong>Cut-Off Time for Same Day Dispatch:</strong> 2:00 pm AEDT<br>
+                <strong>Standard Delivery:</strong> 2-4 business days (VIC), 3-5 days (Interstate)<br>
+                <strong>Express Delivery:</strong> 1-2 business days (VIC), 2-3 days (Interstate)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </accordeon-component>
   </div>
 </product-info>
