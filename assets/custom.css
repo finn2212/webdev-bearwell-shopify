@@ -2579,3 +2579,58 @@ div.header__item--on-click-toggler{
     z-index:1;
   }
 }
+
+.firstpage-custom-collection [type="checkbox"] {
+              display: none;
+            }
+
+
+            .firstpage-custom-collection label {
+              display: block;
+              cursor: pointer;
+            }
+   .firstpage-custom-collection input[type="checkbox"]~div {
+              width: 100%;
+              overflow: hidden;
+              max-height: 0;
+            }
+
+            .firstpage-custom-collection [type="checkbox"]:checked~div {
+              max-height: 9999px;
+            }
+
+            .firstpage-custom-collection [type="checkbox"]:checked+label {
+              top: 100%;
+            }
+
+            .firstpage-custom-collection label:before {
+              content: 'Read More';
+              text-decoration: underline;
+            }
+
+            .firstpage-custom-collection [type="checkbox"]:checked+label:before {
+              content: 'Read Less';
+            }
+            .firstpage-custom-collection h2{
+			font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.firstpage-home-content {
+    display: block;
+    margin: 0 auto;
+    max-width: 1300px;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.firstpage-home-content li{
+text-align: left;
+}
+.firstpage-custom-collection h3
+{
+font-weight: 600;
+}
+.firstpage-custom-collection a {
+    text-decoration: underline;
+}
