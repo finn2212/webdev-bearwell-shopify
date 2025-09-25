@@ -47,7 +47,6 @@
     },
     "page": {
       "type": "page",
-      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "container_size": "xsmall",
@@ -89,6 +88,7 @@
         "heading_PHHYQL",
         "text_MDb7aq"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "enable_background_around_container": false,
