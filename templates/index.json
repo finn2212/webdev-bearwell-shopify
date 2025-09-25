@@ -457,7 +457,7 @@
     "custom_liquid_MAnzJT": {
       "type": "custom-liquid",
       "custom_css": [
-        ".firstpage-custom-collection {margin: 0 auto; display: block; max-width: 1500px; text-align: center;}",
+        ".firstpage-custom-collection {margin: 0 auto; display: block; max-width: 800px; text-align: center;}",
         "ul {list-style-position: inside;}"
       ],
       "settings": {
