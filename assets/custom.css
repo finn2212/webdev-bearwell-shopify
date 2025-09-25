@@ -2611,10 +2611,10 @@ div.header__item--on-click-toggler{
             .firstpage-custom-collection [type="checkbox"]:checked+label:before {
               content: 'Read Less';
             }
-            .firstpage-custom-collection h2{
-			font-size: 20px;
-    margin-top: 10px;
-    font-weight: 500;
+.firstpage-custom-collection h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 .firstpage-home-content {
     display: block;
@@ -2629,7 +2629,8 @@ text-align: left;
 }
 .firstpage-custom-collection h3
 {
-font-weight: 600;
+    font-size: 25px;
+    margin-top: 20px;
 }
 .firstpage-custom-collection a {
     text-decoration: underline;
