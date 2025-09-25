@@ -458,7 +458,6 @@
       "type": "custom-liquid",
       "custom_css": [
         ".firstpage-custom-collection {margin: 0 auto; display: block; max-width: 800px;}",
-        "ul {list-style-position: inside;}",
         "h1 {font-size: 25px;}",
         "h1,h2,h3 {text-align: center;}"
       ],
