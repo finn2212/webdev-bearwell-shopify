@@ -2588,6 +2588,7 @@ div.header__item--on-click-toggler{
             .firstpage-custom-collection label {
               display: block;
               cursor: pointer;
+              margin-top: 5px;
             }
    .firstpage-custom-collection input[type="checkbox"]~div {
               width: 100%;
