@@ -2635,3 +2635,6 @@ text-align: left;
 .firstpage-custom-collection a {
     text-decoration: underline;
 }
+.firstpage-custom-collection p{
+    margin-top: 10px;
+}
