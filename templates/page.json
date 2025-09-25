@@ -100,11 +100,49 @@
         "section_spacing_top": 19,
         "section_spacing_bottom": 0
       }
+    },
+    "collection_list_ph9HeQ": {
+      "type": "collection-list",
+      "name": "t:sections.collection_list.name",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "title": "Featured Products",
+        "heading_size": "h5",
+        "alignment": "center",
+        "collection_list": [
+          "samples",
+          "protein-powder",
+          "unflavoured-whey-protein",
+          "whey-protein-concentrate",
+          "whey-protein-isolate"
+        ],
+        "img_ratio": "default",
+        "text_style": "on-image-bottom",
+        "collection_card_content_align": "center",
+        "collection_card_heading_size": "h6",
+        "show_product_count": "caption",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "collection_card_overlay_opacity": 10,
+        "collection_card_overlay_color": "#000",
+        "collection_card_title_color": "#fff",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
     }
   },
   "order": [
     "image_banner_zFTQKG",
     "page",
-    "rich_text_AEhLiw"
+    "rich_text_AEhLiw",
+    "collection_list_ph9HeQ"
   ]
 }
