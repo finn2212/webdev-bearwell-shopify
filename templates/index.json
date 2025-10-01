@@ -196,6 +196,7 @@
       "block_order": [
         "announcement_hRKW3R"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "container_size": "full-screen",
@@ -457,7 +458,7 @@
     "custom_liquid_MAnzJT": {
       "type": "custom-liquid",
       "custom_css": [
-        ".firstpage-custom-collection {margin: 0 auto; display: block; max-width: 800px; }",
+        ".firstpage-custom-collection {margin: 0 auto; display: block; max-width: 800px;}",
         "h1 {font-size: 25px;}",
         "h1,h2,h3 {text-align: center;}"
       ],
