@@ -26,9 +26,10 @@
           }
         },
         "announcement_XrnmdH": {
-          "disabled": true,
+          "disabled": false,
           "settings": {
-            "link": "shopify://products/whey-protein-concentrate-30g-sachet-smooth-vanilla"
+            "link": "shopify://products/whey-protein-concentrate-30g-sachet-smooth-vanilla",
+            "text": "<h6><strong>FREE samples💥 Buy 1, Get 1 Free. Add both to activate</strong></h6>"
           }
         },
         "announcement_cAJcg": {
@@ -43,7 +44,7 @@
         },
         "announcement_yPwtT": {
           "type": "announcement",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "text": "<p>SOLD OUT, NEW BATHC IS AVAILABLE LATE SEPTEMBER</p>",
             "link": "",
