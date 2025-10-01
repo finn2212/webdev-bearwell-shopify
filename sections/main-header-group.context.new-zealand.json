@@ -39,9 +39,9 @@
         },
         "announcement_Wd9B3": {
           "type": "announcement",
-          "disabled": false,
+          "disabled": true,
           "settings": {
-            "text": "<p>NEW BATCH IN STOCK!</p>",
+            "text": "<p>NEW BATCH IS IN STOCK!</p>",
             "link": "",
             "icon": "none",
             "custom_icon_image": null
