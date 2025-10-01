@@ -41,7 +41,7 @@
           "type": "announcement",
           "disabled": true,
           "settings": {
-            "text": "<p>NEW BATCH IS IN STOCK!</p>",
+            "text": "<h6><strong>FREE samples💥 Buy 1, Get 1 Free. Add both to activate</strong></h6>",
             "link": "",
             "icon": "none",
             "custom_icon_image": null
