@@ -59,7 +59,7 @@
           "type": "custom_liquid",
           "settings": {
             "style": "static",
-            "title": "{{ product.title }}",
+            "title": "",
             "heading_size": "h1",
             "custom_liquid": "<h2>{{ product.title | split: ' - ' | first }}</h2>",
             "icon": "none",
