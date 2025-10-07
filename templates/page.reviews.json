@@ -12,7 +12,7 @@
     "image_banner_zFTQKG": {
       "type": "image-banner",
       "custom_css": [
-        "h1 {font-size: 48px !important; line-height: 1.5em !important;}"
+        "h2 {font-size: 48px !important; line-height: 1.5em !important;}"
       ],
       "settings": {
         "color_scheme": "custom-1",
@@ -27,7 +27,7 @@
         "caption": "",
         "title": "",
         "heading_size": "h2",
-        "text": "<h1>Customer Reviews</h1><p></p>",
+        "text": "<h2>Customer Reviews</h2><p></p>",
         "body_size": "body0",
         "desktop_content_position": "align-items:center;justify-content:center;",
         "desktop_content_align": "center",
