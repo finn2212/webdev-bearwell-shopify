@@ -79,7 +79,6 @@
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "price_size": "xs",
             "show_tax_status": false,
