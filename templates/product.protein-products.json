@@ -55,13 +55,19 @@
             "show_custom_3_badge": true
           }
         },
+        "title_7L6Fda": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
         "custom_liquid_KdCj4X": {
           "type": "custom_liquid",
           "settings": {
             "style": "static",
             "title": "",
             "heading_size": "caption3",
-            "custom_liquid": "<h1>{{ product.title }}</h1>",
+            "custom_liquid": "",
             "icon": "none",
             "icon_size": 24
           }
@@ -271,6 +277,7 @@
       "block_order": [
         "information_tag_XECYJJ",
         "badges_B6JHwk",
+        "title_7L6Fda",
         "custom_liquid_KdCj4X",
         "custom_liquid_hMGThR",
         "price",
