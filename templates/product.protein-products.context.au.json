@@ -17,7 +17,7 @@
       "settings": {},
       "blocks": {
         "information_tag_XECYJJ": {
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "heading": "Buy any <strong>1kg bag</strong> of BearWell protein and receive a <strong>FREE sachet pack. </strong>Just add your favourite 1kg bag with any sachet pack to activate the offer"
           }
@@ -33,10 +33,6 @@
             "custom_liquid": "<div style=\"margin-bottom: 1rem;\">\n  <div style=\"\n    display: inline-block;\n    border: 1.5px solid #450E2B;\n    border-radius: 20px;\n    padding: 5px 12px;\n    font-size: 14px;\n    font-weight: 500;\n    white-space: nowrap;\">\n    33 serves. Only {{ product.price | divided_by: 33 | money_without_trailing_zeros }} per scoop.\n  </div>\n</div>\n<p style=\"margin-bottom: 1.5rem;\">"
           }
         },
-        "judge_me_reviews_preview_badge_F9K4Gn": {
-          "disabled": false,
-          "settings": {}
-        },
         "custom_liquid_JdwPkY": {
           "type": "custom_liquid",
           "disabled": false,
@@ -49,6 +45,10 @@
             "custom_icon_image": null,
             "icon_size": 24
           }
+        },
+        "judge_me_reviews_preview_badge_F9K4Gn": {
+          "disabled": false,
+          "settings": {}
         }
       },
       "block_order": [
