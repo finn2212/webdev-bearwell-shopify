@@ -50,9 +50,11 @@
         {{ title }}
       </div>
     {% endif %}
+    {% if custom_liquid != blank %}
       <div class='rte product-content-tab__rte body-color'>
-    <h1>{{ product.title}}</h1>
+        {{ custom_liquid }}
         
       </div>
     {% endif %}
   </div>
+{%- endif -%}
