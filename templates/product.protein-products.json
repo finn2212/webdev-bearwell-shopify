@@ -68,6 +68,7 @@
         },
         "custom_liquid_hMGThR": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "style": "static",
             "title": "",
