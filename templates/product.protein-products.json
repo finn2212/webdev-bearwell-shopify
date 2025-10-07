@@ -79,6 +79,7 @@
         },
         "title_irexRH": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_size": "h2"
           }
