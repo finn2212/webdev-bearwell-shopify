@@ -34,6 +34,7 @@
   </accordeon-component>
 {%- else -%}
   <div class='product-content-tab block-{{ block.id }}' {{ block.shopify_attributes }}>
+    {%- comment -%}
     {% if title != blank %}
       <div class='product-content-tab__title {{ heading_size }}'>
         {%- if custom_icon_image != blank -%}
@@ -50,6 +51,7 @@
         {{ title }}
       </div>
     {% endif %}
+     {%- endcomment -%}
     {% if custom_liquid != blank %}
       <div class='rte product-content-tab__rte body-color'>
         {{ custom_liquid }}
