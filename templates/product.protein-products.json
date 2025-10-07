@@ -77,13 +77,6 @@
             "icon_size": 24
           }
         },
-        "title_irexRH": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-            "heading_size": "h2"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -280,7 +273,6 @@
         "badges_B6JHwk",
         "custom_liquid_KdCj4X",
         "custom_liquid_hMGThR",
-        "title_irexRH",
         "price",
         "custom_liquid_NCybze",
         "siblings_QAMKJL",
