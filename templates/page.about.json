@@ -1,1 +1,98 @@
-{"sections":{"image_banner_zFTQKG":{"type":"image-banner","settings":{"color_scheme":"custom-1","enable_background_around_container":true,"container_size":"full-screen","desktop_ratio":0.3,"mobile_ratio":0.8,"desktop_img":"shopify:\/\/shop_images\/BearWell_About_Us.jpg","mobile_img":"shopify:\/\/shop_images\/BearWell_About_Us_mobile_029e478b-2cdd-4643-bac9-9d28d3046c34.jpg","desktop_overlay_opacity":0,"mobile_overlay_opacity":0,"show-mountain-overlay":true,"caption":"","title":"{{ page.title }}","heading_size":"h2","text":"","body_size":"body0","desktop_content_position":"align-items:center;justify-content:center;","desktop_content_align":"center","content_max_width":528,"content_spacing":116,"mobile_content_position":"align-items:center;justify-content:center;","mobile_content_align":"center","desktop_content_background":"none","mobile_content_background":"none","btn_text":"","btn_url":"","btn_style":"solid","extra_btn_text":"","extra_btn_url":"","extra_btn_style":"solid","add_side_paddings":false,"section_spacing_top":0,"section_spacing_bottom":0}},"rich_text_Q9qXjL":{"type":"rich-text","blocks":{"text_t6Jxmr":{"type":"text","settings":{"text":"<h3><strong>The Climb<\/strong><\/h3><p>Creating BearWell™ has been a climb of epic proportions. We’ve faced many challenges, learning and growing as we strive for the peak of perfection. Our goal has always been clear—to craft pure protein that will support you in your own journey, wherever it may lead.<\/p><h3><strong>The Origins of the Bear<\/strong><\/h3><p>As one of the strongest land animals, bears inspire us with their power and resilience. Before hibernation, they seek out the best fuel to endure the harshest conditions.<\/p><p>Like bears, we need the right fuel to stay strong and prepare for whatever life throws at us—whether it's achieving fitness goals, weight loss, or staying energized through daily challenges.<\/p><p>BearWell™ is committed to delivering pure, natural ingredients that keep you thriving, not just surviving, helping you perform at your best, no matter the terrain you track.<\/p><h3><strong>Tailored for Your Unique Journey<\/strong><\/h3><p>Just as bears thrive in diverse environments and conditions, we're here to help you reach your own peaks. Whether you're aiming to lose weight, build muscle, or maintain overall health, BearWell™ offers specialized products and guidance designed to help you achieve your goals.<\/p><p> <\/p><p><strong>Live Well. Stay Strong. BearWell™.<\/strong><\/p><p> <\/p>","text_2":"","text_3":"","body_size":"body3"}}},"block_order":["text_t6Jxmr"],"settings":{"color_scheme":"default","enable_background_around_container":false,"enable_mountains":false,"container_size":"xsmall","content_align":"left","max_content_width":800,"add_side_paddings":false,"section_spacing_top":64,"section_spacing_bottom":64}},"page":{"type":"page","disabled":true,"settings":{"color_scheme":"default","container_size":"xsmall","show_heading":false,"add_side_paddings":true,"section_spacing_top":96,"section_spacing_bottom":96}}},"order":["image_banner_zFTQKG","rich_text_Q9qXjL","page"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_zFTQKG": {
+      "type": "image-banner",
+      "custom_css": [
+        "h1 {font-size: 48px !important; line-height: 1.5em !important;}"
+      ],
+      "settings": {
+        "color_scheme": "custom-1",
+        "enable_background_around_container": true,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.3,
+        "mobile_ratio": 0.8,
+        "desktop_img": "shopify://shop_images/BearWell_About_Us.jpg",
+        "mobile_img": "shopify://shop_images/BearWell_About_Us_mobile_029e478b-2cdd-4643-bac9-9d28d3046c34.jpg",
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "show-mountain-overlay": true,
+        "caption": "",
+        "title": "",
+        "heading_size": "h2",
+        "text": "<h1>About</h1>",
+        "body_size": "body0",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": false,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "rich_text_Q9qXjL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_t6Jxmr": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>The Climb</strong></h3><p>Creating BearWell™ has been a climb of epic proportions. We’ve faced many challenges, learning and growing as we strive for the peak of perfection. Our goal has always been clear—to craft pure protein that will support you in your own journey, wherever it may lead.</p><h3><strong>The Origins of the Bear</strong></h3><p>As one of the strongest land animals, bears inspire us with their power and resilience. Before hibernation, they seek out the best fuel to endure the harshest conditions.</p><p>Like bears, we need the right fuel to stay strong and prepare for whatever life throws at us—whether it's achieving fitness goals, weight loss, or staying energized through daily challenges.</p><p>BearWell™ is committed to delivering pure, natural ingredients that keep you thriving, not just surviving, helping you perform at your best, no matter the terrain you track.</p><h3><strong>Tailored for Your Unique Journey</strong></h3><p>Just as bears thrive in diverse environments and conditions, we're here to help you reach your own peaks. Whether you're aiming to lose weight, build muscle, or maintain overall health, BearWell™ offers specialized products and guidance designed to help you achieve your goals.</p><p> </p><p><strong>Live Well. Stay Strong. BearWell™.</strong></p><p> </p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "text_t6Jxmr"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "enable_mountains": false,
+        "container_size": "xsmall",
+        "content_align": "left",
+        "max_content_width": 800,
+        "add_side_paddings": false,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 64
+      }
+    },
+    "page": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "xsmall",
+        "show_heading": false,
+        "add_side_paddings": true,
+        "section_spacing_top": 96,
+        "section_spacing_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "image_banner_zFTQKG",
+    "rich_text_Q9qXjL",
+    "page"
+  ]
+}
