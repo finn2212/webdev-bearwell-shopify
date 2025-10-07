@@ -25,6 +25,7 @@
       "blocks": {
         "information_tag_XECYJJ": {
           "type": "information_tag",
+          "disabled": true,
           "settings": {
             "tag_style": "solid",
             "heading": "Black Friday Deal: 20% off everything + free shipping! Limited time only.",
