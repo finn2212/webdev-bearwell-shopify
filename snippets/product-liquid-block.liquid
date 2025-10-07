@@ -38,16 +38,23 @@
  
     {% if title != blank %}
       <div class='product-content-tab__title {{ heading_size }}'>
-    
+        {%- if custom_icon_image != blank -%}
+          <img
+            {% render 'image-attributes',
+              image: custom_icon_image,
+              size: 'small',
+              class: 'product-content-tab__title-icon'
+            %}
+          >
+        {%- elsif icon != 'none' -%}
+          {% render 'icon-pack', icon: icon, class: 'product-content-tab__title-icon' %}
+        {%- endif -%}
+        {{ title}}
+       
       </div>
     {% endif %}
    
-    {% if custom_liquid != blank %}
-      <div class='rte product-content-tab__rte body-color'>
-        {{ custom_liquid }}
-     
-      </div>
-    {% endif %}
+   
   </div>
 
 {%- endif -%}
