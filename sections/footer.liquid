@@ -53,7 +53,7 @@
       {%- if section.blocks.size > 0 -%}
         <div class='card-grid footer__card-grid'>
           {%- for block in section.blocks -%}
-            {%- assign menu_index = 0 -%}
+            
             {%- case block.type -%}
               {%- when 'image' -%}
                 {%- assign image = block.settings.image -%}
@@ -224,21 +224,8 @@
                         <span class='underline-text__label'>{{ link.title }}</span>
                       </a>
                     {%- endfor -%}
- </div>
-                  </div>
-                  {%- assign menu_index = menu_index | plus: 1 -%}
 
-{%- if menu_index == 2 -%}
-  <div id="popular-searches" class="footer__popular-searches">
-    <!-- Your Popular Searches HTML or JS code here -->
-    <h4 class="footer__title">Popular Searches</h4>
-    <ul class="footer__popular-list">
-      <li><a href="/search?q=Protein">Protein</a></li>
-      <li><a href="/search?q=Vitamins">Vitamins</a></li>
-      <li><a href="/search?q=Collagen">Collagen</a></li>
-    </ul>
- 
-{%- endif -%}
+                  </div>
                 </div>
               {%- when 'custom_liquid' -%}
                 <div class='footer__block block-{{ block.id }}' {{ block.shopify_attributes }}>
