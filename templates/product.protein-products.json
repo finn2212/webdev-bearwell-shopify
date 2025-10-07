@@ -59,8 +59,8 @@
           "type": "custom_liquid",
           "settings": {
             "style": "static",
-            "title": "",
-            "heading_size": "caption3",
+            "title": "Why Protein Concentrate - Chocolate Mousse",
+            "heading_size": "h1",
             "custom_liquid": "",
             "icon": "none",
             "icon_size": 24
