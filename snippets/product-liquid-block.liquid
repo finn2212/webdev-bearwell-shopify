@@ -38,19 +38,7 @@
  
     {% if title != blank %}
       <div class='product-content-tab__title {{ heading_size }}'>
-        {%- if custom_icon_image != blank -%}
-          <img
-            {% render 'image-attributes',
-              image: custom_icon_image,
-              size: 'small',
-              class: 'product-content-tab__title-icon'
-            %}
-          >
-        {%- elsif icon != 'none' -%}
-          {% render 'icon-pack', icon: icon, class: 'product-content-tab__title-icon' %}
-        {%- endif -%}
-        {{ product.title}}
-       
+    
       </div>
     {% endif %}
    
