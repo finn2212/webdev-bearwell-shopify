@@ -353,28 +353,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </ul>
 </div>
 </div></div>
-      <script>
-(function($) {
-  $(document).ready(function() {
-        $(".fp-show-links-trigger").appendTo(".footer__block:nth-child(2)");
-        $(".fp-hide-links-trigger").appendTo(".footer__block:nth-child(2)");
-        $("#popular-searches").appendTo(".footer__block:nth-child(2)");
-     
-   $('#show-links').click(function(e) {
+     <script type="text/javascript">
+jQuery(document).ready(function($) {
 
-      $('#popular-searches').toggle();
-      $('#show-links').toggle();
-      $('#hide-links').toggle();
-    });
+  // Move elements under the 2nd footer block
+  $(".fp-show-links-trigger").appendTo(".footer__block:nth-child(2)");
+  $(".fp-hide-links-trigger").appendTo(".footer__block:nth-child(2)");
+  $("#popular-searches").appendTo(".footer__block:nth-child(2)");
 
-$('#hide-links').click(function(e) {
-
-      $('#popular-searches').toggle();
-      $('#show-links').toggle();
-      $('#hide-links').toggle();
-    });
+  // Handle "Show Links" click
+  $(document).on('click', '#show-links', function(e) {
+    e.preventDefault();
+    $('#popular-searches').toggle();
+    $('#show-links').toggle();
+    $('#hide-links').toggle();
   });
-})(jQuery);
+
+  // Handle "Hide Links" click
+  $(document).on('click', '#hide-links', function(e) {
+    e.preventDefault();
+    $('#popular-searches').toggle();
+    $('#show-links').toggle();
+    $('#hide-links').toggle();
+  });
+
+});
 </script>
 <style>
     #popular-searches, #hide-links {
