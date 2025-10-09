@@ -51,7 +51,15 @@
     },
     "featured_collection_LdHrMJ": {
       "custom_css": [],
-      "settings": {},
+      "settings": {
+        "featured_products": [
+          "whey-protein-concentrate-mixed-berry",
+          "whey-protein-concentrate-smooth-vanilla",
+          "whey-protein-isolate-30g-sachet",
+          "whey-protein-concentrate-sachet-box-chocolate-mousse",
+          "whey-protein-concentrate-unflavoured-flavour"
+        ]
+      },
       "blocks": {}
     }
   }
