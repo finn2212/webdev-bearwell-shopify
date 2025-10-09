@@ -106,7 +106,7 @@
     "show_color_count": false,
     "show_background": true,
     "enable_product_darken_background": false,
-    "product_card_rating_style": "none",
+    "product_card_rating_style": "stars_only",
     "product_card_price_size": "sm",
     "img_hover": "zoom",
     "show_quick_view": false,
