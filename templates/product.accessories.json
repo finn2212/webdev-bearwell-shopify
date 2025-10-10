@@ -45,6 +45,12 @@
             "icon_size": 24
           }
         },
+        "rating_VkBUt6": {
+          "type": "rating",
+          "settings": {
+            "rating_style": "stars_only"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -170,6 +176,7 @@
       "block_order": [
         "badges_B6JHwk",
         "custom_liquid_KdCj4X",
+        "rating_VkBUt6",
         "price",
         "custom_liquid_aFwNeA",
         "custom_liquid_pxYkDP",
@@ -212,6 +219,8 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget",
             "max_width": 1200
           }
         }
