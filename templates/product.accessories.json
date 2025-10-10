@@ -45,11 +45,9 @@
             "icon_size": 24
           }
         },
-        "rating_VkBUt6": {
-          "type": "rating",
-          "settings": {
-            "rating_style": "stars_only"
-          }
+        "judge_me_reviews_preview_badge_YUrbRU": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -176,7 +174,7 @@
       "block_order": [
         "badges_B6JHwk",
         "custom_liquid_KdCj4X",
-        "rating_VkBUt6",
+        "judge_me_reviews_preview_badge_YUrbRU",
         "price",
         "custom_liquid_aFwNeA",
         "custom_liquid_pxYkDP",
