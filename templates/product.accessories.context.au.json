@@ -12,5 +12,27 @@
   "context": {
     "market": "au"
   },
-  "sections": {}
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "badges_B6JHwk",
+        "custom_liquid_KdCj4X",
+        "custom_liquid_aFwNeA",
+        "judge_me_reviews_preview_badge_YUrbRU",
+        "price",
+        "custom_liquid_pxYkDP",
+        "siblings_nBwawX",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "quantity_selector",
+        "buy_buttons",
+        "custom_liquid_aF4eQK",
+        "custom_liquid_thTUbt",
+        "28586830-d855-4547-8946-94914bac9e85",
+        "custom_liquid_EEQe3J",
+        "judge_me_reviews_preview_badge_fMKQPq"
+      ]
+    }
+  }
 }
