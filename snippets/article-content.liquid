@@ -1,3 +1,56 @@
 <div class='container container--{{ section.settings.container_size }} container--with-aside-paddings body-font-weight-from-global-settings' {{ block.shopify_attributes }}>
   <div class='rte rte--blog-post article__content body-color {{ block.settings.body_size }}'>{{ article.content }}</div>
+       {% assign author = article.metafields.custom.author.value %}
+     
+		 {% if author != blank %}
+       <div class="author-box-container">
+          <div class="author-main-info">    
+            {% if author.image != blank %}
+              <img alt="{{ author.name.value }} profile picture" src="{{ author.image.value | image_url }}" style="border-radius: 50%;" width="70px" height="auto"/>
+            {% endif %} 
+          <div>
+              <p class="author-box-title" ><strong>{{  author.name.value }}</strong></p>
+              <a href="{{ author.link.value }}"  class="author-link" target="_blank">Learn More</a>
+          </div>
+          </div>
+          <div class="author-bio-container">
+            {{  author.description | metafield_tag   }}
+          </div>
+      </div>
+      {% endif %}
+      
+      <style>
+          .author-box-container {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+          }
+
+          .author-link {
+            text-decoration: underline; 
+            display: inline-block; 
+            margin-right: 8px; 
+            font-size: 14px;
+          }
+
+          .author-box-title {
+            font-size: 16px; margin-bottom: 0px;
+            margin-top:0px;
+          }
+          
+          .author-main-info {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+          }
+          
+          .author-bio-container {
+            margin-top: 15px;
+          }
+          
+          .author-links {
+            text-decoration:underline;
+          }
+      </style>
 </div>
