@@ -12,5 +12,17 @@
   "context": {
     "market": "au"
   },
-  "sections": {}
+  "sections": {
+    "popups": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {
+        "0b68eb1e-0267-41e2-826a-33de25c6a4c1": {
+          "settings": {
+            "body": "<p><strong>So delicious, two simply isn’t enough. Buy two and get one free – to share (or not… we won’t judge 😉)</strong></p>"
+          }
+        }
+      }
+    }
+  }
 }
