@@ -14,11 +14,11 @@
   },
   "sections": {
     "slideshow_f6XzEj": {
-      "disabled": false,
+      "disabled": true,
       "settings": {},
       "blocks": {
         "image_banner_73d443": {
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "desktop_img": "shopify://shop_images/Asset_10_16x9_109e23e6-8f63-43f2-87fa-e79fc80c3918.jpg",
             "mobile_img": "shopify://shop_images/Asset_10_4x5_ead9ad0b-556e-40d1-b45d-9eda96de8ac0.jpg",
@@ -26,7 +26,7 @@
           }
         },
         "image_banner_jg6iwJ": {
-          "disabled": false,
+          "disabled": true,
           "settings": {}
         }
       }
@@ -57,6 +57,70 @@
         ]
       },
       "blocks": {}
+    },
+    "image_banner_pkTgC": {
+      "type": "image-banner",
+      "disabled": false,
+      "settings": {
+        "color_scheme": "white",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.8,
+        "mobile_ratio": 1.6,
+        "header-ed11c19aaf552aa603e89e13613acc0e": null,
+        "desktop_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
+        "mobile_img": null,
+        "video": null,
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "header-bce8d5e5765b143417cebe27eaa84844": null,
+        "show-mountain-overlay": false,
+        "header-1ae59cea814742b5e51f0227823432e7": null,
+        "caption": "",
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body0",
+        "header-9e801903b16bd312bf1f5c7b136714a7": null,
+        "desktop_content_position": "align-items:flex-end;justify-content:flex-start;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:flex-end;justify-content:center;",
+        "mobile_content_align": "left",
+        "header-23ee9079975eef22bef7ba026696909b": null,
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "header-b670708bc99186cc65266297e08af001": null,
+        "btn_text": "Shop",
+        "btn_url": "shopify://collections/protein-powder",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "header-974ff0868dacb9d2d66227ea4a20def2": null,
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "t:sections.image_banner.name"
     }
-  }
+  },
+  "order": [
+    "image_banner_pkTgC",
+    "slideshow_f6XzEj",
+    "slideshow_7f3xDn",
+    "scrolling_text_U8WdUD",
+    "multicolumn_Gp4jLN",
+    "rich_text_BaEPBH",
+    "featured_collection_LdHrMJ",
+    "scrolling_text_mgXAEP",
+    "custom_liquid_MAnzJT",
+    "slideshow_YgY4Fp",
+    "image_slider_MFkWij",
+    "blog_posts_f3Ftdg",
+    "17287725865bf18f7c"
+  ]
 }
