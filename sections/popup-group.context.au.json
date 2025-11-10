@@ -19,10 +19,12 @@
       "blocks": {
         "0b68eb1e-0267-41e2-826a-33de25c6a4c1": {
           "settings": {
-            "body": "<p><strong>So delicious, two simply isn’t enough. Buy two and get one free – to share (or not… we won’t judge 😉)</strong></p>",
-            "heading_size": "h2",
+            "subheading": "",
             "heading": "Mighty THREE deal",
-            "subheading": ""
+            "heading_size": "h2",
+            "body": "<p><strong>So delicious, two simply isn’t enough. Buy two and get one free – to share (or not… we won’t judge 😉)</strong></p>",
+            "disclaimer": "<p>Deal applies to all 1kg pouches, excludes sachets and sachets boxes.</p>",
+            "promo_btn_label": "YES,please!"
           }
         }
       }
