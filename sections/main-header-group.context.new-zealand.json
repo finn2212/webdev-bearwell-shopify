@@ -30,6 +30,16 @@
             "text": "<h6><strong>Buy 2 Sachet Boxes*, Get 1 FREE!</strong></h6>"
           }
         },
+        "announcement_8MXJ6": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "<h6><strong>Mighty THREE deal. Buy 2, Get 1 Free!</strong></h6>",
+            "link": "shopify://collections/protein-powder",
+            "icon": "none",
+            "custom_icon_image": null
+          }
+        },
         "announcement_bh4JMM": {
           "disabled": true,
           "settings": {
@@ -51,6 +61,7 @@
       "block_order": [
         "announcement_h9EFXX",
         "announcement_XrnmdH",
+        "announcement_8MXJ6",
         "announcement_bh4JMM",
         "announcement_Wd9B3"
       ]
