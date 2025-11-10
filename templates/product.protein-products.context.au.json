@@ -17,9 +17,35 @@
       "settings": {},
       "blocks": {
         "information_tag_XECYJJ": {
+          "disabled": false,
+          "settings": {
+            "heading": "<strong>Mighty THREE deal</strong>: Buy 2, Get 1 <strong>Free!      </strong>Just add three pouches of your choice to the cart to activate the offer."
+          }
+        },
+        "information_tag_yL7Tzq": {
+          "type": "information_tag",
           "disabled": true,
           "settings": {
-            "heading": "Buy any <strong>1kg bag</strong> of BearWell protein and receive a <strong>FREE sachet pack. </strong>Just add your favourite 1kg bag with any sachet pack to activate the offer"
+            "tag_style": "solid",
+            "heading": "Buy any <strong>1kg bag</strong> of BearWell protein and receive a <strong>FREE sachet pack. </strong>Just add your favourite 1kg bag with any sachet pack to activate the offer",
+            "heading_size": "h6",
+            "body": "",
+            "body_size": "body3",
+            "content_alignment": "left",
+            "icon": "discount-outline",
+            "custom_icon_image": null,
+            "icon_size": 24,
+            "icon_position": "inline",
+            "tag_background_color": "#450e2b",
+            "tag_text_color": "#faf7f3",
+            "header-9440add6649bc0fa007b4c652c45db2d": null,
+            "enable_drawer": false,
+            "drawer_text": "",
+            "drawer_page": "",
+            "drawer_body_size": "body3",
+            "drawer_image": null,
+            "drawer_video": null,
+            "drawer_media_size": 60
           }
         },
         "badges_B6JHwk": {
@@ -53,6 +79,7 @@
       },
       "block_order": [
         "information_tag_XECYJJ",
+        "information_tag_yL7Tzq",
         "badges_B6JHwk",
         "custom_liquid_KdCj4X",
         "custom_liquid_JdwPkY",
