@@ -12,5 +12,11 @@
   "context": {
     "market": "new-zealand"
   },
-  "sections": {}
+  "sections": {
+    "popups": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
 }

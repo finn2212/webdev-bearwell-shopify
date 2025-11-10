@@ -15,7 +15,14 @@
   "sections": {
     "main": {
       "settings": {},
-      "blocks": {},
+      "blocks": {
+        "information_tag_XECYJJ": {
+          "disabled": false,
+          "settings": {
+            "heading": "Mighty THREE deal: Buy two 1kg pouches and get one FREE!"
+          }
+        }
+      },
       "block_order": [
         "information_tag_XECYJJ",
         "badges_B6JHwk",
