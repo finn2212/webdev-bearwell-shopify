@@ -26,15 +26,15 @@
           }
         },
         "announcement_XrnmdH": {
-          "disabled": false,
+          "disabled": true,
           "settings": {
-            "link": "shopify://products/whey-protein-concentrate-30g-sachet-smooth-vanilla",
-            "text": "<h6><strong>FREE samples💥 Buy 1, Get 1 Free. Add both to activate</strong></h6>"
+            "text": "<h6><strong>FREE samples💥 Buy 1, Get 1 Free. Add both to activate</strong></h6>",
+            "link": "shopify://products/whey-protein-concentrate-30g-sachet-smooth-vanilla"
           }
         },
         "announcement_cAJcg": {
           "type": "announcement",
-          "disabled": true,
+          "disabled": false,
           "settings": {
             "text": "<h6><strong>Mighty THREE deal. Buy 2, Get 1 Free!</strong></h6>",
             "link": "shopify://collections/whey-protein-concentrate",

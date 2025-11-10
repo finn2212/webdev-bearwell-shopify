@@ -14,7 +14,7 @@
   },
   "sections": {
     "slideshow_f6XzEj": {
-      "disabled": false,
+      "disabled": true,
       "settings": {
         "show-mountain-overlay": true
       },
@@ -33,10 +33,24 @@
       }
     },
     "slideshow_7f3xDn": {
+      "disabled": true,
       "settings": {
         "desktop_ratio": 0.8
       },
-      "blocks": {}
+      "blocks": {
+        "image_banner_TExGGj": {
+          "disabled": true,
+          "settings": {}
+        },
+        "image_banner_EzFCUq": {
+          "disabled": false,
+          "settings": {
+            "caption": "",
+            "title": "MIGHTY THREE.",
+            "text": ""
+          }
+        }
+      }
     },
     "scrolling_text_U8WdUD": {
       "disabled": true,
@@ -61,6 +75,70 @@
         ]
       },
       "blocks": {}
+    },
+    "image_banner_yrzzw": {
+      "type": "image-banner",
+      "disabled": false,
+      "settings": {
+        "color_scheme": "white",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.8,
+        "mobile_ratio": 1.6,
+        "header-ed11c19aaf552aa603e89e13613acc0e": null,
+        "desktop_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
+        "mobile_img": null,
+        "video": null,
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "header-bce8d5e5765b143417cebe27eaa84844": null,
+        "show-mountain-overlay": true,
+        "header-1ae59cea814742b5e51f0227823432e7": null,
+        "caption": "",
+        "title": "",
+        "heading_size": "h2",
+        "text": "",
+        "body_size": "body0",
+        "header-9e801903b16bd312bf1f5c7b136714a7": null,
+        "desktop_content_position": "align-items:flex-end;justify-content:flex-start;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:flex-end;justify-content:center;",
+        "mobile_content_align": "center",
+        "header-23ee9079975eef22bef7ba026696909b": null,
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "header-b670708bc99186cc65266297e08af001": null,
+        "btn_text": "Shop",
+        "btn_url": "shopify://collections/whey-protein-concentrate",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "header-974ff0868dacb9d2d66227ea4a20def2": null,
+        "add_side_paddings": false,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "t:sections.image_banner.name"
     }
-  }
+  },
+  "order": [
+    "slideshow_f6XzEj",
+    "slideshow_7f3xDn",
+    "image_banner_yrzzw",
+    "scrolling_text_U8WdUD",
+    "multicolumn_Gp4jLN",
+    "rich_text_BaEPBH",
+    "featured_collection_LdHrMJ",
+    "scrolling_text_mgXAEP",
+    "custom_liquid_MAnzJT",
+    "slideshow_YgY4Fp",
+    "image_slider_MFkWij",
+    "blog_posts_f3Ftdg",
+    "17287725865bf18f7c"
+  ]
 }
