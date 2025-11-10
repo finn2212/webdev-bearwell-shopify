@@ -25,8 +25,8 @@
             "body": "<p><strong>So delicious, two simply isn’t enough. Buy two and get one free – to share (or not… we won’t judge 😉)</strong></p>",
             "disclaimer": "<p>Deal applies to all 1kg pouches, excludes sachets and sachets boxes.</p>",
             "promo_btn_label": "YES,please!",
-            "close_btn_label": "I dont like amazing deals",
-            "promo_btn_url": "shopify://collections/whey-protein-concentrate"
+            "promo_btn_url": "shopify://products/whey-protein-concentrate-smooth-vanilla",
+            "close_btn_label": "I dont like amazing deals"
           }
         }
       }
