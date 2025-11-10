@@ -14,9 +14,23 @@
   },
   "sections": {
     "popups": {
-      "disabled": true,
+      "disabled": false,
       "settings": {},
-      "blocks": {}
+      "blocks": {
+        "0b68eb1e-0267-41e2-826a-33de25c6a4c1": {
+          "settings": {
+            "heading": "Mighty THREE deal",
+            "subheading": "",
+            "body": "<p><strong>So delicious, two simply isn’t enough. Buy two and get one free – to share (or not… we won’t judge 😉)</strong></p>",
+            "body_size": "body3",
+            "heading_size": "h2",
+            "promo_btn_label": "YES,please!",
+            "promo_btn_url": "shopify://collections/protein-powder",
+            "close_btn_label": "I dont like amazing deals",
+            "disclaimer": "<p>Deal applies to all 1kg pouches, excludes sachets and sachets boxes.</p>"
+          }
+        }
+      }
     }
   }
 }
