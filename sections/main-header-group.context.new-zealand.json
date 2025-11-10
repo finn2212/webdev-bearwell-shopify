@@ -35,7 +35,7 @@
           "disabled": false,
           "settings": {
             "text": "<h6><strong>Mighty THREE deal. Buy 2, Get 1 Free!</strong></h6>",
-            "link": "shopify://collections/protein-powder",
+            "link": "shopify://products/whey-protein-concentrate-smooth-vanilla",
             "icon": "discount-outline",
             "custom_icon_image": null
           }
