@@ -15,58 +15,42 @@
   "sections": {
     "image_banner_yrzzw": {
       "type": "image-banner",
-      "disabled": false,
+      "name": "t:sections.image_banner.name",
       "settings": {
         "color_scheme": "white",
         "enable_background_around_container": false,
         "container_size": "full-screen",
         "desktop_ratio": 0.8,
         "mobile_ratio": 1.6,
-        "header-af23303e7beedda01716706dcac5d9d5": null,
         "desktop_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
-        "mobile_img": null,
-        "video": null,
         "desktop_overlay_opacity": 20,
         "mobile_overlay_opacity": 20,
-        "header-032c92d04e0f6ba040c74e5e91a543dc": null,
         "show-mountain-overlay": true,
-        "header-226a1dabf790a1ccde2bff59a8d5832e": null,
         "caption": "",
         "title": "",
         "heading_size": "h2",
         "text": "",
         "body_size": "body0",
-        "header-d4a7eacda4639f84d75a54cde8595f60": null,
         "desktop_content_position": "align-items:flex-end;justify-content:flex-start;",
         "desktop_content_align": "center",
         "content_max_width": 528,
         "content_spacing": 116,
         "mobile_content_position": "align-items:flex-end;justify-content:center;",
         "mobile_content_align": "center",
-        "header-54785c0b76cadcbac528cea8bc931422": null,
         "desktop_content_background": "none",
         "mobile_content_background": "none",
-        "header-a28214e99cb0254faa5539cde9158cdf": null,
         "btn_text": "Shop",
         "btn_url": "shopify://products/whey-protein-concentrate-smooth-vanilla",
         "btn_style": "solid",
         "extra_btn_text": "",
         "extra_btn_url": "",
         "extra_btn_style": "solid",
-        "header-a011c56af8e94dd1cd066d0c1eaf57e8": null,
         "add_side_paddings": false,
         "section_spacing_top": 0,
         "section_spacing_bottom": 0
-      },
-      "blocks": {},
-      "block_order": [],
-      "name": "t:sections.image_banner.name"
+      }
     },
     "slideshow_f6XzEj": {
-      "disabled": true,
-      "settings": {
-        "show-mountain-overlay": true
-      },
       "blocks": {
         "image_banner_73d443": {
           "disabled": true,
@@ -74,43 +58,41 @@
             "desktop_img": "shopify://shop_images/Asset_4_16x9_f7b783e6-c7f1-41ba-9723-a6ab0da70254.gif",
             "mobile_img": "shopify://shop_images/Asset_4x5_af749138-78b3-4d2c-a59c-dcc9aee313dd.gif"
           }
-        },
-        "image_banner_jg6iwJ": {
-          "disabled": false,
-          "settings": {}
         }
+      },
+      "disabled": true,
+      "settings": {
+        "show-mountain-overlay": true
       }
     },
     "slideshow_7f3xDn": {
-      "disabled": true,
-      "settings": {
-        "desktop_ratio": 0.8
-      },
       "blocks": {
         "image_banner_TExGGj": {
-          "disabled": true,
-          "settings": {}
+          "disabled": true
         },
         "image_banner_EzFCUq": {
-          "disabled": false,
           "settings": {
             "caption": "",
             "title": "MIGHTY THREE.",
             "text": ""
           }
         }
+      },
+      "disabled": true,
+      "settings": {
+        "desktop_ratio": 0.8
       }
     },
     "scrolling_text_U8WdUD": {
-      "disabled": true,
-      "settings": {},
       "blocks": {
         "announcement_hRKW3R": {
           "settings": {
             "announcement_text": "SOLD OUT, new batch is coming LATE SEPTEMBER. Subscribe for updates"
           }
         }
-      }
+      },
+      "disabled": true,
+      "settings": {}
     },
     "featured_collection_LdHrMJ": {
       "custom_css": [],
@@ -118,12 +100,11 @@
         "featured_products": [
           "whey-protein-concentrate-mixed-berry",
           "whey-protein-concentrate-smooth-vanilla",
-          "whey-protein-concentrate-chocolate-mousse-flavour-copy",
+          "whey-protein-isolate-unflavoured",
           "whey-protein-concentrate-30g-sachet-chocolate-mousse",
           "whey-protein-isolate-sachet-box-mixed-berry"
         ]
-      },
-      "blocks": {}
+      }
     }
   },
   "order": [
