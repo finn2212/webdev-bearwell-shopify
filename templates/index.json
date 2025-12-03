@@ -462,7 +462,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/BearWell-Unflavoured-Whey-Protein-Isolate-1kg-Hero-Image.webp",
-            "subheading": "IMAGE WITH TEXT",
+            "subheading": "",
             "heading": "Grass Fed Whey Protein: Built for People Who Actually Care",
             "heading_size": "h2",
             "body": "<p>If you’re tired of gimmicks, fillers, and misleading labels, you’re not alone. </p><p>We built BearWell™ for wellness-focused people who genuinely care about what goes into their bodies. No lies. No nasties. Just clean, high-quality grass-fed whey protein in Australia and New Zealand you can trust.</p><p>If you're a busy professional, a frequent traveller, or simply someone who chooses real nutrition over empty hype, you’re in the right place. Every scoop of our whey proteinpowder is designed to support your health, your routine, and your values.</p>",
@@ -511,7 +511,7 @@
         "color_scheme": "default",
         "container_size": "page-width",
         "slider_type": "vertical-text",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "content_max_width": 528,
         "image_position": "left",
         "desktop_img_ratio": 1,
@@ -595,7 +595,7 @@
         "autoplay_mode": "disabled",
         "autoplay_interval": 3,
         "add_side_paddings": true,
-        "section_spacing_top": 80,
+        "section_spacing_top": 12,
         "section_spacing_bottom": 0
       }
     },
@@ -665,6 +665,7 @@
     },
     "custom_liquid_MAnzJT": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".firstpage-custom-collection {margin: 0 auto; display: block; max-width: 800px;}",
         "h1 {font-size: 25px;}",
