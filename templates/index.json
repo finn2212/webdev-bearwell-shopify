@@ -455,8 +455,217 @@
         "text_color_gradient": ""
       }
     },
+    "image_slider_aWneMw": {
+      "type": "image-slider",
+      "blocks": {
+        "slide_CF38Mz": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BearWell-Unflavoured-Whey-Protein-Isolate-1kg-Hero-Image.webp",
+            "subheading": "IMAGE WITH TEXT",
+            "heading": "Grass Fed Whey Protein: Built for People Who Actually Care",
+            "heading_size": "h2",
+            "body": "<p>If you’re tired of gimmicks, fillers, and misleading labels, you’re not alone. </p><p>We built BearWell™ for wellness-focused people who genuinely care about what goes into their bodies. No lies. No nasties. Just clean, high-quality grass-fed whey protein in Australia and New Zealand you can trust.</p><p>If you're a busy professional, a frequent traveller, or simply someone who chooses real nutrition over empty hype, you’re in the right place. Every scoop of our whey proteinpowder is designed to support your health, your routine, and your values.</p>",
+            "body_size": "body3",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "solid"
+          }
+        },
+        "slide_UCzzYT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BearWell-Whey-Protein-Isolate-Mixed-Berry-Sachet-Pack-Hero-Image.webp",
+            "subheading": "",
+            "heading": "A Better Way to Fuel Up",
+            "heading_size": "h2",
+            "body": "<p>Forget the bitterness of stevia or that monk fruit aftertaste.</p><p>We use Thaumatin, a natural sweetener that delivers incredible flavour – while contributing minimally to caloric intake. It’s one of the reasons our protein powder tastes so good, with none of the artificial bite found in cheaper brands. </p><p>It’s clean, sweet, and better for you.</p>",
+            "body_size": "body3",
+            "button_text": "See more",
+            "button_link": "",
+            "button_style": "solid"
+          }
+        },
+        "slide_g6Wa9y": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BearWell-Whey-Protein-Concentrate-Chocolate-Mousse-1kg-Hero.webp",
+            "subheading": "",
+            "heading": "The BearWell™ Difference",
+            "heading_size": "h2",
+            "body": "<p>We know many supplement brands make outrageous claims or come packed with hidden nasties, despite their premium price tags. </p><p>That’s why we’ve created protein powder that prioritises honesty and quality – no fillers, no gums and no artificial additives. </p><p>Just clean, grass-fed whey protein with real ingredients, clear labelling, and products that genuinely support your health goals. If you’re mixing a shake or need a quick, nourishing option on the go, our <a href=\"https://bearwell.com.au/collections/samples\">single serve protein</a> sachets make it easy to stay fuelled – all without compromising on quality or taste.</p>",
+            "body_size": "body3",
+            "button_text": "Shop Now",
+            "button_link": "https://bearwell.com.au/collections/all",
+            "button_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "slide_CF38Mz",
+        "slide_UCzzYT",
+        "slide_g6Wa9y"
+      ],
+      "name": "t:sections.image_slider.name",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "slider_type": "vertical-text",
+        "content_alignment": "left",
+        "content_max_width": 528,
+        "image_position": "left",
+        "desktop_img_ratio": 1,
+        "mobile_img_ratio": 1,
+        "rotate_images": false,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "multicolumn_dNtR6y": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_rjh6LF": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/BearWell-Whey_Protein-Concentrate-Mixed-Berry-Close-Up.webp",
+            "icon_size": 64,
+            "title": "Whey Protein Concentrate",
+            "text": "<p>Our much-loved <a href=\"http://bearwell.com.au/collections/whey-protein-concentrate\">whey protein concentrate</a> is perfect as a high-protein dessert alternative or as post workout fuel. This one’s great for anyone craving something sweet but clean. <br/></p><p>Perfect for:</p><p>Manage cravings</p><p>Support muscle repair</p><p> Find a guilt-free treat</p>",
+            "link_text": "Shop Now",
+            "link_url": "https://bearwell.com.au/collections/whey-protein-concentrate"
+          }
+        },
+        "column_with_icon_aAmhVU": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/BearWell-Whey-Protein-Isolate-Mixed-Berry-Close-Up.webp",
+            "icon_size": 64,
+            "title": "Whey Protein Isolate",
+            "text": "<p>Meet our most refined formula – <a href=\"https://bearwell.com.au/collections/whey-protein-isolate\">whey protein isolate</a>. It’s pure, easy-to-digest protein goodness for anyone who is lactose intolerant or who wants a light, fast-absorbing option.<br/><br/>Perfect for:</p><p>Sensitive stomachs</p><p>Lean muscle goals</p><p>Clean post-training recovery</p>",
+            "link_text": "Shop Now",
+            "link_url": "https://bearwell.com.au/collections/whey-protein-isolate"
+          }
+        },
+        "column_with_icon_kXrLQM": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/Sachet_Icon_0cfed556-f5a9-4055-9675-b0744c5d645b.png",
+            "icon_size": 64,
+            "title": "Single Serve Protein Sachets ",
+            "text": "<p>This is protein without the bulky containers. 30g sachets great for travelling, commuting or throwing in your work bag.<br/></p><p>Perfect for:</p><p>Jet setter</p><p>On-the-go professional</p><p>First time buyer trying before you commit</p>",
+            "link_text": "Shop Now",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_rjh6LF",
+        "column_with_icon_aAmhVU",
+        "column_with_icon_kXrLQM"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "enable_mountains": false,
+        "desktop_layout": "grid",
+        "mobile_layout": "carousel",
+        "title": "Finding the Right Protein Powder",
+        "heading_size": "h3",
+        "text": "",
+        "body_size": "body4",
+        "content_alignment": "center",
+        "column_heading_size": "h6",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 24,
+        "desktop_content_spacing": 20,
+        "mobile_space_between_cards": 0,
+        "mobile_content_spacing": 0,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 80,
+        "section_spacing_bottom": 0
+      }
+    },
+    "rich_text_gpqAJy": {
+      "type": "rich-text",
+      "blocks": {
+        "icon_Kh6BbF": {
+          "type": "icon",
+          "settings": {
+            "icon": "none",
+            "icon_size": 48
+          }
+        },
+        "caption_cHXmm6": {
+          "type": "caption",
+          "settings": {
+            "caption": ""
+          }
+        },
+        "heading_8kwceh": {
+          "type": "heading",
+          "settings": {
+            "title": "Once You Try BearWell™, You Can’t Go Back ",
+            "heading_size": "display3"
+          }
+        },
+        "text_rLfFxF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Try our grass fed whey protein in Australia or New Zealand – from single-sized to 1kg bags of our smooth whey protein. It’s time to switch to BearWell™. Your body deserves better.</p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body4"
+          }
+        },
+        "buttons_YLyhTf": {
+          "type": "buttons",
+          "settings": {
+            "btn_text": "Shop Now",
+            "btn_url": "",
+            "btn_style": "link",
+            "extra_btn_text": "",
+            "extra_btn_url": "https://bearwell.com.au/collections/all",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "icon_Kh6BbF",
+        "caption_cHXmm6",
+        "heading_8kwceh",
+        "text_rLfFxF",
+        "buttons_YLyhTf"
+      ],
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "enable_mountains": false,
+        "container_size": "page-width",
+        "content_align": "center",
+        "max_content_width": 800,
+        "add_side_paddings": true,
+        "section_spacing_top": 64,
+        "section_spacing_bottom": 64
+      }
+    },
     "custom_liquid_MAnzJT": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".firstpage-custom-collection {margin: 0 auto; display: block; max-width: 800px;}",
         "h1 {font-size: 25px;}",
@@ -643,6 +852,9 @@
     "rich_text_BaEPBH",
     "featured_collection_LdHrMJ",
     "scrolling_text_mgXAEP",
+    "image_slider_aWneMw",
+    "multicolumn_dNtR6y",
+    "rich_text_gpqAJy",
     "custom_liquid_MAnzJT",
     "slideshow_YgY4Fp",
     "image_slider_MFkWij",
