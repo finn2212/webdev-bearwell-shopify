@@ -657,7 +657,7 @@
         "enable_mountains": false,
         "container_size": "page-width",
         "content_align": "center",
-        "max_content_width": 800,
+        "max_content_width": 1300,
         "add_side_paddings": true,
         "section_spacing_top": 64,
         "section_spacing_bottom": 64
