@@ -665,7 +665,6 @@
     },
     "custom_liquid_MAnzJT": {
       "type": "custom-liquid",
-      "disabled": true,
       "custom_css": [
         ".firstpage-custom-collection {margin: 0 auto; display: block; max-width: 800px;}",
         "h1 {font-size: 25px;}",
