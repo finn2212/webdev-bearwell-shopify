@@ -54,7 +54,7 @@
         "extra_btn_url": "",
         "extra_btn_style": "solid",
         "header-9a7fca65df18936a833b76c58769f710": null,
-        "add_side_paddings": true,
+        "add_side_paddings": false,
         "section_spacing_top": 0,
         "section_spacing_bottom": 0
       },
