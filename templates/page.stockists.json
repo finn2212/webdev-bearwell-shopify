@@ -24,7 +24,7 @@
     "image_banner_Vk6aUM": {
       "type": "image-banner",
       "custom_css": [
-        "h2 {font-size: 48px !important; line-height: 1.5em !important;}"
+        "h1 {font-size: 48px !important; line-height: 1.5em !important;}"
       ],
       "settings": {
         "color_scheme": "custom-1",
@@ -39,7 +39,7 @@
         "caption": "",
         "title": "",
         "heading_size": "h2",
-        "text": "<h2>Stockists</h2>",
+        "text": "<h1>Stockists</h1>",
         "body_size": "body0",
         "desktop_content_position": "align-items:center;justify-content:center;",
         "desktop_content_align": "center",
