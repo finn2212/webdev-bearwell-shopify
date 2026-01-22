@@ -1,1 +1,112 @@
-{"sections":{"image_banner_LBRrG3":{"type":"image-banner","settings":{"color_scheme":"custom-1","enable_background_around_container":false,"container_size":"full-screen","desktop_ratio":0.3,"mobile_ratio":1,"desktop_img":"shopify:\/\/shop_images\/Journal-Recipes.jpg","desktop_overlay_opacity":20,"mobile_overlay_opacity":20,"show-mountain-overlay":true,"caption":"","title":"Journal","heading_size":"h2","text":"","body_size":"body3","desktop_content_position":"align-items:center;justify-content:center;","desktop_content_align":"center","content_max_width":528,"content_spacing":116,"mobile_content_position":"align-items:center;justify-content:center;","mobile_content_align":"center","desktop_content_background":"none","mobile_content_background":"none","btn_text":"","btn_url":"","btn_style":"solid","extra_btn_text":"","extra_btn_url":"","extra_btn_style":"solid","add_side_paddings":false,"section_spacing_top":0,"section_spacing_bottom":0}},"blog":{"type":"blog","settings":{"color_scheme":"default","container_size":"full-screen","show_title":false,"show_rss_icon":false,"show_navigation_tags":"none","selected_tags":"All, recipes","collapse_extra_tags":false,"img_ratio":0.7,"show_author":false,"show_date":false,"show_comment_count":false,"show_subheading":false,"show_read_more":true,"article_per_page":6,"article_per_row":3,"desktop_space_between_cards":16,"mobile_space_between_cards":16,"pagination_type":"load-button-pagination","show_card_tags":"selected","selected_card_tags":"Recipes","tags_card_position":"on_image","collapse_extra_card_tags":false,"add_side_paddings":true,"section_spacing_top":48,"section_spacing_bottom":96}},"rich_text_jFz8nb":{"type":"rich-text","blocks":{"text_QqnKpT":{"type":"text","settings":{"text":"<p>Coming soon. <\/p><p>Sign up to our newsletter to keep updated with the latest news and new recipes.<\/p>","text_2":"","text_3":"","body_size":"body3"}}},"block_order":["text_QqnKpT"],"settings":{"color_scheme":"default","enable_background_around_container":false,"enable_mountains":false,"container_size":"xsmall","content_align":"center","max_content_width":800,"add_side_paddings":true,"section_spacing_top":0,"section_spacing_bottom":64}}},"order":["image_banner_LBRrG3","blog","rich_text_jFz8nb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_LBRrG3": {
+      "type": "image-banner",
+      "settings": {
+        "color_scheme": "custom-1",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.3,
+        "mobile_ratio": 1,
+        "desktop_img": "shopify://shop_images/Journal-Recipes.jpg",
+        "desktop_overlay_opacity": 20,
+        "mobile_overlay_opacity": 20,
+        "show-mountain-overlay": true,
+        "caption": "",
+        "title": "Journal",
+        "heading_size": "h1",
+        "text": "",
+        "body_size": "body3",
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 528,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "extra_btn_text": "",
+        "extra_btn_url": "",
+        "extra_btn_style": "solid",
+        "add_side_paddings": false,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "blog": {
+      "type": "blog",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "show_title": false,
+        "show_rss_icon": false,
+        "show_navigation_tags": "none",
+        "selected_tags": "All, recipes",
+        "collapse_extra_tags": false,
+        "img_ratio": 0.7,
+        "show_author": false,
+        "show_date": false,
+        "show_comment_count": false,
+        "show_subheading": false,
+        "show_read_more": true,
+        "article_per_page": 6,
+        "article_per_row": 3,
+        "desktop_space_between_cards": 16,
+        "mobile_space_between_cards": 16,
+        "pagination_type": "load-button-pagination",
+        "show_card_tags": "selected",
+        "selected_card_tags": "Recipes",
+        "tags_card_position": "on_image",
+        "collapse_extra_card_tags": false,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 96
+      }
+    },
+    "rich_text_jFz8nb": {
+      "type": "rich-text",
+      "blocks": {
+        "text_QqnKpT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Coming soon. </p><p>Sign up to our newsletter to keep updated with the latest news and new recipes.</p>",
+            "text_2": "",
+            "text_3": "",
+            "body_size": "body3"
+          }
+        }
+      },
+      "block_order": [
+        "text_QqnKpT"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "enable_background_around_container": false,
+        "enable_mountains": false,
+        "container_size": "xsmall",
+        "content_align": "center",
+        "max_content_width": 800,
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "image_banner_LBRrG3",
+    "blog",
+    "rich_text_jFz8nb"
+  ]
+}
