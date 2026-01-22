@@ -26,7 +26,7 @@
         "show-mountain-overlay": true,
         "caption": "",
         "title": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "text": "<h1>Customer Reviews</h1><p></p>",
         "body_size": "body0",
         "desktop_content_position": "align-items:center;justify-content:center;",
