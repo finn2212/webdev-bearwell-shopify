@@ -12,7 +12,7 @@
     "image_banner_zFTQKG": {
       "type": "image-banner",
       "custom_css": [
-        "h2 {font-size: 48px !important; line-height: 1.5em !important;}"
+        "h1 {font-size: 48px !important; line-height: 1.5em !important;}"
       ],
       "settings": {
         "color_scheme": "custom-1",
