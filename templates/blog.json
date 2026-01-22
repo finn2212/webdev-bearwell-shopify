@@ -11,6 +11,9 @@
   "sections": {
     "image_banner_LBRrG3": {
       "type": "image-banner",
+      "custom_css": [
+        "h1{font-size: 45px !important;}"
+      ],
       "settings": {
         "color_scheme": "custom-1",
         "enable_background_around_container": false,
@@ -22,9 +25,9 @@
         "mobile_overlay_opacity": 20,
         "show-mountain-overlay": true,
         "caption": "",
-        "title": "Journal",
-        "heading_size": "h1",
-        "text": "",
+        "title": "",
+        "heading_size": "h2",
+        "text": "<h1>Journal</h1>",
         "body_size": "body3",
         "desktop_content_position": "align-items:center;justify-content:center;",
         "desktop_content_align": "center",
