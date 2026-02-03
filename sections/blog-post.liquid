@@ -82,31 +82,7 @@
           endcase
         endfor
       -%}
-       {% comment %}
-  Blog Products via Metaobject
-  - Metaobject field namespace.key: custom.blog_products
-  - Supports multiple products per blog post
-{% endcomment %}
 
-{% if article.metafields.custom.blog_products != blank %}
-  <div class="blog-products-wrapper">
-    {% for product in article.metafields.custom.blog_products.value %}
-      <div class="related-product">
-        <a href="{{ product.url }}">
-          {% if product.featured_image %}
-            <img src="{{ product.featured_image | img_url: '400x' }}" alt="{{ product.title }}">
-          {% endif %}
-          <h3>{{ product.title }}</h3>
-          <p>{{ product.price | money }}</p>
-        </a>
-        <form method="post" action="/cart/add">
-          <input type="hidden" name="id" value="{{ product.variants.first.id }}">
-          <button type="submit">Add to Cart</button>
-        </form>
-      </div>
-    {% endfor %}
-  </div>
-{% endif %}
     </div>
  
     {%- if blog.comments_enabled? -%}
