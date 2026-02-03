@@ -34,7 +34,9 @@
         {% endif %}
       </div>
     {% endif %}
-         {% comment %}
+         
+  </div>
+  {% comment %}
   Blog Products via Metaobject
   - Metaobject field namespace.key: custom.blog_products
   - Supports multiple products per blog post
@@ -60,7 +62,6 @@
         </form>
       </div>
     {% endfor %}
-  </div>
 {% endif %}
     {% if show_next_and_previous_posts %}
       <div class='article-footer-posts'>
