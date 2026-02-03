@@ -82,11 +82,6 @@
         endfor
       -%}
     </div>
-
-    {%- if blog.comments_enabled? -%}
-      {%- render 'article-comments' -%}
-    {%- endif -%}
-  </div>
   {% comment %}
   Blog Products via Metaobject
   - Metaobject field namespace.key: custom.blog_products
@@ -112,6 +107,11 @@
     {% endfor %}
   </div>
 {% endif %}
+    {%- if blog.comments_enabled? -%}
+      {%- render 'article-comments' -%}
+    {%- endif -%}
+  </div>
+
 </article>
 
 {% render 'save-section-data-in-global-scope', section: section %}
