@@ -97,8 +97,9 @@
 
 {% if article.metafields.custom.blog_products != blank %}
   <div class="blog-products-wrapper">
+    <h3>Related Products</h3>
     {% for product in article.metafields.custom.blog_products.value %}
-      <div class="related-product"><h3>Related Products</h3>
+      <div class="related-product">
         <a href="{{ product.url }}">
           {% if product.featured_image %}
             <img src="{{ product.featured_image | img_url: '400x' }}" alt="{{ product.title }}">
