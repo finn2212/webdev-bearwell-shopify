@@ -74,6 +74,7 @@
               render 'article-title', block: block, article: article, section: section
             when 'content'
               render 'article-content', block: block, article: article, section: section
+              
             when 'footer'
               render 'article-footer', block: block, article: article, section: section
             when 'tags'
@@ -81,8 +82,7 @@
           endcase
         endfor
       -%}
-    </div>
-  {% comment %}
+       {% comment %}
   Blog Products via Metaobject
   - Metaobject field namespace.key: custom.blog_products
   - Supports multiple products per blog post
@@ -107,6 +107,8 @@
     {% endfor %}
   </div>
 {% endif %}
+    </div>
+ 
     {%- if blog.comments_enabled? -%}
       {%- render 'article-comments' -%}
     {%- endif -%}
