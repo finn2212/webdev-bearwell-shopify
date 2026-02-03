@@ -96,8 +96,9 @@
 {% endcomment %}
 
 {% if article.metafields.custom.blog_products != blank %}
+   <h3>Related Products</h3>
   <div class="blog-products-wrapper">
-    <h3>Related Products</h3>
+   
     {% for product in article.metafields.custom.blog_products.value %}
       <div class="related-product">
         <a href="{{ product.url }}">
