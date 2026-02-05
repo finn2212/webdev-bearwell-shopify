@@ -26,7 +26,9 @@
             "disclaimer": "<p>Deal applies to all 1kg pouches, excludes sachets and sachets boxes.</p>",
             "promo_btn_label": "YES,please!",
             "promo_btn_url": "shopify://products/whey-protein-concentrate-smooth-vanilla",
-            "close_btn_label": "I dont like amazing deals"
+            "close_btn_label": "I dont like amazing deals",
+            "time_delay": "1min",
+            "page_scroll": "50"
           }
         }
       }
