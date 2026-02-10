@@ -19,16 +19,16 @@
       "blocks": {
         "0b68eb1e-0267-41e2-826a-33de25c6a4c1": {
           "settings": {
+            "time_delay": "1min",
+            "page_scroll": "50",
             "subheading": "",
             "heading": "Mighty THREE deal",
             "heading_size": "h2",
             "body": "<p><strong>So delicious, two simply isn’t enough. Buy two and get one free – to share (or not… we won’t judge 😉)</strong></p>",
-            "disclaimer": "<p>Deal applies to all 1kg pouches, excludes sachets and sachets boxes.</p>",
+            "disclaimer": "<p>Deal applies to all flavoured 1kg WPC pouches and boxes, excludes WPI range.</p>",
             "promo_btn_label": "YES,please!",
             "promo_btn_url": "shopify://products/whey-protein-concentrate-smooth-vanilla",
-            "close_btn_label": "I dont like amazing deals",
-            "time_delay": "1min",
-            "page_scroll": "50"
+            "close_btn_label": "I dont like amazing deals"
           }
         }
       }
