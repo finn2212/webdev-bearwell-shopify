@@ -19,7 +19,7 @@
         "information_tag_XECYJJ": {
           "disabled": false,
           "settings": {
-            "heading": "<strong>Mighty THREE deal</strong>: Buy 2, Get 1 <strong>Free!      </strong>Just add three pouches of your choice to the cart to activate the offer."
+            "heading": "<strong>Mighty THREE deal</strong>: Buy 2, Get 1 <strong>Free!      </strong>Just add three pouches of your choice to the cart to activate the offer.Excludes Isolate range"
           }
         },
         "information_tag_yL7Tzq": {
@@ -38,7 +38,7 @@
             "icon_position": "inline",
             "tag_background_color": "#450e2b",
             "tag_text_color": "#faf7f3",
-            "header-9440add6649bc0fa007b4c652c45db2d": null,
+            "header-9963d038ff34869bee5d6dae5d8da143": null,
             "enable_drawer": false,
             "drawer_text": "",
             "drawer_page": "",
