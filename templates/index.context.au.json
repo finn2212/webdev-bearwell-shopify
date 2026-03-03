@@ -15,42 +15,58 @@
   "sections": {
     "image_banner_yrzzw": {
       "type": "image-banner",
-      "name": "t:sections.image_banner.name",
+      "disabled": true,
       "settings": {
         "color_scheme": "white",
         "enable_background_around_container": false,
         "container_size": "full-screen",
         "desktop_ratio": 0.8,
         "mobile_ratio": 1.6,
+        "header-7a2f9bf6fa03b6e7fd078654c3e7eecb": null,
         "desktop_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
+        "mobile_img": null,
+        "video": null,
         "desktop_overlay_opacity": 20,
         "mobile_overlay_opacity": 20,
+        "header-cc2f2a0f9f1fd383ab3c90e47284d086": null,
         "show-mountain-overlay": true,
+        "header-cc3a428c1883cff2bb342a35ed508e0a": null,
         "caption": "",
         "title": "",
         "heading_size": "h2",
         "text": "",
         "body_size": "body0",
+        "header-e9aee0f9080d6db2c610fadea5c7f78c": null,
         "desktop_content_position": "align-items:flex-end;justify-content:flex-start;",
         "desktop_content_align": "center",
         "content_max_width": 528,
         "content_spacing": 116,
         "mobile_content_position": "align-items:flex-end;justify-content:center;",
         "mobile_content_align": "center",
+        "header-cbbcc9401022bfbf518177d18892539b": null,
         "desktop_content_background": "none",
         "mobile_content_background": "none",
+        "header-10ff5cf1bcef6cdbd32e48b1ec260717": null,
         "btn_text": "Shop",
         "btn_url": "shopify://products/whey-protein-concentrate-smooth-vanilla",
         "btn_style": "solid",
         "extra_btn_text": "",
         "extra_btn_url": "",
         "extra_btn_style": "solid",
+        "header-0c9707b03a99c829b869e37bb76f3c9d": null,
         "add_side_paddings": false,
         "section_spacing_top": 0,
         "section_spacing_bottom": 0
-      }
+      },
+      "blocks": {},
+      "block_order": [],
+      "name": "t:sections.image_banner.name"
     },
     "slideshow_f6XzEj": {
+      "disabled": false,
+      "settings": {
+        "show-mountain-overlay": true
+      },
       "blocks": {
         "image_banner_73d443": {
           "disabled": true,
@@ -59,16 +75,17 @@
             "mobile_img": "shopify://shop_images/Asset_4x5_af749138-78b3-4d2c-a59c-dcc9aee313dd.gif"
           }
         }
-      },
-      "disabled": true,
-      "settings": {
-        "show-mountain-overlay": true
       }
     },
     "slideshow_7f3xDn": {
+      "disabled": true,
+      "settings": {
+        "desktop_ratio": 0.8
+      },
       "blocks": {
         "image_banner_TExGGj": {
-          "disabled": true
+          "disabled": true,
+          "settings": {}
         },
         "image_banner_EzFCUq": {
           "settings": {
@@ -77,22 +94,18 @@
             "text": ""
           }
         }
-      },
-      "disabled": true,
-      "settings": {
-        "desktop_ratio": 0.8
       }
     },
     "scrolling_text_U8WdUD": {
+      "disabled": true,
+      "settings": {},
       "blocks": {
         "announcement_hRKW3R": {
           "settings": {
             "announcement_text": "SOLD OUT, new batch is coming LATE SEPTEMBER. Subscribe for updates"
           }
         }
-      },
-      "disabled": true,
-      "settings": {}
+      }
     },
     "featured_collection_LdHrMJ": {
       "custom_css": [],
@@ -104,7 +117,8 @@
           "whey-protein-concentrate-30g-sachet-chocolate-mousse",
           "whey-protein-isolate-sachet-box-mixed-berry"
         ]
-      }
+      },
+      "blocks": {}
     }
   },
   "order": [
