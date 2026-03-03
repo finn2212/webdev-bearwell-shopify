@@ -18,6 +18,7 @@
       "settings": {},
       "blocks": {
         "0b68eb1e-0267-41e2-826a-33de25c6a4c1": {
+          "disabled": true,
           "settings": {
             "time_delay": "2min",
             "page_scroll": "50",
