@@ -15,45 +15,45 @@
   "sections": {
     "image_banner_pkTgC": {
       "type": "image-banner",
-      "disabled": false,
+      "disabled": true,
       "settings": {
         "color_scheme": "white",
         "enable_background_around_container": false,
         "container_size": "full-screen",
         "desktop_ratio": 0.8,
         "mobile_ratio": 1.6,
-        "header-969782ffff3cfc51a2b5a95650cc9f55": null,
+        "header-32acccb7b558965c88cf4efa184e137a": null,
         "desktop_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
         "mobile_img": null,
         "video": null,
         "desktop_overlay_opacity": 20,
         "mobile_overlay_opacity": 20,
-        "header-042872634b96175a126616ac03b506d1": null,
+        "header-303be69f1cfa79af49d4b03f6f67622c": null,
         "show-mountain-overlay": true,
-        "header-c0e6b557487ec397e3e69e70026195c2": null,
+        "header-9b425544ff9a10832809902a9b339fd3": null,
         "caption": "",
         "title": "",
         "heading_size": "h2",
         "text": "",
         "body_size": "body0",
-        "header-3c30839e9789c7c10719aebd631a2672": null,
+        "header-b9beed6947dbcc9eb0afdc65b0a76a0a": null,
         "desktop_content_position": "align-items:flex-end;justify-content:flex-start;",
         "desktop_content_align": "center",
         "content_max_width": 528,
         "content_spacing": 116,
         "mobile_content_position": "align-items:flex-end;justify-content:center;",
         "mobile_content_align": "left",
-        "header-db1ebce35b86e8aff3519a19b504c384": null,
+        "header-c79d7d4d94258471ccd7ea62d2265595": null,
         "desktop_content_background": "none",
         "mobile_content_background": "none",
-        "header-37db5c04633a6d1140758becadca7f82": null,
+        "header-56513568d94acf9b66a8c03ff91c7dfa": null,
         "btn_text": "Shop",
         "btn_url": "shopify://products/whey-protein-concentrate-smooth-vanilla",
         "btn_style": "solid",
         "extra_btn_text": "",
         "extra_btn_url": "",
         "extra_btn_style": "solid",
-        "header-9a7fca65df18936a833b76c58769f710": null,
+        "header-bd366d68894d1700f193665c61917a25": null,
         "add_side_paddings": false,
         "section_spacing_top": 0,
         "section_spacing_bottom": 0
@@ -63,11 +63,11 @@
       "name": "t:sections.image_banner.name"
     },
     "slideshow_f6XzEj": {
-      "disabled": true,
+      "disabled": false,
       "settings": {},
       "blocks": {
         "image_banner_73d443": {
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "desktop_img": "shopify://shop_images/Asset_10_16x9_109e23e6-8f63-43f2-87fa-e79fc80c3918.jpg",
             "mobile_img": "shopify://shop_images/Asset_10_4x5_ead9ad0b-556e-40d1-b45d-9eda96de8ac0.jpg",
@@ -75,7 +75,7 @@
           }
         },
         "image_banner_jg6iwJ": {
-          "disabled": true,
+          "disabled": false,
           "settings": {}
         }
       }
