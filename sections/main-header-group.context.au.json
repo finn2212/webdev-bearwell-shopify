@@ -17,6 +17,16 @@
       "disabled": false,
       "settings": {},
       "blocks": {
+        "announcement_RtGaP": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "<p>Spend $120+, enjoy a FREE shaker valued at $45.</p>",
+            "link": "",
+            "icon": "gift",
+            "custom_icon_image": null
+          }
+        },
         "announcement_h9EFXX": {
           "disabled": true,
           "settings": {
@@ -54,6 +64,8 @@
         }
       },
       "block_order": [
+        "announcement_RtGaP",
+        "announcement_bh4JMM",
         "announcement_h9EFXX",
         "announcement_XrnmdH",
         "announcement_cAJcg",
