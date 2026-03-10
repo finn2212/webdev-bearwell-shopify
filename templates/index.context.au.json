@@ -22,38 +22,38 @@
         "container_size": "full-screen",
         "desktop_ratio": 0.8,
         "mobile_ratio": 1.6,
-        "header-7a2f9bf6fa03b6e7fd078654c3e7eecb": null,
+        "header-8b011ae61dd504acb8b0f6fbbfe0c3dd": null,
         "desktop_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
         "mobile_img": null,
         "video": null,
         "desktop_overlay_opacity": 20,
         "mobile_overlay_opacity": 20,
-        "header-cc2f2a0f9f1fd383ab3c90e47284d086": null,
+        "header-2687df00723290d049109a12a84f2b2e": null,
         "show-mountain-overlay": true,
-        "header-cc3a428c1883cff2bb342a35ed508e0a": null,
+        "header-dcce0dc75800622998051798c75cf181": null,
         "caption": "",
         "title": "",
         "heading_size": "h2",
         "text": "",
         "body_size": "body0",
-        "header-e9aee0f9080d6db2c610fadea5c7f78c": null,
+        "header-7abefc02c5610c248784081c53b6c40d": null,
         "desktop_content_position": "align-items:flex-end;justify-content:flex-start;",
         "desktop_content_align": "center",
         "content_max_width": 528,
         "content_spacing": 116,
         "mobile_content_position": "align-items:flex-end;justify-content:center;",
         "mobile_content_align": "center",
-        "header-cbbcc9401022bfbf518177d18892539b": null,
+        "header-107a6e07320350a614140e710d34aca5": null,
         "desktop_content_background": "none",
         "mobile_content_background": "none",
-        "header-10ff5cf1bcef6cdbd32e48b1ec260717": null,
+        "header-61a007209e1465f7b2786174c9064662": null,
         "btn_text": "Shop",
         "btn_url": "shopify://products/whey-protein-concentrate-smooth-vanilla",
         "btn_style": "solid",
         "extra_btn_text": "",
         "extra_btn_url": "",
         "extra_btn_style": "solid",
-        "header-0c9707b03a99c829b869e37bb76f3c9d": null,
+        "header-6641d1d466f7a1d54e7a4edf6332eed5": null,
         "add_side_paddings": false,
         "section_spacing_top": 0,
         "section_spacing_bottom": 0
@@ -68,14 +68,59 @@
         "show-mountain-overlay": true
       },
       "blocks": {
+        "image_banner_qFwtE": {
+          "type": "image-banner",
+          "disabled": false,
+          "settings": {
+            "color_scheme": "white",
+            "header-c1ad3ad3cda6a4fa7acc95c936b84bd0": null,
+            "desktop_img": null,
+            "mobile_img": null,
+            "video": "shopify://files/videos/Shaker ad.mov",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "header-26b11bfb27f355b218124e9deeadcea0": null,
+            "caption": "",
+            "title": "A little gift for you",
+            "heading_size": "h2",
+            "text": "<p>Spend $120, enjoy a FREE shaker valued at $45.</p>",
+            "body_size": "body0",
+            "header-85d373ccfa18de7a1a4c243f75d8586b": null,
+            "desktop_content_position": "align-items:center;justify-content:center;",
+            "desktop_content_align": "center",
+            "content_max_width": 528,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "header-bf0dd1dcf7b1e4c6eb914ec044436f06": null,
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "header-1df0b52f8605809c25fc47e8dcdd7c23": null,
+            "btn_text": "Shop now",
+            "btn_url": "shopify://collections/whey-protein-concentrate",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        },
         "image_banner_73d443": {
           "disabled": true,
           "settings": {
             "desktop_img": "shopify://shop_images/Asset_4_16x9_f7b783e6-c7f1-41ba-9723-a6ab0da70254.gif",
             "mobile_img": "shopify://shop_images/Asset_4x5_af749138-78b3-4d2c-a59c-dcc9aee313dd.gif"
           }
+        },
+        "image_banner_jg6iwJ": {
+          "disabled": true,
+          "settings": {}
         }
-      }
+      },
+      "block_order": [
+        "image_banner_qFwtE",
+        "image_banner_73d443",
+        "image_banner_jg6iwJ"
+      ]
     },
     "slideshow_7f3xDn": {
       "disabled": true,
