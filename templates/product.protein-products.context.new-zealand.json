@@ -17,9 +17,9 @@
       "settings": {},
       "blocks": {
         "information_tag_XECYJJ": {
-          "disabled": true,
+          "disabled": false,
           "settings": {
-            "heading": "<strong>Mighty THREE deal</strong>: Buy 2, Get 1 <strong>Free!      </strong>Just add three pouches of your choice to the cart to activate the offer."
+            "heading": "<strong>For every purchase above $120, you will get a free shaker valued at $45. Just add to your cart to activate</strong>"
           }
         }
       },
