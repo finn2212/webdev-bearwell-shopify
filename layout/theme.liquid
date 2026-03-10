@@ -1,6 +1,9 @@
 <!doctype html>
+  {%  if request.host contains 'bearwell.com.au' %}
  <html lang="en-AU">
-
+{% else %}
+ <html lang="en-NZ">
+{% endif %}
     <head>
       {%  if request.host contains 'bearwell.com.au' %}
         <!-- Google Console Verification -->
