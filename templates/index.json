@@ -14,6 +14,7 @@
       "blocks": {
         "image_banner_73d443": {
           "type": "image-banner",
+          "disabled": true,
           "settings": {
             "color_scheme": "white",
             "desktop_img": "shopify://shop_images/The_Journey_844fdce1-14d6-4351-8615-89031d33999a.webp",
@@ -686,7 +687,6 @@
           "type": "image-banner",
           "settings": {
             "color_scheme": "custom-1",
-            "desktop_img": "shopify://shop_images/104A8798_resized_57084b8f-4fc6-40d6-9f35-f5e39f224dd9.jpg",
             "desktop_overlay_opacity": 0,
             "mobile_overlay_opacity": 0,
             "caption": "",
