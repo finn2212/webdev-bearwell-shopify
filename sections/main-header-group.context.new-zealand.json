@@ -20,7 +20,7 @@
           "type": "announcement",
           "disabled": false,
           "settings": {
-            "text": "<p>Spend $120+, enjoy a FREE shaker valued at $45.</p>",
+            "text": "<p>Spend $120+, enjoy a FREE shaker valued at $45</p>",
             "link": "",
             "icon": "gift",
             "custom_icon_image": null
