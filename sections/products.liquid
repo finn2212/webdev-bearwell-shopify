@@ -110,6 +110,13 @@
   <div class='shop__container section-spacing container container--{{ container_size }} {% if add_side_paddings == true %} container--with-aside-paddings {% endif %}'>
     <div class='container__header collection__header  shop__header {% if filters_position == 'right' %} shop__header--reverse {% endif %}'>
       <div class='shop__header-left-panel {% if filters_position == 'right' %} shop__header-left-panel--reverse {% endif %}'>
+        {% if request.host contains 'bearwell.com.au' %}
+   <h1 class="h3">{{  collection.title }}</h1>
+        <div class="collection-description">{{ collection.description }}</div>
+       </div>
+{% else %}
+ <h1 class="h3">{{  collection.title }}</h1>
+{% endif %}
         <h1 class="h3">{{  collection.title }}</h1>
         <div class="collection-description">{{ collection.description }}</div>
        </div>
