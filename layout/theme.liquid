@@ -76,7 +76,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     })(window, document, "clarity", "script", "snqyr7rlot");
 </script>
 
-
+{%  if request.host contains 'bearwell.com.au' %}
 
 <script type="application/ld+json">
 {
@@ -272,6 +272,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   ]
 }
 </script>
+ {%  endif %}
 {% render 'breadcrumb-schema' %}
 
 
