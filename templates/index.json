@@ -715,7 +715,7 @@
         "image_banner_DGDxzy"
       ],
       "custom_css": [
-        ".image-banner__container{height: 500px;}"
+        ".image-banner__container {height: 350px;}"
       ],
       "settings": {
         "color_scheme": "default",
