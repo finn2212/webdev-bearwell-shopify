@@ -17,9 +17,9 @@
       "settings": {},
       "blocks": {
         "information_tag_XECYJJ": {
-          "disabled": true,
+          "disabled": false,
           "settings": {
-            "heading": "<strong>Mighty THREE deal</strong>: Buy 2, Get 1 <strong>Free!      </strong>Just add three pouches of your choice to the cart to activate the offer.Excludes Isolate range"
+            "heading": "<strong>For every purchase above $120, you will get a free shaker valued at $45. Just add to your cart to activate</strong>"
           }
         },
         "information_tag_yL7Tzq": {
@@ -38,7 +38,7 @@
             "icon_position": "inline",
             "tag_background_color": "#450e2b",
             "tag_text_color": "#faf7f3",
-            "header-adb6f41c7a8d42c4b2c5e5415ba0faff": null,
+            "header-ea81dfaf0b637a1ba1a45ffe2f4f785f": null,
             "enable_drawer": false,
             "drawer_text": "",
             "drawer_page": "",
