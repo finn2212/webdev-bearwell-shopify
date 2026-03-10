@@ -65,7 +65,8 @@
     "slideshow_f6XzEj": {
       "disabled": false,
       "settings": {
-        "show-mountain-overlay": true
+        "show-mountain-overlay": true,
+        "mobile_ratio": 1.2
       },
       "blocks": {
         "image_banner_qFwtE": {
