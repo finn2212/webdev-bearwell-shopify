@@ -347,6 +347,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       <script src='{{ 'bundle.js' | asset_url }}' defer='defer'></script>
       <script src='{{ 'custom.js' | asset_url }}' defer='defer'></script>
 
+{%  if request.host contains 'bearwell.com.au' %}
        <div id="popular-searches">
 <div class="fp-footer-container"> 
 <div class="fp-footer">
@@ -368,6 +369,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </ul>
 </div>
 </div></div>
+   {% endif %}
      <script type="text/javascript">
 jQuery(document).ready(function($) {
 
