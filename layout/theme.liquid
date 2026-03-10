@@ -54,12 +54,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
       {%  endif %}
 
-      <title>
-        {{ page_title }}
-        {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
-        {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-        {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
-      </title>
+   <title>
+  {{ page_title }}
+  {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
+  {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
+  {%- comment -%} Append country-specific suffix {%- endcomment -%}
+  {%- if request.host contains 'bearwell.com.au' -%}
+    &ndash; Australia | Bearwell
+  {%- elsif request.host contains 'bearwell.co.nz' -%}
+    &ndash; New Zealand | Bearwell
+  {%- else -%}
+    &ndash; Bearwell
+  {%- endif -%}
+</title>
   
       {% render 'css-variables' %}
       {{ 'bundle.js' | asset_url | preload_tag: as: 'script' }}
