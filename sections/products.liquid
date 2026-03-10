@@ -113,13 +113,11 @@
         {% if request.host contains 'bearwell.com.au' %}
    <h1 class="h3">{{  collection.title }}</h1>
         <div class="collection-description">{{ collection.description }}</div>
-       </div>
+      
 {% else %}
  <h1 class="h3">{{  collection.title }}</h1>
-{% endif %}
-        <h1 class="h3">{{  collection.title }}</h1>
-        <div class="collection-description">{{ collection.description }}</div>
-       </div>
+{% endif %} </div>
+        
       <div class='shop__header-right-panel {% if filters_position == 'right' %} shop__header-right-panel--reverse {% endif %}'>
         {%- if enable_filtering or enable_sorting -%}
           {%- if enable_filtering -%}
