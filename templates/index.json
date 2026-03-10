@@ -714,6 +714,9 @@
       "block_order": [
         "image_banner_DGDxzy"
       ],
+      "custom_css": [
+        ".image-banner__container{height: 500px;}"
+      ],
       "settings": {
         "color_scheme": "default",
         "show-mountain-overlay": false,
