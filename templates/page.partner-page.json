@@ -125,7 +125,7 @@
         "add_side_paddings": true,
         "halve_side_paddings_on_mobile": false,
         "section_spacing_top": 0,
-        "section_spacing_bottom": 48
+        "section_spacing_bottom": 0
       }
     }
   },
