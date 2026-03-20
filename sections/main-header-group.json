@@ -180,45 +180,6 @@
         "mobile_spacing_bottom": 0
       }
     },
-    "images_with_text_exCcyV": {
-      "type": "images-with-text",
-      "blocks": {
-        "image_w6fHxw": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Share_BearWell_fe63ef18-8d0d-4970-b97e-a08cc77a5651.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "image_w6fHxw"
-      ],
-      "name": "t:sections.images_with_text.name",
-      "settings": {
-        "color_scheme": "default",
-        "container_size": "large",
-        "content_layout": "left",
-        "image_layout": "collage",
-        "img_ratio": 1.1,
-        "rotate_images": false,
-        "icon": "none",
-        "heading": "Share BearWell™",
-        "heading_size": "h3",
-        "body": "<p>If BearWell™ has made a difference for you, share it with someone you care about.</p><p>They’ll receive $10 off their first order - and you’ll receive $10 once they do.</p>",
-        "body_size": "body4",
-        "content_alignment": "left",
-        "desktop_content_width": 360,
-        "first_button_text": "",
-        "first_button_link": "",
-        "first_button_style": "solid",
-        "second_button_text": "",
-        "second_button_link": "",
-        "second_button_style": "solid",
-        "add_side_paddings": true,
-        "section_spacing_top": 48,
-        "section_spacing_bottom": 80
-      }
-    },
     "1773977354a27ca623": {
       "type": "apps",
       "blocks": {
@@ -248,7 +209,6 @@
   "order": [
     "announcement-bar",
     "header",
-    "images_with_text_exCcyV",
     "1773977354a27ca623"
   ]
 }
