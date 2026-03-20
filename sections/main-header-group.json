@@ -185,6 +185,7 @@
       "blocks": {
         "uppromote_affiliate_customer_referral_landing_pyUiXm": {
           "type": "shopify://apps/uppromote-affiliate/blocks/customer-referral-landing/64c32457-930d-4cb9-9641-e24c0d9cf1f4",
+          "disabled": true,
           "settings": {
             "section_corners": 10,
             "section_top_margin": 20,
