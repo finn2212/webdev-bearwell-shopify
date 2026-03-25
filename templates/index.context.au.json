@@ -12,5 +12,52 @@
     "market": "au"
   },
   "parent": "index.json",
-  "sections": {}
+  "sections": {
+    "slideshow_f6XzEj": {
+      "settings": {},
+      "blocks": {
+        "image_banner_R8pEi": {
+          "type": "image-banner",
+          "disabled": false,
+          "settings": {
+            "color_scheme": "white",
+            "header-fdb1848ad6f53f23f2534556cab8bc7c": null,
+            "desktop_img": null,
+            "mobile_img": null,
+            "video": "shopify://files/videos/Shaker ad.mov",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "header-13c9e38f87e7c0445d795987d4f0421c": null,
+            "caption": "",
+            "title": "A little gift for you",
+            "heading_size": "h2",
+            "text": "<p>Spend $120+, enjoy a FREE shaker valued at $45</p>",
+            "body_size": "body0",
+            "header-6b479b2cbe549c3900e55dee3c95d5d4": null,
+            "desktop_content_position": "align-items:center;justify-content:center;",
+            "desktop_content_align": "center",
+            "content_max_width": 528,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "header-022e3d0eb6f205a4b69cb01ec39448bd": null,
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "header-884245cc47daae7d97cbb4bbbcc16e2c": null,
+            "btn_text": "Shop now",
+            "btn_url": "shopify://collections/whey-protein-concentrate",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "image_banner_R8pEi",
+        "image_banner_73d443",
+        "image_banner_jg6iwJ"
+      ]
+    }
+  }
 }
