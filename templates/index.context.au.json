@@ -14,7 +14,10 @@
   "parent": "index.json",
   "sections": {
     "slideshow_f6XzEj": {
-      "settings": {},
+      "settings": {
+        "desktop_ratio": 1,
+        "mobile_ratio": 1.2
+      },
       "blocks": {
         "image_banner_R8pEi": {
           "type": "image-banner",
