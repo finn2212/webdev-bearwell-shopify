@@ -664,6 +664,45 @@
         "section_spacing_bottom": 64
       }
     },
+    "images_with_text_gwNLiA": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_rjngKN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BearWellsachets.webp"
+          }
+        }
+      },
+      "block_order": [
+        "image_rjngKN"
+      ],
+      "name": "t:sections.images_with_text.name",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "content_layout": "left",
+        "image_layout": "collage",
+        "img_ratio": 0.8,
+        "rotate_images": false,
+        "icon": "none",
+        "heading": "Try BearWell™. On us.",
+        "heading_size": "h3",
+        "body": "<p>Most protein powders rely on artificial flavours, gums, and thickeners to mask poor taste and texture.</p><p>We don’t. Just clean, natural ingredients and a delicious taste.</p><p><strong>You’ll understand the difference after the first shake.</strong></p>",
+        "body_size": "body4",
+        "content_alignment": "center",
+        "desktop_content_width": 360,
+        "first_button_text": "Claim yours",
+        "first_button_link": "shopify://products/create-your-own-sample-pack-30g-sachets",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 14
+      }
+    },
     "custom_liquid_MAnzJT": {
       "type": "custom-liquid",
       "custom_css": [
@@ -857,6 +896,7 @@
     "image_slider_aWneMw",
     "multicolumn_dNtR6y",
     "rich_text_gpqAJy",
+    "images_with_text_gwNLiA",
     "custom_liquid_MAnzJT",
     "slideshow_YgY4Fp",
     "image_slider_MFkWij",
