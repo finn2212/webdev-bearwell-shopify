@@ -26,8 +26,8 @@
         "announcement_XrnmdH": {
           "type": "announcement",
           "settings": {
-            "text": "<h6><strong>FREE samples💥 Buy 1, Get 1 Free. Add both to activate</strong></h6>",
-            "link": "",
+            "text": "<h6><strong>Claim your FREE samples💥</strong></h6>",
+            "link": "shopify://products/create-your-own-sample-pack-30g-sachets",
             "icon": "discount-outline"
           }
         },
