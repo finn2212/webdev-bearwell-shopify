@@ -12,5 +12,27 @@
     "market": "au"
   },
   "parent": "main-header-group.json",
-  "sections": {}
+  "sections": {
+    "announcement-bar": {
+      "settings": {},
+      "blocks": {
+        "announcement_wYHAP": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "<p>Spend $120+, enjoy a FREE shaker valued at $45</p>",
+            "link": "",
+            "icon": "gift",
+            "custom_icon_image": null
+          }
+        }
+      },
+      "block_order": [
+        "announcement_wYHAP",
+        "announcement_h9EFXX",
+        "announcement_XrnmdH",
+        "announcement_bh4JMM"
+      ]
+    }
+  }
 }
