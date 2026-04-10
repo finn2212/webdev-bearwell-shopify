@@ -1,0 +1,689 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc": {
+      "type": "breadcrumbs",
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "show_breadcrumbs_product_title": true,
+        "add_side_paddings": true,
+        "section_spacing_top": 16,
+        "section_spacing_bottom": 0
+      }
+    },
+    "main": {
+      "type": "product",
+      "blocks": {
+        "information_tag_XECYJJ": {
+          "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "Spend $120+ and get a <strong>FREE </strong>BearWell shaker. Choose <strong>Midnight Blue</strong> or <strong>Eclipse Black</strong>  colour and add it to your cart.",
+            "heading_size": "h6",
+            "body": "",
+            "body_size": "body3",
+            "content_alignment": "left",
+            "icon": "discount-outline",
+            "icon_size": 24,
+            "icon_position": "inline",
+            "tag_background_color": "#450e2b",
+            "tag_text_color": "#faf7f3",
+            "enable_drawer": false,
+            "drawer_text": "",
+            "drawer_page": "",
+            "drawer_body_size": "body3",
+            "drawer_media_size": 60
+          }
+        },
+        "information_tag_Kw8UUW": {
+          "type": "information_tag",
+          "disabled": true,
+          "settings": {
+            "tag_style": "solid",
+            "heading": "Black Friday Deal: 20% off everything + free shipping! Limited time only.",
+            "heading_size": "h6",
+            "body": "",
+            "body_size": "body3",
+            "content_alignment": "left",
+            "icon": "discount-outline",
+            "icon_size": 24,
+            "icon_position": "inline",
+            "tag_background_color": "#450e2b",
+            "tag_text_color": "#faf7f3",
+            "enable_drawer": false,
+            "drawer_text": "",
+            "drawer_page": "",
+            "drawer_body_size": "body3",
+            "drawer_media_size": 60
+          }
+        },
+        "badges_B6JHwk": {
+          "type": "badges",
+          "settings": {
+            "show_sold_out_badge": true,
+            "show_sale_badge": true,
+            "show_custom_1_badge": false,
+            "show_custom_2_badge": false,
+            "show_custom_3_badge": false
+          }
+        },
+        "custom_liquid_KdCj4X": {
+          "type": "custom_liquid",
+          "settings": {
+            "style": "static",
+            "title": "",
+            "heading_size": "h1",
+            "custom_liquid": "<h1>{{ product.title | split: ' - ' | first }}</h1>",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "custom_liquid_hMGThR": {
+          "type": "custom_liquid",
+          "settings": {
+            "style": "static",
+            "title": "",
+            "heading_size": "caption3",
+            "custom_liquid": "<p class=\"sub-title\">{{ product.title | split: ' - ' | last }}  {% if product.metafields.custom.size.value != blank %} - {{ product.metafields.custom.size }}\n                {% endif %}</p>",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "judge_me_reviews_preview_badge_F9K4Gn": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "xs",
+            "show_tax_status": false,
+            "show_sale_amount_badge": true,
+            "highlight_sale_price": true
+          }
+        },
+        "custom_liquid_NCybze": {
+          "type": "custom_liquid",
+          "settings": {
+            "style": "static",
+            "title": "",
+            "heading_size": "caption3",
+            "custom_liquid": "<div class=\"mobile-hidden\">{% if product.metafields.custom.summary.value != blank %}{{ product.metafields.custom.summary | metafield_tag }}{% else %}<div class=\"metafield-rich_text_field\"><p>{{ product.description | truncatewords: 56 }}</p></div>{% endif %}\n</div>\n{% if product.handle == \"whey-protein-concentrate-chocolate-mousse-flavour\" %}\n<div class=\"firstpage-custom-collection\">     \n<input id=\"check_id\" type=\"checkbox\"><label for=\"check_id\"></label>\n<div class=\"content\">\n<h2 style=\"font-size:30px;\">Chocolate Mousse – Whey Protein</h2>\n<p>Protein doesn&rsquo;t need to taste boring.&nbsp;</p>\n<p>Our chocolate whey protein brings a rich, dessert-like flavour while staying true to BearWell&trade;&rsquo;s promise of clean, grass-fed nutrition.</p>\n<p>Made with real ingredients and no fillers, our chocolate mousse protein is smooth, satisfying, and surprisingly light. It mixes easily into shakes, smoothies, or even baking recipes, making it the perfect way to get your protein fix without compromising taste.</p>\n<h2>Why Shop Our Chocolate Mousse Protein?</h2>\n<p>Most chocolate whey protein powders overload you with sweeteners or leave a gritty aftertaste. Ours is different.&nbsp;</p>\n<p>Every scoop delivers:</p>\n<ul>\n<li>Clean, grass-fed whey protein from New Zealand cows</li>\n<li>A creamy, dessert-inspired flavour without the junk</li>\n<li>No gums, thickeners, or artificial additives</li>\n<li>A shake that&rsquo;s as easy to digest as it is to enjoy</li>\n</ul>\n<p>It&rsquo;s the kind of chocolate shake you&rsquo;ll look forward to &ndash; whether post-gym or as a guilt-free snack.</p>\n<h2>Versatile and Delicious</h2>\n<p>BearWell&trade; chocolate mousse protein isn&rsquo;t limited to shakes. Use it in overnight oats, blend it into smoothies, or add it to your favourite baking recipes for a protein-packed twist.</p>\n<p>If you like variety, mix it up with our other flavours too.&nbsp;</p>\n<p>Try our <a href=\"https://bearwell.com.au/products/whey-protein-concentrate-mixed-berry\">berry protein powder'</a>s light, fruity boost, or keep it classic with <a href=\"https://bearwell.com.au/products/whey-protein-concentrate-smooth-vanilla\">whey protein vanilla flavour</a>. Prefer full flexibility? Our <a href=\"https://bearwell.com.au/collections/unflavoured-whey-protein\">flavourless protein</a> is the perfect blank canvas.</p>\n<h2>BearWell&trade; Chocolate Whey Protein isn&rsquo;t Like the Rest</h2>\n<p>Our chocolate mousse protein isn&rsquo;t just about flavour &ndash; it&rsquo;s built on principles that set BearWell&trade; apart:</p>\n<ul>\n<li>Superior Sweetener: We use Thaumatin, a natural sweetener that&rsquo;s smoother, cleaner, and healthier than stevia or monk fruit. The result? A chocolate protein powder that tastes indulgent without the bitter aftertaste.</li>\n<li>Transparency &amp; Integrity: No hidden ingredients, exaggerated claims or influencers pushing powders they don&rsquo;t use. Every label shows you exactly what&rsquo;s inside, because honesty matters.</li>\n<li>Taste &amp; Texture: Creamy, rich, and easy to mix. Our chocolate whey protein delivers dessert-level flavour without sacrificing purity. No chalkiness or chemical aftertaste.</li>\n<li>Convenience: Available in single-serve sachets, it&rsquo;s perfect for travel, work, or gym bags. Tear, shake, and enjoy clean nutrition anywhere.</li>\n</ul>\n<ul>\n<li>Premium Packaging: Pair it with our medical-grade, <a href=\"https://bearwell.com.au/collections/accessories\">BPA-free shaker </a>for leak-proof, mess-free mixing &ndash; because quality should extend beyond the product itself.</li>\n</ul>\n<h2>Shop Chocolate Whey Protein Today</h2>\n<p>If you&rsquo;ve been searching for a chocolate whey protein that tastes indulgent but stays clean, BearWell&trade; is your answer.</p>\n<p>Order your Chocolate Mousse Protein now and enjoy real flavour, real ingredients, and real results.</p></div></div>\n{% elsif product.handle == \"whey-protein-concentrate-mixed-berry\" %}\n <div class=\"firstpage-custom-collection\">\n        \n<input id=\"check_id\" type=\"checkbox\"><label for=\"check_id\"></label>\n<div class=\"content\">\n<h2 style=\"font-size:30px;\">Mixed Berry &ndash; Protein Powder</h2>\n<p>Protein shakes don&rsquo;t have to taste bland or artificial. With BearWell&trade; berry protein powder, you get a refreshing, fruity flavour that feels light and energising &ndash;&nbsp;all without the fillers, gums, or sweeteners you find in cheaper powders.</p>\n<p>Made from grass-fed whey, this fruity protein powder blends freeze-dried strawberry pieces, freeze-dried boysenberry powder and clean nutrition. It has a naturally delicious taste and works in just water.</p>\n<h2>Why Do You Need our Berry Protein Powder?</h2>\n<p>Most fruit-flavoured proteins taste chalky, overly sweet, or leave a strange aftertaste.&nbsp;</p>\n<p>BearWell&trade; does it differently.&nbsp;</p>\n<p>Our mixedberry protein powder(in isolate or concentrate) is:</p>\n<ul>\n<li>Sourced from grass-fed New Zealand whey for clean, quality protein</li>\n<li>Light and refreshing &ndash;&nbsp;no heaviness or bloating</li>\n<li>Free from artificial additives and hidden nasties</li>\n<li>Designed to fuel your day while actually tasting good<br /><br /></li>\n</ul>\n<p>It&rsquo;s the perfect choice if you want something different from classic chocolate or vanilla.</p>\n<h2>How to Enjoy Fruity Protein Powder</h2>\n<p>One of the best things about BearWell&trade; fruity protein powder is its versatility. You can:</p>\n<ul>\n<li>Blend it into smoothies with banana, spinach, or coconut water</li>\n<li>Add fruity protein powder to yoghurt or oats for a protein-rich breakfast</li>\n<li>Shake it up post-workout for fast recovery</li>\n<li>Use it as a clean snack between meals to curb cravings<br /><br /></li>\n</ul>\n<p>And if you like switching it up, you can also try our creamy <a href=\"https://bearwell.com.au/products/whey-protein-concentrate-smooth-vanilla\">whey protein vanilla</a>, indulgent <a href=\"http://bearwell.com.au/products/whey-protein-concentrate-chocolate-mousse-flavour\">chocolate whey protein</a>, or flexible <a href=\"https://bearwell.com.au/collections/unflavoured-whey-protein\">unflavored protein powder</a>.</p>\n<h2>What Makes Us Different?</h2>\n<p>Our BearWell&trade; family believes protein should be simple, honest, and enjoyable.&nbsp;</p>\n<p>That&rsquo;s why every scoop of BearWell&trade; berry protein powder is made with transparency at the core &ndash;&nbsp;clean ingredients, clear labelling, and a flavour profile that makes fuelling your body easy.</p>\n<h2>Try BearWell&trade; Mixedberry Protein Powder</h2>\n<p>Looking for a shake that&rsquo;s light, refreshing, and actually enjoyable to drink? BearWell&trade; fruity protein powder is your answer.</p>\n<p>Order today and fuel your day with fresh, fruity protein powder that works as good as it tastes.</p>\n</div></div>{% elsif product.handle == \"whey-protein-concentrate-smooth-vanilla\" %}\n<div class=\"firstpage-custom-collection\">\n        \n<input id=\"check_id\" type=\"checkbox\"><label for=\"check_id\"></label>\n<div class=\"content\"><h2 style=\"font-size:30px;\">Whey Protein - Smooth Vanilla</h2>\n<p>There&rsquo;s a reason vanilla never goes out of style. Our vanilla whey protein is creamy and versatile &ndash;&nbsp;made with grass-fed New Zealand whey for quality you can depend on. With no fillers, gums, or artificial additives, this vanilla whey protein powder is proof that simple flavours can still be exciting.</p>\n<h2>BearWell&trade; Protein Powder &ndash; Vanilla Flavour</h2>\n<p>What makes BearWell&trade; vanilla different from other powders?</p>\n<ul>\n<li>Honest ingredients: We show you everything on the label, no gimmicks.</li>\n<li>Clean taste: No chemical aftertaste, Vanilla whey proteintastes like melted vanilla ice cream &ndash; with just water!</li>\n<li>Quality sourcing: Whey from grass-fed New Zealand cows.</li>\n<li>Better experience: A shake that&rsquo;s as enjoyable as it is nourishing.</li>\n</ul>\n<h2>Our Whey Protein Vanilla Flavour is Your New Go-To</h2>\n<p>The BearWell&trade; protein powder vanilla flavour is loved for its smooth and creamy taste that&rsquo;s never overly sweet, making it easy to enjoy day after day.&nbsp;</p>\n<p>It&rsquo;s also easy to digest, so you won&rsquo;t experience that heavy, bloated feeling some powders leave behind. Free from artificial flavours and hidden additives, it delivers an honest source of protein you&rsquo;ll love.&nbsp;</p>\n<p>Whether you shake it on its own or blend it into your favourite recipes, this vanilla whey protein powder is a go-to option for anyone who values flavour and function.</p>\n<h2>Everyday Versatility</h2>\n<p>Our protein powder vanilla flavour fits effortlessly into any routine. Shake it up post-workout for recovery, stir it into oats for breakfast, or add it to smoothies for an extra protein boost. You can even bake with it for a clean dessert upgrade.</p>\n<p>If you like variety, you can also pair vanilla with our other options. Refresh your mornings with our <a href=\"https://bearwell.com.au/products/whey-protein-concentrate-mixed-berry\">fruity protein powder</a> or stay minimal with <a href=\"https://bearwell.com.au/collections/unflavoured-whey-protein\">unflavoured whey protein</a>.</p>\n<h2>Shop Vanilla Protein Powder Today</h2>\n<p>If you want a protein that&rsquo;s pure, versatile, and tastes as good as it feels, BearWell&trade; vanilla whey protein powder is the perfect choice.</p>\n<p>Order your whey protein vanilla today and fuel your body with clean, delicious nutrition.</p></div></div>\n{% endif %}",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "siblings_QAMKJL": {
+          "type": "siblings",
+          "settings": {
+            "label": "{{ product.metafields.custom.products_siblings_label.value }}",
+            "product_list": "{{ product.metafields.custom.product_siblings_list.value.product_list.value }}",
+            "metafield_sibling_value": "{{ product.metafields.custom.products_siblings_label.value }}",
+            "swatch_type": "variant-images",
+            "swatch_shape": "square",
+            "swatch_size": 1,
+            "swatch_patterns": ""
+          }
+        },
+        "siblings_QAGjP7": {
+          "type": "siblings",
+          "settings": {
+            "label": "{{ product.metafields.custom.size_links_label.value }}",
+            "product_list": "{{ product.metafields.custom.size_links_list.value.product_list.value }}",
+            "metafield_sibling_value": "{{ product.metafields.custom.products_siblings_label.value }}",
+            "swatch_type": "variant-images-as-links",
+            "swatch_shape": "square",
+            "swatch_size": 1,
+            "swatch_patterns": ""
+          }
+        },
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183": {
+          "type": "variant_picker",
+          "settings": {
+            "option_type": "dropdown-underline",
+            "show_swatches": false,
+            "primary_swatch_option_type": "swatches",
+            "secondary_swatch_option_type": "swatches",
+            "hide_single_value_options": false,
+            "option_name": "",
+            "information_drawer_button_label": "",
+            "text": "",
+            "page": "",
+            "image_width": 60
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "appstle_subscription_appstle_subscription_product_page_widget_RXMcgR": {
+          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "enable_pickup_availability": false,
+            "enable_gift_card": true,
+            "add_to_cart_btn_style": "solid",
+            "checkout_btn_style": "outline"
+          }
+        },
+        "custom_liquid_9LeV7y": {
+          "type": "custom_liquid",
+          "settings": {
+            "style": "static",
+            "title": "",
+            "heading_size": "caption3",
+            "custom_liquid": "",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "custom_liquid_bG7ctW": {
+          "type": "custom_liquid",
+          "settings": {
+            "style": "static",
+            "title": "",
+            "heading_size": "caption3",
+            "custom_liquid": "<div class=\"desktop-hidden\">{% if product.metafields.custom.summary.value != blank %}{{ product.metafields.custom.summary | metafield_tag }}{% else %}<div class=\"metafield-rich_text_field\"><p>{{ product.description | truncatewords: 56 }}</p></div>{% endif %}\n<p>&nbsp;</p>\n</div>",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "28586830-d855-4547-8946-94914bac9e85": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "title": "Details",
+            "heading_size": "h6",
+            "body_size": "body3",
+            "block_style": "collapsible_row_closed",
+            "icon": "none",
+            "icon_size": 24
+          }
+        },
+        "collapsible_row_iD8YaL": {
+          "type": "collapsible_row",
+          "settings": {
+            "style": "collapsible_row_closed",
+            "title": "Taste Profile",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 20,
+            "show_nutritional_table": false,
+            "show_amino_table": false,
+            "text": "{{ product.metafields.custom.flavour_profile | metafield_tag }}",
+            "page": "",
+            "body_size": "body6",
+            "image_width": 60
+          }
+        },
+        "collapsible_row_tWN9jT": {
+          "type": "collapsible_row",
+          "settings": {
+            "style": "collapsible_row_closed",
+            "title": "Ingredients",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 20,
+            "show_nutritional_table": false,
+            "show_amino_table": false,
+            "text": "{{ product.metafields.custom.ingredients | metafield_tag }}",
+            "page": "",
+            "body_size": "body6",
+            "image_width": 60
+          }
+        },
+        "collapsible_row_EG64DM": {
+          "type": "collapsible_row",
+          "settings": {
+            "style": "collapsible_row_closed",
+            "title": "Nutritional Information",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 20,
+            "show_nutritional_table": true,
+            "show_amino_table": false,
+            "text": "{{ product.metafields.custom.nutritional_information | metafield_tag }}",
+            "page": "",
+            "body_size": "body6",
+            "image_width": 60
+          }
+        },
+        "collapsible_row_9Twqqx": {
+          "type": "collapsible_row",
+          "settings": {
+            "style": "collapsible_row_closed",
+            "title": "Amino Acid Profile",
+            "heading_size": "h6",
+            "icon": "none",
+            "icon_size": 20,
+            "show_nutritional_table": false,
+            "show_amino_table": true,
+            "text": "{{ product.metafields.custom.amino_acid_profile | metafield_tag }}",
+            "page": "",
+            "body_size": "body6",
+            "image_width": 60
+          }
+        },
+        "custom_liquid_xazznw": {
+          "type": "custom_liquid",
+          "settings": {
+            "style": "static",
+            "title": "",
+            "heading_size": "caption3",
+            "custom_liquid": "<div class=\"reviews-tab h6\"><svg class=\"accordeon-plus__icon\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" aria-labelledby=\"title\" role=\"img\">         <path d=\"M7 12H17\" stroke=\"currentColor\" stroke-width=\"2\"></path>        <path d=\"M12 7L12 17\" stroke=\"currentColor\" stroke-width=\"2\"></path>        <title id=\"title\">Plus</title>      </svg>Reviews \n  <div class='jdgm-widget jdgm-preview-badge'>\n    {{ product.metafields.judgeme.badge }}</div>\n  </div>",
+            "icon": "none",
+            "icon_size": 24
+          }
+        }
+      },
+      "block_order": [
+        "information_tag_XECYJJ",
+        "information_tag_Kw8UUW",
+        "badges_B6JHwk",
+        "custom_liquid_KdCj4X",
+        "custom_liquid_hMGThR",
+        "judge_me_reviews_preview_badge_F9K4Gn",
+        "price",
+        "custom_liquid_NCybze",
+        "siblings_QAMKJL",
+        "siblings_QAGjP7",
+        "d3d427d0-4e7d-4f81-9057-c64f65a4f183",
+        "quantity_selector",
+        "appstle_subscription_appstle_subscription_product_page_widget_RXMcgR",
+        "buy_buttons",
+        "custom_liquid_9LeV7y",
+        "custom_liquid_bG7ctW",
+        "28586830-d855-4547-8946-94914bac9e85",
+        "collapsible_row_iD8YaL",
+        "collapsible_row_tWN9jT",
+        "collapsible_row_EG64DM",
+        "collapsible_row_9Twqqx",
+        "custom_liquid_xazznw"
+      ],
+      "custom_css": [
+        ".product-information-tag {padding: 0.8rem 1.4rem; width: 95%;}"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "large",
+        "media_to_content_ratio": "50-50",
+        "img_ratio": "portrait",
+        "layout": "thumbnails-bottom",
+        "desktop_space_between_media": 20,
+        "thumbnails_size": 88,
+        "mobile_layout": "slideshow-linear",
+        "mobile_space_between_media": 20,
+        "show_only_selected_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": true,
+        "enable_video_autoplay": true,
+        "scale_video": true,
+        "add_side_paddings": true,
+        "desktop_spacing_top": 32,
+        "desktop_spacing_bottom": 98,
+        "mobile_spacing_top": 12,
+        "mobile_spacing_bottom": 50
+      }
+    },
+    "multicolumn_gagTLK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_JCUKhc": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/New_Zealand_e84a3f41-fb59-4f73-88ac-907338206ed9.png",
+            "icon_size": 64,
+            "title": "Made in New Zealand",
+            "text": "<p>A home of natural beauty, abundant with clean water, fresh air and fertile soil that raises the happiest cows. </p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_XCD7xF": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/All_natural_2790986b-c632-4f18-8f8f-09c3bc24f635.png",
+            "icon_size": 64,
+            "title": "All Natural",
+            "text": "<p>No artificial additives—just pure, simple ingredients that give you a nutritious and delicious experience.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_TcwP43": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/Grass-fed.png",
+            "icon_size": 64,
+            "title": "Grass-Fed",
+            "text": "<p>The highest quality protein derived from New Zealand grass-fed cows that roam freely all year round.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_bGfc3U": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/No_Gums_or_Thickeners.png",
+            "icon_size": 64,
+            "title": "No Gums or Thickeners",
+            "text": "<p>No fillers or additives that impacts your digestive system. Just quality, purity and an amazing taste.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_JCUKhc",
+        "column_with_icon_XCD7xF",
+        "column_with_icon_TcwP43",
+        "column_with_icon_bGfc3U"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "medium",
+        "enable_mountains": false,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "",
+        "heading_size": "h3",
+        "text": "",
+        "body_size": "body4",
+        "content_alignment": "center",
+        "column_heading_size": "h6",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 25,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 0,
+        "show_column_background": false,
+        "show_navigation_on_hover": false,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "solid",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 70
+      }
+    },
+    "multicolumn_MwcD9E": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_with_icon_jzdFEN": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/Morning_Fuel_7ce3e932-8e8e-4f90-bcf1-c8d363646312.png",
+            "icon_size": 64,
+            "title": "Morning Fuel",
+            "text": "<p>Fuel your body to kickstart the day and be ready for whatever life throws at you. Protein in the morning sets the stage for sustained energy and strength.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_CE6K9R": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/Midday_Boost_9613180c-a62d-46f9-8a78-580087a1b3e4.png",
+            "icon_size": 64,
+            "title": "Midday Boost",
+            "text": "<p>Beat the afternoon slump with a protein boost that helps you stay sharp and perform at your best, pushing through the day with focus.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_AKbNjx": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/Evening_Treat_32feb183-d3a6-4109-8e33-c5105b7e9482.png",
+            "icon_size": 64,
+            "title": "Evening Treat",
+            "text": "<p>Treat yourself to BearWell™ protein as you wind down, nourishing your body and helping it recover, so you're ready for adventures tomorrow.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "column_with_icon_qMWgTP": {
+          "type": "column_with_icon",
+          "settings": {
+            "icon": "discount-outline",
+            "custom_icon_image": "shopify://shop_images/Activity_Recharge_557b30d1-7397-48a7-8eea-b9350293ee31.png",
+            "icon_size": 64,
+            "title": "Activity Recharge",
+            "text": "<p>Replenish and recharge your body after activity, supporting muscle recovery and energy, so you can keep going strong.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_with_icon_jzdFEN",
+        "column_with_icon_CE6K9R",
+        "column_with_icon_AKbNjx",
+        "column_with_icon_qMWgTP"
+      ],
+      "settings": {
+        "color_scheme": "secondary",
+        "container_size": "medium",
+        "enable_mountains": true,
+        "desktop_layout": "grid",
+        "mobile_layout": "one-column-grid",
+        "title": "",
+        "heading_size": "h3",
+        "text": "",
+        "body_size": "body4",
+        "content_alignment": "left",
+        "column_heading_size": "h6",
+        "column_body_size": "body4",
+        "column_alignment": "center",
+        "desktop_columns": 4,
+        "desktop_space_between_cards": 25,
+        "desktop_content_spacing": 0,
+        "mobile_space_between_cards": 16,
+        "mobile_content_spacing": 0,
+        "show_column_background": false,
+        "show_navigation_on_hover": true,
+        "btn_text": "",
+        "btn_url": "",
+        "btn_style": "outline",
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 90,
+        "section_spacing_bottom": 100
+      }
+    },
+    "scrolling_text_ghXTre": {
+      "type": "scrolling-text",
+      "blocks": {
+        "announcement_bYJtme": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Gluten Free"
+          }
+        },
+        "announcement_mP9UXW": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Grass-fed whey protein"
+          }
+        },
+        "announcement_QNKAMg": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "No gums or thickeners"
+          }
+        },
+        "announcement_9hCXNQ": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "No artificial flavours"
+          }
+        },
+        "announcement_Ampeh9": {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Made in New Zealand"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_bYJtme",
+        "announcement_mP9UXW",
+        "announcement_QNKAMg",
+        "announcement_9hCXNQ",
+        "announcement_Ampeh9"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "section_layout": "parallel",
+        "inclination_degree": 0,
+        "crossing_point_position": 0,
+        "overlay_opacity": 0,
+        "add_side_paddings": false,
+        "section_spacing_top": 80,
+        "section_spacing_bottom": 100,
+        "font_family": "body",
+        "font_style": "solid",
+        "font_size": 24,
+        "letter_spacing": 0,
+        "spacing_between_messages": 20,
+        "top_and_bottom_spacing": 0,
+        "link": "",
+        "icon": "none",
+        "icon_size": 40,
+        "scrolling_direction": "right_to_left",
+        "scrolling_speed": 30,
+        "background_color": "rgba(0,0,0,0)",
+        "background_color_gradient": "",
+        "text_color": "#450e2b",
+        "text_color_gradient": ""
+      }
+    },
+    "images_with_text_NjXMAj": {
+      "type": "images-with-text",
+      "blocks": {
+        "image_Nnzn8Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WPC_vanilla_scoop.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_Nnzn8Y"
+      ],
+      "settings": {
+        "color_scheme": "custom-2",
+        "container_size": "page-width",
+        "content_layout": "left",
+        "image_layout": "grid",
+        "img_ratio": 0.8,
+        "rotate_images": false,
+        "icon": "none",
+        "heading": "How To Take",
+        "heading_size": "h3",
+        "body": "<h3>BearWell™ protein is versatile and can be added to smoothies, breakfast bowls, and even used in baking to create high-protein snacks.</h3><p><strong>Directions</strong></p><p>Blend one scoop (30g) into 200ml of water, milk, or your preferred smoothie. </p><p>Adjust the intensity of the flavor by varying the liquid amount or adding more scoops if you prefer a sweeter, thicker consistency. <br/></p><h6>Storage</h6><p>To keep your protein fresh, store it in a cool, dry place away from direct sunlight and moisture. Make sure the container is tightly sealed after each use.</p>",
+        "body_size": "body4",
+        "content_alignment": "left",
+        "desktop_content_width": 360,
+        "first_button_text": "View FAQ's",
+        "first_button_link": "shopify://pages/faq",
+        "first_button_style": "solid",
+        "second_button_text": "",
+        "second_button_link": "",
+        "second_button_style": "solid",
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 60
+      }
+    },
+    "17285246023ff52dd1": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_reQjRf": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_reQjRf"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "page-width",
+        "custom_liquid": "",
+        "add_side_paddings": true,
+        "halve_side_paddings_on_mobile": false,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "color_scheme": "black",
+        "container_size": "full-screen",
+        "title": "Related Items",
+        "heading_size": "h3",
+        "alignment": "left",
+        "product_recommendations_type": "auto",
+        "featured_collection": "",
+        "featured_products": [],
+        "img_ratio": "square",
+        "desktop_layout": "carousel",
+        "mobile_layout": "carousel",
+        "product_card_align": "left",
+        "cards_to_show": 18,
+        "desktop_columns": 3,
+        "desktop_space_between_cards": 25,
+        "mobile_space_between_cards": 16,
+        "show_navigation_on_hover": true,
+        "autoplay_mode": "disabled",
+        "autoplay_interval": 3,
+        "add_side_paddings": true,
+        "section_spacing_top": 48,
+        "section_spacing_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "ff03a7f7-70a4-4aa2-8e65-56be8e7dbefc",
+    "main",
+    "multicolumn_gagTLK",
+    "multicolumn_MwcD9E",
+    "scrolling_text_ghXTre",
+    "images_with_text_NjXMAj",
+    "17285246023ff52dd1",
+    "product-recommendations"
+  ]
+}
