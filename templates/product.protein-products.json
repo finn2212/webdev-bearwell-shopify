@@ -25,6 +25,27 @@
       "blocks": {
         "information_tag_XECYJJ": {
           "type": "information_tag",
+          "settings": {
+            "tag_style": "solid",
+            "heading": "Limit is one set per customer.",
+            "heading_size": "h6",
+            "body": "",
+            "body_size": "body3",
+            "content_alignment": "left",
+            "icon": "medal",
+            "icon_size": 24,
+            "icon_position": "inline",
+            "tag_background_color": "#450e2b",
+            "tag_text_color": "#faf7f3",
+            "enable_drawer": false,
+            "drawer_text": "",
+            "drawer_page": "",
+            "drawer_body_size": "body3",
+            "drawer_media_size": 60
+          }
+        },
+        "information_tag_Kw8UUW": {
+          "type": "information_tag",
           "disabled": true,
           "settings": {
             "tag_style": "solid",
@@ -270,6 +291,7 @@
       },
       "block_order": [
         "information_tag_XECYJJ",
+        "information_tag_Kw8UUW",
         "badges_B6JHwk",
         "custom_liquid_KdCj4X",
         "custom_liquid_hMGThR",
