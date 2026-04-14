@@ -24,29 +24,29 @@
           "disabled": false,
           "settings": {
             "color_scheme": "white",
-            "header-fdb1848ad6f53f23f2534556cab8bc7c": null,
+            "header-3ab057f8b9c71e88a7bc8b67e5a6142f": null,
             "desktop_img": null,
             "mobile_img": null,
             "video": "shopify://files/videos/Shaker ad.mov",
             "desktop_overlay_opacity": 20,
             "mobile_overlay_opacity": 20,
-            "header-13c9e38f87e7c0445d795987d4f0421c": null,
+            "header-cf9626981fa8f6acb25f1e0fdc920e29": null,
             "caption": "",
             "title": "A little gift for you",
             "heading_size": "h2",
             "text": "<p>Spend $120+, enjoy a FREE shaker valued at $45</p>",
             "body_size": "body0",
-            "header-6b479b2cbe549c3900e55dee3c95d5d4": null,
+            "header-1386d349301c7106b10d6025bc473d43": null,
             "desktop_content_position": "align-items:center;justify-content:center;",
             "desktop_content_align": "center",
             "content_max_width": 528,
             "content_spacing": 116,
             "mobile_content_position": "align-items:flex-end;justify-content:center;",
             "mobile_content_align": "center",
-            "header-022e3d0eb6f205a4b69cb01ec39448bd": null,
+            "header-ff2c43157dc48075fd5092d1039ddf44": null,
             "desktop_content_background": "none",
             "mobile_content_background": "none",
-            "header-884245cc47daae7d97cbb4bbbcc16e2c": null,
+            "header-622e9e1270754addd45c8fdc2d5522f6": null,
             "btn_text": "Shop now",
             "btn_url": "shopify://collections/whey-protein-concentrate",
             "btn_style": "solid",
@@ -61,6 +61,75 @@
         "image_banner_73d443",
         "image_banner_jg6iwJ"
       ]
+    },
+    "scrolling_text_KmMiP": {
+      "type": "scrolling-text",
+      "disabled": false,
+      "settings": {
+        "color_scheme": "default",
+        "container_size": "full-screen",
+        "section_layout": "parallel",
+        "inclination_degree": 0,
+        "crossing_point_position": 0,
+        "header-d5cb52b3c10fb63bce7f90f4f83b249f": null,
+        "background_image": null,
+        "overlay_opacity": 0,
+        "header-7ee3eef99dc397e3d6efe501ec4a6044": null,
+        "add_side_paddings": false,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0,
+        "font_family": "heading",
+        "font_style": "solid",
+        "font_size": 24,
+        "letter_spacing": 0,
+        "spacing_between_messages": 40,
+        "top_and_bottom_spacing": 20,
+        "link": "",
+        "icon": "none",
+        "custom_icon_image": null,
+        "icon_size": 40,
+        "header-151301046ca93550e5d6622000d3bba2": null,
+        "scrolling_direction": "right_to_left",
+        "scrolling_speed": 30,
+        "header-189e643e94e3dfc2af8a1f56e7e14b42": null,
+        "paragraph-dc18908c324c4ef7b7a984995eea6d9b": null,
+        "background_color": "#faf7f3",
+        "background_color_gradient": "",
+        "text_color": "#000000",
+        "text_color_gradient": ""
+      },
+      "blocks": {
+        "announcement_n68kj": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "announcement_text": "All orders placed from 12am 14 April will be sent on 18 April."
+          }
+        }
+      },
+      "block_order": [
+        "announcement_n68kj"
+      ],
+      "name": "t:sections.scrolling-text.name"
     }
-  }
+  },
+  "order": [
+    "slideshow_f6XzEj",
+    "slideshow_7f3xDn",
+    "scrolling_text_U8WdUD",
+    "scrolling_text_KmMiP",
+    "multicolumn_Gp4jLN",
+    "rich_text_BaEPBH",
+    "featured_collection_LdHrMJ",
+    "scrolling_text_mgXAEP",
+    "image_slider_aWneMw",
+    "multicolumn_dNtR6y",
+    "rich_text_gpqAJy",
+    "images_with_text_gwNLiA",
+    "custom_liquid_MAnzJT",
+    "slideshow_YgY4Fp",
+    "image_slider_MFkWij",
+    "blog_posts_f3Ftdg",
+    "17287725865bf18f7c"
+  ]
 }
