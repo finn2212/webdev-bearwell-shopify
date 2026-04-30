@@ -108,13 +108,13 @@
         "image_banner_73d443": {
           "disabled": false,
           "settings": {
-            "desktop_img": "shopify://shop_images/Asset_10_16x9_109e23e6-8f63-43f2-87fa-e79fc80c3918.jpg",
+            "desktop_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
             "mobile_img": "shopify://shop_images/Asset_10_1x1_47778ce0-8f7c-4aad-b46f-7fd58cfcbc46.gif",
             "video": null,
-            "desktop_content_position": "align-items:center;justify-content:center;",
             "caption": "",
             "title": "",
             "text": "",
+            "desktop_content_position": "align-items:center;justify-content:center;",
             "mobile_content_position": "align-items:flex-end;justify-content:center;"
           }
         },
