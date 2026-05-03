@@ -13,68 +13,19 @@
   },
   "parent": "index.json",
   "sections": {
-    "slideshow_f6XzEj": {
-      "settings": {
-        "desktop_ratio": 1,
-        "mobile_ratio": 1.2
-      },
-      "blocks": {
-        "image_banner_R8pEi": {
-          "type": "image-banner",
-          "disabled": false,
-          "settings": {
-            "color_scheme": "white",
-            "header-3ab057f8b9c71e88a7bc8b67e5a6142f": null,
-            "desktop_img": null,
-            "mobile_img": null,
-            "video": "shopify://files/videos/Shaker ad.mov",
-            "desktop_overlay_opacity": 20,
-            "mobile_overlay_opacity": 20,
-            "header-cf9626981fa8f6acb25f1e0fdc920e29": null,
-            "caption": "",
-            "title": "A little gift for you",
-            "heading_size": "h2",
-            "text": "<p>Spend $120+, enjoy a FREE shaker valued at $45</p>",
-            "body_size": "body0",
-            "header-1386d349301c7106b10d6025bc473d43": null,
-            "desktop_content_position": "align-items:center;justify-content:center;",
-            "desktop_content_align": "center",
-            "content_max_width": 528,
-            "content_spacing": 116,
-            "mobile_content_position": "align-items:flex-end;justify-content:center;",
-            "mobile_content_align": "center",
-            "header-ff2c43157dc48075fd5092d1039ddf44": null,
-            "desktop_content_background": "none",
-            "mobile_content_background": "none",
-            "header-622e9e1270754addd45c8fdc2d5522f6": null,
-            "btn_text": "Shop now",
-            "btn_url": "shopify://collections/whey-protein-concentrate",
-            "btn_style": "solid",
-            "extra_btn_text": "",
-            "extra_btn_url": "",
-            "extra_btn_style": "outline"
-          }
-        }
-      },
-      "block_order": [
-        "image_banner_R8pEi",
-        "image_banner_73d443",
-        "image_banner_jg6iwJ"
-      ]
-    },
     "scrolling_text_KmMiP": {
       "type": "scrolling-text",
-      "disabled": false,
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "container_size": "full-screen",
         "section_layout": "parallel",
         "inclination_degree": 0,
         "crossing_point_position": 0,
-        "header-d5cb52b3c10fb63bce7f90f4f83b249f": null,
+        "header-3317e71a713ad0d64e368b443479b2cb": null,
         "background_image": null,
         "overlay_opacity": 0,
-        "header-7ee3eef99dc397e3d6efe501ec4a6044": null,
+        "header-390a0e118dd8dfc0ebbb278f86e93b6b": null,
         "add_side_paddings": false,
         "section_spacing_top": 0,
         "section_spacing_bottom": 0,
@@ -88,11 +39,11 @@
         "icon": "none",
         "custom_icon_image": null,
         "icon_size": 40,
-        "header-151301046ca93550e5d6622000d3bba2": null,
+        "header-9c0bb072b1669f03cec0c8ce509bb295": null,
         "scrolling_direction": "right_to_left",
         "scrolling_speed": 30,
-        "header-189e643e94e3dfc2af8a1f56e7e14b42": null,
-        "paragraph-dc18908c324c4ef7b7a984995eea6d9b": null,
+        "header-0090c6fbdd3dff85f4547a1aaf0edfcd": null,
+        "paragraph-a3254855fa69283e9ffb4988a58b5f24": null,
         "background_color": "#faf7f3",
         "background_color_gradient": "",
         "text_color": "#000000",
@@ -111,6 +62,55 @@
         "announcement_n68kj"
       ],
       "name": "t:sections.scrolling-text.name"
+    },
+    "slideshow_f6XzEj": {
+      "settings": {
+        "desktop_ratio": 1,
+        "mobile_ratio": 1.2
+      },
+      "blocks": {
+        "image_banner_R8pEi": {
+          "type": "image-banner",
+          "disabled": false,
+          "settings": {
+            "color_scheme": "white",
+            "header-37be4ea22095a61f5c99d2c3f6fb9e4e": null,
+            "desktop_img": null,
+            "mobile_img": null,
+            "video": "shopify://files/videos/Shaker ad.mov",
+            "desktop_overlay_opacity": 20,
+            "mobile_overlay_opacity": 20,
+            "header-c15c24d11040488f6299402525edf4dd": null,
+            "caption": "",
+            "title": "A little gift for you",
+            "heading_size": "h2",
+            "text": "<p>Spend $120+, enjoy a FREE shaker valued at $45</p>",
+            "body_size": "body0",
+            "header-f5e6fd219a150d6649812c95d52be0b3": null,
+            "desktop_content_position": "align-items:center;justify-content:center;",
+            "desktop_content_align": "center",
+            "content_max_width": 528,
+            "content_spacing": 116,
+            "mobile_content_position": "align-items:flex-end;justify-content:center;",
+            "mobile_content_align": "center",
+            "header-946c7fd439df74770a855272455bce5b": null,
+            "desktop_content_background": "none",
+            "mobile_content_background": "none",
+            "header-51d5e1e5b3071ecd523c3369fa8bc006": null,
+            "btn_text": "Shop now",
+            "btn_url": "shopify://collections/whey-protein-concentrate",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "image_banner_R8pEi",
+        "image_banner_73d443",
+        "image_banner_jg6iwJ"
+      ]
     }
   },
   "order": [
