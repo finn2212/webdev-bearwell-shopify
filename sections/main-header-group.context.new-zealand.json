@@ -18,7 +18,7 @@
       "blocks": {
         "announcement_KFhbT": {
           "type": "announcement",
-          "disabled": false,
+          "disabled": true,
           "settings": {
             "text": "<p>Spend $120+, enjoy a FREE shaker valued at $45</p>",
             "link": "",
