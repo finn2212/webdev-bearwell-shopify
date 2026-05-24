@@ -65,9 +65,9 @@
     "slideshow_f6XzEj": {
       "disabled": false,
       "settings": {
+        "color_scheme": "white",
         "desktop_ratio": 0.9,
-        "mobile_ratio": 1.5,
-        "color_scheme": "white"
+        "mobile_ratio": 1.6
       },
       "blocks": {
         "image_banner_64Hxj": {
@@ -156,7 +156,7 @@
           }
         },
         "image_banner_jg6iwJ": {
-          "disabled": false,
+          "disabled": true,
           "settings": {}
         }
       },
