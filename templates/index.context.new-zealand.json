@@ -66,14 +66,15 @@
       "disabled": false,
       "settings": {
         "desktop_ratio": 0.9,
-        "mobile_ratio": 1.2
+        "mobile_ratio": 1.5,
+        "color_scheme": "white"
       },
       "blocks": {
         "image_banner_64Hxj": {
           "type": "image-banner",
           "disabled": false,
           "settings": {
-            "color_scheme": "custom-3",
+            "color_scheme": "white",
             "header-956470e608ae60209c2629f8ef20d252": null,
             "desktop_img": "shopify://shop_images/BearWellsachets.webp",
             "mobile_img": null,
@@ -98,7 +99,7 @@
             "mobile_content_background": "none",
             "header-5a96a5a7c190146bb836acc1fced4f62": null,
             "btn_text": "Claim yours",
-            "btn_url": "",
+            "btn_url": "shopify://products/create-your-own-sample-pack-30g-sachets",
             "btn_style": "solid",
             "extra_btn_text": "",
             "extra_btn_url": "shopify://products/create-your-own-sample-pack-30g-sachets",
