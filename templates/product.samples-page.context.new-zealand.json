@@ -12,5 +12,17 @@
     "market": "new-zealand"
   },
   "parent": "product.samples-page.json",
-  "sections": {}
+  "sections": {
+    "main": {
+      "settings": {},
+      "blocks": {
+        "information_tag_XECYJJ": {
+          "settings": {
+            "heading": "We want everyone to have a chance to try  BearWell™. Limit is one set for each new customer.",
+            "icon": "love-solid"
+          }
+        }
+      }
+    }
+  }
 }
