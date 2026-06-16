@@ -110,17 +110,13 @@
   <div class='shop__container section-spacing container container--{{ container_size }} {% if add_side_paddings == true %} container--with-aside-paddings {% endif %}'>
     <div class='container__header collection__header  shop__header {% if filters_position == 'right' %} shop__header--reverse {% endif %}'>
       <div class='shop__header-left-panel {% if filters_position == 'right' %} shop__header-left-panel--reverse {% endif %}'>
-       {% if request.host contains 'bearwell.com.au' %}
-
-   <h1 class="h3">{{ collection.title }}</h1>
-
-   <div class="collection-description">{{ collection.description }}</div>
-
+        {% if request.host contains 'bearwell.com.au' %}
+   <h1 class="h3">{{  collection.title }}</h1>
+        <div class="collection-description">{{ collection.description }}</div>
+      
 {% else %}
-
-   <h1 class="h3">{{ collection.title }}</h1>
-
-{% endif %}
+ <h1 class="h3">{{  collection.title }}</h1>
+{% endif %} </div>
         
       <div class='shop__header-right-panel {% if filters_position == 'right' %} shop__header-right-panel--reverse {% endif %}'>
         {%- if enable_filtering or enable_sorting -%}
