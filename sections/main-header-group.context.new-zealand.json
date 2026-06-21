@@ -61,8 +61,8 @@
           "type": "announcement",
           "disabled": false,
           "settings": {
-            "text": "<h6><strong>FREE samples💥 Buy 1, Get 1 Free. Add both to activate</strong></h6>",
-            "link": "",
+            "text": "<h6><strong>FREE samples💥 Claim Yours Here</strong></h6>",
+            "link": "shopify://products/create-your-own-sample-pack-30g-sachets",
             "icon": "none",
             "custom_icon_image": null
           }
